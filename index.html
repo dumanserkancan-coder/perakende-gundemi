@@ -6,7 +6,7 @@
 <title>Haftalık Perakende Gündemi</title>
 <meta name="description" content="Türkiye ve dünya perakendesinde bu haftanın öne çıkan gelişmeleri.">
 <meta name="robots" content="noindex, nofollow">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23121314'/%3E%3Ctext x='32' y='40' font-family='Arial%2CHelvetica%2Csans-serif' font-size='19' font-weight='700' text-anchor='middle' fill='%23fff'%3EHPG%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Cdefs%3E%3ClinearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22%3E%3Cstop offset=%220%22 stop-color=%22%233A2BB8%22/%3E%3Cstop offset=%221%22 stop-color=%22%2322176E%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%2264%22 height=%2264%22 rx=%2216%22 fill=%22url(%23g)%22/%3E%3Cpath d=%22M24 24v-3a8 8 0 0 1 16 0v3%22 fill=%22none%22 stroke=%22%23fff%22 stroke-width=%224%22 stroke-linecap=%22round%22/%3E%3Crect x=%2214%22 y=%2223%22 width=%2236%22 height=%2229%22 rx=%226%22 fill=%22%23fff%22/%3E%3Cpath d=%22M19 39h7l3-7 5 12 3-5h8%22 fill=%22none%22 stroke=%22%23F6B73C%22 stroke-width=%223.8%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3C/svg%3E">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="tr_TR">
 <meta property="og:site_name" content="Haftalık Perakende Gündemi">
@@ -101,7 +101,7 @@
   .header{position:sticky;top:env(safe-area-inset-top, 0px);z-index:20;background:var(--head-bg);backdrop-filter:saturate(1.5) blur(14px);-webkit-backdrop-filter:saturate(1.5) blur(14px);border-bottom:1px solid var(--line)}
   .header .top{height:60px;display:flex;align-items:center;justify-content:space-between;gap:16px}
   .logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:16.5px;letter-spacing:-.02em;white-space:nowrap;min-width:0}
-  .logo .mk{min-width:30px;height:30px;padding:0 7px;border-radius:9px;background:var(--ink);color:var(--bg);display:grid;place-items:center;font-size:12px;font-weight:800;letter-spacing:0;flex:none}
+  .logo .mk{width:32px;height:32px;flex:none;display:block}
   .logo .nm{overflow:hidden;text-overflow:ellipsis}
   .tools{display:flex;align-items:center;gap:10px}
   .issue-chip{font-size:13px;font-weight:600;color:var(--muted);white-space:nowrap}
@@ -501,7 +501,7 @@
 
 <header class="header">
   <div class="wrap top">
-    <a class="logo" href="#top"><span class="mk" aria-hidden="true">HPG</span><span class="nm" id="logo-name">Haftalık Perakende Gündemi</span></a>
+    <a class="logo" href="#top"><svg class="mk" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><defs><linearGradient id="pg-mk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3A2BB8"/><stop offset="1" stop-color="#22176E"/></linearGradient></defs><rect width="64" height="64" rx="16" fill="url(#pg-mk)"/><path d="M24 24v-3a8 8 0 0 1 16 0v3" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/><rect x="14" y="23" width="36" height="29" rx="6" fill="#fff"/><path d="M19 39h7l3-7 5 12 3-5h8" fill="none" stroke="#F6B73C" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="nm" id="logo-name">Haftalık Perakende Gündemi</span></a>
     <div class="tools">
       <span class="issue-chip" id="issue-chip"></span>
       <div class="lang" role="group" aria-label="Dil / Language"><button type="button" data-lang="tr" aria-pressed="true" lang="tr" title="Türkçe">TR</button><button type="button" data-lang="en" aria-pressed="false" lang="en" title="English">EN</button></div>
