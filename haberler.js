@@ -4,8 +4,10 @@
   pazar günü yayımlanır ve pazartesi üst yönetimle paylaşılır.
 
   İÇERİK İLKELERİ
-  - Sadece o haftanın haberleri. Türkiye ve dünya yaklaşık eşit ağırlıkta.
-  - Her sayıda en az bir "İşgücü ve Mağaza" haberi.
+  - Sadece o haftanın haberleri (Pazartesi–Pazar).
+  - Haftanın en iyi 6 haberi seçilir; Türkiye ve dünya arasında yaklaşık denge gözetilir (katı kota yok).
+  - Güçlü bir haber varsa "İşgücü ve Mağaza" ve "İç Giyim, Çorap ve Mayo" haberlerine öncelik verilir;
+    güçlü haber yoksa zorla eklenmez.
   - Her haberin "onemi" (Neden önemli?) satırı, Türkiye'deki moda perakendesi açısından yazılır.
     Bu satır yorumdur; sitede haber metninden ayrı ve etiketli gösterilir. Şirkete özel bilgi yazılmaz
     (site herkese açıktır).
@@ -22,6 +24,10 @@
     ana          Haftanın ana gelişmesi: tek konu, büyük görsel                       (HABER)
     haberler     Haftalık gündem: 6 gelişme; gundemNotu = başlık altındaki kısa not  (HABER)
                  kisa: sektörel gözlemdeki düğmede görünen kısa ad
+    takipte      Takipte: önceki sayılardaki bir konuda bu hafta gerçekten yeni bir gelişme varsa (en fazla 3).
+                 { baslik, kategori, tarih, onceki: { no: 1, id: "h1" }, simdi: "bu haftaki gelişme",
+                   kaynaklar: [...], en: {...} }. "Ne yazmıştık" satırı önceki haberin başlığından otomatik gelir.
+                 Yeni gelişme yoksa bu bölüm hiç yazılmaz ve sitede görünmez.
     sinyal       Sektörel gözlem: haberlerin birlikte gösterdiği eğilim              (YORUM)
                  dayanak: dayandığı haberlerin id'leri ("ana" ve "veri" de olabilir)
     veri         Sayılarla gündem: tek önemli veri; olcek = çubukların tam boyu (%),
@@ -30,9 +36,11 @@
 
   Konu anahtarları: "tr" Türkiye Pazarı ve Tüketici · "moda" Küresel Moda Perakendesi
                     "tek" Perakendede AI ve Teknoloji · "eticaret" E-ticaret ve Tüketici Trendleri
-                    "isgucu" İşgücü ve Mağaza
+                    "isgucu" İşgücü ve Mağaza · "icgiyim" İç Giyim, Çorap ve Mayo
   Kaynak tipi (tip): "resmi" = şirketin / kurumun kendi duyurusu, "ikinci" = bağımsız haber kaynağı
   Tarihler (baslangic, bitis): YIL-AY-GÜN biçiminde; tarihi geçen etkinlik kendiliğinden gizlenir.
+  Kesin tarihi açıklanmamış etkinlik: tahmini: true ve tahminiMetin ("Aralık'ın ilk haftası (tahmini)") yazılır;
+  sitede geri sayım yerine "Tahmini tarih" etiketi çıkar, takvime ekleme düğmesi gösterilmez.
   kapak.gorsel: Görsel dosyasının adı; dosyayı index.html ile aynı yere yükle (her sayıya ayrı ad).
 
   yeni: İki sayı arasında çıkan gerçekten büyük bir gelişme için ("Yeni" şeridi). Boşsa görünmez.
@@ -48,6 +56,7 @@
 window.BULTEN = {
   ad: "Haftalık Perakende Gündemi",
   aciklama: "Türkiye ve dünya perakendesinde bu haftanın öne çıkan gelişmeleri.",
+  kisaAd: "Perakende Gündemi",
   altBaslik: "Haftalık Perakende Gelişmeleri",
   hazirlayan: "Serkan Can Duman",
   kategoriler: {
@@ -55,7 +64,8 @@ window.BULTEN = {
     moda: { ad: "Küresel Moda Perakendesi", ikon: "hanger", renk: "pembe", en: { ad: "Global Fashion Retail" } },
     tek: { ad: "Perakendede AI ve Teknoloji", ikon: "ai-net", renk: "mor", en: { ad: "AI & Technology in Retail" } },
     eticaret: { ad: "E-ticaret ve Tüketici Trendleri", ikon: "cart", renk: "mavi", en: { ad: "E-commerce & Consumer Trends" } },
-    isgucu: { ad: "İşgücü ve Mağaza", ikon: "people", renk: "yesil", en: { ad: "Workforce & Stores" } }
+    isgucu: { ad: "İşgücü ve Mağaza", ikon: "people", renk: "yesil", en: { ad: "Workforce & Stores" } },
+    icgiyim: { ad: "İç Giyim, Çorap ve Mayo", ikon: "sock", renk: "erik", en: { ad: "Intimates, Hosiery & Swimwear" } }
   },
   yeni: [],
   siradaki: {
@@ -589,8 +599,11 @@ window.BULTEN = {
             ad: "Minimum Wage Determination Commission",
             tur: "Expected meeting",
             yer: "Türkiye",
-            aciklama: "The commission is expected to meet in the first week of December; the exact date has not been announced."
-          }
+            aciklama: "The commission is expected to meet in the first week of December; the exact date has not been announced.",
+            tahminiMetin: "First week of December (estimated)"
+          },
+          tahmini: true,
+          tahminiMetin: "Aralık'ın ilk haftası (tahmini)"
         },
         {
           ad: "NRF 2027: Retail's Big Show",
@@ -619,6 +632,7 @@ window.BULTEN = {
   en: {
     ad: "Weekly Retail Agenda",
     aciklama: "This week's key developments in Turkish and global retail.",
-    altBaslik: "Weekly Retail Developments"
+    altBaslik: "Weekly Retail Developments",
+    kisaAd: "Retail Agenda"
   }
 };

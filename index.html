@@ -27,7 +27,7 @@
     --bg:#F6F6F4; --card:#FFFFFF; --line:#E5E5E1; --line-2:#D6D6D0;
     --ink:#121314; --ink-2:#3A3D42; --muted:#62666D; --faint:#8C9097;
     --chip:#EFEFEC; --link:#1A63D1; --head-bg:rgba(246,246,244,.88);
-    --mor-t:#5A39E0; --mavi-t:#1F5FC9; --yesil-t:#0B7F63; --pembe-t:#C2295F; --turuncu-t:#B84A0C; --gri-t:#3B4A5E;
+    --mor-t:#5A39E0; --mavi-t:#1F5FC9; --yesil-t:#0B7F63; --pembe-t:#C2295F; --turuncu-t:#B84A0C; --gri-t:#3B4A5E; --erik-t:#8A2C7E;
     --t-haber:#1F5FC9; --t-haber-bg:#E6EEFB; --t-yorum:#8A5A00; --t-yorum-bg:#FBF0D9; --t-veri:#0B7F63; --t-veri-bg:#DDF3EA; --t-takip:#5A39E0; --t-takip-bg:#ECE7FF;
     --sig-bg:#15171C; --sig-2:#22252D; --sig-ink:#F3F4F6; --sig-muted:#A6ACB7; --sig-line:rgba(255,255,255,.12);
     --bar:#0E9A78; --bar-track:#DCEFE8; --neg:#D64545; --neg-t:#B42318;
@@ -42,7 +42,7 @@
       --bg:#0F1012; --card:#17181B; --line:#26282C; --line-2:#34373C;
       --ink:#EDEEF0; --ink-2:#C9CCD2; --muted:#9A9FA8; --faint:#6E737C;
       --chip:#222429; --link:#74AEFF; --head-bg:rgba(15,16,18,.88);
-      --mor-t:#A996FF; --mavi-t:#7FB0FF; --yesil-t:#4FD1AC; --pembe-t:#FF8DB3; --turuncu-t:#FFA866; --gri-t:#B8C4D6;
+      --mor-t:#A996FF; --mavi-t:#7FB0FF; --yesil-t:#4FD1AC; --pembe-t:#FF8DB3; --turuncu-t:#FFA866; --gri-t:#B8C4D6; --erik-t:#E59AD9;
       --t-haber:#8DB8FF; --t-haber-bg:#16233A; --t-yorum:#F5C46B; --t-yorum-bg:#33270F; --t-veri:#5ED6B1; --t-veri-bg:#0F2E25; --t-takip:#B7A6FF; --t-takip-bg:#231C40;
       --sig-bg:#1D2027; --sig-2:#282C35; --sig-line:rgba(255,255,255,.10);
       --bar:#4FD1AC; --bar-track:#173A30; --neg:#F87171; --neg-t:#FCA5A5;
@@ -55,7 +55,7 @@
     --bg:#0F1012; --card:#17181B; --line:#26282C; --line-2:#34373C;
     --ink:#EDEEF0; --ink-2:#C9CCD2; --muted:#9A9FA8; --faint:#6E737C;
     --chip:#222429; --link:#74AEFF; --head-bg:rgba(15,16,18,.88);
-    --mor-t:#A996FF; --mavi-t:#7FB0FF; --yesil-t:#4FD1AC; --pembe-t:#FF8DB3; --turuncu-t:#FFA866; --gri-t:#B8C4D6;
+    --mor-t:#A996FF; --mavi-t:#7FB0FF; --yesil-t:#4FD1AC; --pembe-t:#FF8DB3; --turuncu-t:#FFA866; --gri-t:#B8C4D6; --erik-t:#E59AD9;
     --t-haber:#8DB8FF; --t-haber-bg:#16233A; --t-yorum:#F5C46B; --t-yorum-bg:#33270F; --t-veri:#5ED6B1; --t-veri-bg:#0F2E25; --t-takip:#B7A6FF; --t-takip-bg:#231C40;
     --sig-bg:#1D2027; --sig-2:#282C35; --sig-line:rgba(255,255,255,.10);
     --bar:#4FD1AC; --bar-track:#173A30; --neg:#F87171; --neg-t:#FCA5A5;
@@ -87,6 +87,7 @@
   .r-pembe{--k:#E0457B;--k2:#9E1F4D;--kt:var(--pembe-t)}
   .r-turuncu{--k:#EA6A1E;--k2:#A3400A;--kt:var(--turuncu-t)}
   .r-gri{--k:#56657A;--k2:#1E293B;--kt:var(--gri-t)}
+  .r-erik{--k:#A3378F;--k2:#5E1F53;--kt:var(--erik-t)}
 
   /* İçerik türü etiketleri: haber / yorum / veri / takip */
   .tag{display:inline-flex;align-items:center;gap:6px;padding:3px 9px;border-radius:999px;font-size:11.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;white-space:nowrap}
@@ -230,6 +231,30 @@
   .bar-row.hl .fill{background:var(--turuncu-t)}
   .bar-row.hl .bl span, .bar-row.hl .bl b{color:var(--ink);font-weight:700}
   .dc-why{margin-top:22px}
+  /* Takipte */
+  .follow{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+  .f-item{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--k);border-radius:4px 16px 16px 4px;padding:16px 18px;display:flex;flex-direction:column;gap:8px}
+  .f-top{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;font-size:12.5px;color:var(--muted)}
+  .f-prev{display:inline-flex;align-items:center;gap:5px;font-weight:700;color:var(--kt)}
+  .f-prev .i{width:14px;height:14px}
+  .f-prev:hover{text-decoration:underline}
+  .f-item h4{font-size:16.5px;line-height:1.35;font-weight:800;letter-spacing:-.01em}
+  .f-was{font-size:13.5px;color:var(--muted);line-height:1.5}
+  .f-now{font-size:15px;color:var(--ink-2);line-height:1.6}
+  .f-was b, .f-now b{color:var(--ink);font-weight:700;margin-right:4px}
+  .f-src{font-size:13px;color:var(--muted)}
+  .f-src a{color:var(--ink);font-weight:600;border-bottom:1px solid var(--line-2)}
+  .f-src a:hover{color:var(--link)}
+  /* Tahmini tarih */
+  .w-date.est{border-style:dashed}
+  .w-date.est b{font-size:14px}
+  .badge.est{background:var(--chip);color:var(--muted)}
+  .count.est b{color:var(--ev-muted)}
+  /* Logo adı: dar ekranda kısa ad */
+  .logo .nm-s{display:none}
+  @media (max-width:560px){ .logo .nm-l{display:none} .logo .nm-s{display:inline} }
+  @media (max-width:360px){ .logo{font-size:15px;gap:8px} .logo .mk{width:28px;height:28px} }
+  @media (max-width:340px){ .header .top{gap:8px} .logo{font-size:14px;gap:7px} .tools{gap:6px} .lang{padding:2px} .lang button{min-width:28px;height:28px;padding:0 6px} .icon-btn{width:32px;height:32px} }
   .dc-foot{margin-top:22px;padding-top:16px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px}
   .dc-foot .src-line{max-width:460px}
   .link-btn{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;color:var(--ink);white-space:nowrap}
@@ -474,6 +499,8 @@
     <symbol id="i-ex" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.2s-7.6-4.4-7.6-10.1A4.3 4.3 0 0 1 12 7.4a4.3 4.3 0 0 1 7.6 2.7c0 5.7-7.6 10.1-7.6 10.1z" fill="currentColor" fill-opacity=".2"/><path d="M8.6 11.8c.9 1.3 2 1.9 3.4 1.9s2.5-.6 3.4-1.9"/></g></symbol>
     <symbol id="i-fow" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="M15.6 8.4l-2.1 5.1-5.1 2.1 2.1-5.1z" fill="currentColor" fill-opacity=".25"/></g><circle cx="12" cy="12" r="1.1" fill="currentColor"/></symbol>
     <symbol id="i-report" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 3.5h7.5l4.5 4.5v11a1.5 1.5 0 0 1-1.5 1.5h-10.5a1.5 1.5 0 0 1-1.5-1.5v-14a1.5 1.5 0 0 1 1.5-1.5z" fill="currentColor" fill-opacity=".15"/><path d="M14 3.5V8h4.5"/><path d="M8.5 17v-2.5M12 17v-5M15.5 17v-3.5"/></g></symbol>
+    <symbol id="i-sock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 3.5h7V12l3.8 3.4a2.6 2.6 0 0 1 .1 3.9l-.5.5a2.6 2.6 0 0 1-3.7.1l-6-5.7a2.2 2.2 0 0 1-.7-1.6z" fill="currentColor" fill-opacity=".2"/><path d="M8.5 6.8h7"/></g></symbol>
+    <symbol id="i-follow" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12a7.5 7.5 0 0 1 12.8-5.3L19.5 9"/><path d="M19.5 4.5V9H15"/><path d="M19.5 12a7.5 7.5 0 0 1-12.8 5.3L4.5 15"/><path d="M4.5 19.5V15H9"/></g></symbol>
     <symbol id="i-people" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.3" fill="currentColor" fill-opacity=".2"/><path d="M2.8 19.5c.7-3.4 3.1-5.3 6.2-5.3s5.5 1.9 6.2 5.3"/><circle cx="17" cy="9" r="2.6"/><path d="M16.6 14.3c2.3.2 4 1.8 4.6 4.6"/></g></symbol>
     <symbol id="i-store" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 10v9.5a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V10"/><path d="M3.2 4h17.6l-1.1 4.2a2.6 2.6 0 0 1-5 .2 2.7 2.7 0 0 1-5.4 0 2.6 2.6 0 0 1-5-.2z" fill="currentColor" fill-opacity=".2"/><path d="M9.8 20.5v-5.2h4.4v5.2"/></g></symbol>
     <symbol id="i-hanger" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9.7 6.4a2.3 2.3 0 1 1 3.3 2.1c-.6.3-1 .9-1 1.6v1"/><path d="M12 11.1l-8.4 5.5a1.3 1.3 0 0 0 .7 2.4h15.4a1.3 1.3 0 0 0 .7-2.4z" fill="currentColor" fill-opacity=".2"/></g></symbol>
@@ -501,7 +528,7 @@
 
 <header class="header">
   <div class="wrap top">
-    <a class="logo" href="#top"><svg class="mk" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><defs><linearGradient id="pg-mk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3A2BB8"/><stop offset="1" stop-color="#22176E"/></linearGradient></defs><rect width="64" height="64" rx="16" fill="url(#pg-mk)"/><path d="M24 24v-3a8 8 0 0 1 16 0v3" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/><rect x="14" y="23" width="36" height="29" rx="6" fill="#fff"/><path d="M19 39h7l3-7 5 12 3-5h8" fill="none" stroke="#F6B73C" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="nm" id="logo-name">Haftalık Perakende Gündemi</span></a>
+    <a class="logo" href="#top"><svg class="mk" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><defs><linearGradient id="pg-mk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3A2BB8"/><stop offset="1" stop-color="#22176E"/></linearGradient></defs><rect width="64" height="64" rx="16" fill="url(#pg-mk)"/><path d="M24 24v-3a8 8 0 0 1 16 0v3" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/><rect x="14" y="23" width="36" height="29" rx="6" fill="#fff"/><path d="M19 39h7l3-7 5 12 3-5h8" fill="none" stroke="#F6B73C" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="nm"><span class="nm-l" id="logo-name">Haftalık Perakende Gündemi</span><span class="nm-s" id="logo-short">Perakende Gündemi</span></span></a>
     <div class="tools">
       <span class="issue-chip" id="issue-chip"></span>
       <div class="lang" role="group" aria-label="Dil / Language"><button type="button" data-lang="tr" aria-pressed="true" lang="tr" title="Türkçe">TR</button><button type="button" data-lang="en" aria-pressed="false" lang="en" title="English">EN</button></div>
@@ -537,6 +564,11 @@
       <section class="block" id="bu-hafta">
         <div class="sec-head"><span class="tag t-haber" data-i18n="tag.haber">Haber</span><h2 data-i18n="h.gundem">Haftalık gündem</h2><p class="note" id="bh-note"></p></div>
         <ol class="items" id="items"></ol>
+      </section>
+
+      <section class="block" id="takip">
+        <div class="sec-head"><span class="tag t-haber" data-i18n="tag.takip">Takip</span><h2 data-i18n="h.takip">Takipte</h2><p class="note" data-i18n="n.takip">Önceki sayılarda yazdığımız konularda bu hafta ne oldu?</p></div>
+        <ul class="follow" id="follow"></ul>
       </section>
 
       <section class="block" id="sinyal">
@@ -624,6 +656,7 @@
   /* ---- Dil (TR / EN) ---- */
   var I18N = {
     tr: {
+      'tag.takip':'Takip','h.takip':'Takipte','n.takip':'Önceki sayılarda yazdığımız konularda bu hafta ne oldu?','f.from':'Sayı {n}\'den','f.was':'Ne yazmıştık:','f.now':'Bu hafta:','nav.takip':'Takipte','ev.est':'Tahmini tarih','ev.estshort':'tahmini',
       'tag.ozet':'Özet','tag.haber':'Haber','tag.yorum':'Yorum','tag.veri':'Veri','tag.takvim':'Takvim','tag.seffaf':'Şeffaflık',
       'h.ozet':'Bu hafta 1 dakikada','n.ozet':'Haftanın en önemli üç gelişmesi ve perakende için anlamı.',
       'h.ana':'Haftanın ana gelişmesi','h.gundem':'Haftalık gündem',
@@ -659,6 +692,7 @@
       'copy.why':'Neden önemli?','copy.src':'Kaynak','copy.r':'resmî','copy.i':'ikinci'
     },
     en: {
+      'tag.takip':'Follow-up','h.takip':'Following up','n.takip':'What happened this week on stories from previous issues?','f.from':'From issue {n}','f.was':'What we wrote:','f.now':'This week:','nav.takip':'Follow-up','ev.est':'Estimated date','ev.estshort':'estimated',
       'tag.ozet':'Summary','tag.haber':'News','tag.yorum':'Opinion','tag.veri':'Data','tag.takvim':'Calendar','tag.seffaf':'Transparency',
       'h.ozet':'This week in 1 minute','n.ozet':'The three most important developments of the week and what they mean for retail.',
       'h.ana':'Story of the week','h.gundem':'This week\'s agenda',
@@ -820,6 +854,32 @@
     }).join('') + '</ol>';
   }
 
+  /* 2b · Takipte: önceki sayılardaki konularda bu haftaki gelişme */
+  function findPrev(ref){
+    if (!ref) return null;
+    var ii = -1; B.sayilar.forEach(function(x, j){ if (String(x.no) === String(ref.no)) ii = j; });
+    if (ii < 0) return null;
+    var x = B.sayilar[ii], h = null;
+    if (x.ana && x.ana.id === ref.id) h = x.ana;
+    if (!h && x.veri && x.veri.id === ref.id) h = x.veri;
+    (x.haberler || []).forEach(function(y){ if (y.id === ref.id) h = y; });
+    return h ? { ii: ii, h: h, no: x.no } : null;
+  }
+  function followHTML(list){
+    return list.map(function(f){
+      var pv = findPrev(f.onceki);
+      var was = f.once || (pv ? pv.h.baslik : '');
+      var src = srcBrands(f.kaynaklar, '').length ? (f.kaynaklar || []).map(function(k){ return '<a href="' + esc(k.url) + '" target="_blank" rel="noopener">' + esc(brand(k.ad)) + '</a>'; }).join(', ') : '';
+      return '<li class="f-item ' + kcls(f.kategori) + '"><div class="f-top">' + catHTML(f.kategori) +
+        (pv ? '<button type="button" class="f-prev" data-open-in="' + pv.ii + '|' + esc(pv.h.id) + '">' + ic('follow') + esc(t('f.from').replace('{n}', pv.no)) + '</button>' : '') +
+        (f.tarih ? '<span>' + esc(f.tarih) + '</span>' : '') + '</div>' +
+        '<h4>' + esc(f.baslik) + '</h4>' +
+        (was ? '<p class="f-was"><b>' + t('f.was') + '</b>' + esc(was) + '</p>' : '') +
+        '<p class="f-now"><b>' + t('f.now') + '</b>' + esc(f.simdi) + '</p>' +
+        (src ? '<p class="f-src">' + t('src') + ': ' + src + '</p>' : '') + '</li>';
+    }).join('');
+  }
+
   /* 3 · Sinyal */
   function signalHTML(sg, s){
     var basis = (sg.dayanak || []).map(function(id){
@@ -892,11 +952,11 @@
     };
   }
   function featureHTML(e, st){
-    var count = st.kind === 'live' ? '<div class="count live"><b>' + t('ev.now') + '</b><span>' + t('ev.ongoing') + '</span></div>' : '<div class="count"><b>' + st.diff + '</b><span>' + t('ev.daysleft') + '</span></div>';
+    var count = e.tahmini ? '<div class="count est"><b>~</b><span>' + t('ev.estshort') + '</span></div>' : st.kind === 'live' ? '<div class="count live"><b>' + t('ev.now') + '</b><span>' + t('ev.ongoing') + '</span></div>' : '<div class="count"><b>' + st.diff + '</b><span>' + t('ev.daysleft') + '</span></div>';
     var c = calLinks(e, st);
     return '<article class="evf"><div class="evf-grid">' + count + '<div>' +
       '<div class="evf-top">' + (e.tur ? '<span class="ev-chip">' + esc(e.tur) + '</span>' : '') + (e.yer ? '<span class="ev-loc">' + ic('loc') + esc(e.yer) + '</span>' : '') + '</div>' +
-      '<h3>' + esc(e.ad) + '</h3><p class="when">' + esc(rangeText(st.a, st.b)) + '</p></div></div>' +
+      '<h3>' + esc(e.ad) + '</h3><p class="when">' + esc(e.tahmini && e.tahminiMetin ? e.tahminiMetin : rangeText(st.a, st.b)) + '</p></div></div>' +
       (e.aciklama ? '<p class="evf-desc">' + esc(e.aciklama) + '</p>' : '') +
       '<div class="ev-actions"><details class="addcal"><summary class="btn primary">' + ic('cal-plus') + t('ev.addcal') + '</summary><div class="cal-menu">' +
         '<a href="' + esc(c.outlook) + '" target="_blank" rel="noopener"><span class="dotc" style="background:#0F6CBD"></span>' + t('ev.outlook') + '</a>' +
@@ -910,12 +970,14 @@
       date = '<div class="w-date txt"><b>' + esc(k > 0 ? z.slice(0, k) : z) + '</b>' + (k > 0 ? '<small>' + esc(z.slice(k + 1)) + '</small>' : '') + '</div>';
     } else {
       var far = st.kind === 'soon' && st.diff > 60;
-      date = '<div class="w-date"><b>' + st.a.getDate() + '</b><small>' + AYK[st.a.getMonth()] + (far ? ' ' + st.a.getFullYear() : '') + '</small></div>';
-      if (st.kind === 'live') badge = '<span class="badge live">' + t('ev.live') + '</span>';
+      if (e.tahmini) date = '<div class="w-date est"><b>' + st.a.getDate() + (st.b && st.b.getDate() !== st.a.getDate() ? '–' + st.b.getDate() : '') + '</b><small>' + AYK[st.a.getMonth()] + '</small></div>';
+      else date = '<div class="w-date"><b>' + st.a.getDate() + '</b><small>' + AYK[st.a.getMonth()] + (far ? ' ' + st.a.getFullYear() : '') + '</small></div>';
+      if (e.tahmini) badge = '<span class="badge est">' + t('ev.est') + '</span>';
+      else if (st.kind === 'live') badge = '<span class="badge live">' + t('ev.live') + '</span>';
       else if (st.kind === 'soon' && !far) badge = '<span class="badge">' + (st.diff === 1 ? t('ev.tomorrow') : st.diff + ' ' + t('ev.daysleft')) + '</span>';
     }
     var isEvent = st.kind === 'soon' || st.kind === 'live';
-    var c = isEvent && e.bitis ? calLinks(e, st) : null;
+    var c = isEvent && e.bitis && !e.tahmini ? calLinks(e, st) : null;
     return '<li class="w-item">' + date + '<div><div class="w-top">' + badge + '<span class="w-type">' + esc(e.tur || '') + (e.yer ? ' · ' + esc(e.yer) : '') + '</span></div>' +
       '<h4>' + esc(e.ad) + '</h4>' + (e.aciklama ? '<p class="d">' + esc(e.aciklama) + '</p>' : '') +
       '<div class="w-links">' + (e.url ? '<a href="' + esc(e.url) + '" target="_blank" rel="noopener">' + ic('ext') + t('ev.src') + '</a>' : '') +
@@ -994,6 +1056,7 @@
     var rows = [];
     if (s.ana) rows.push({ n: '★', t: s.ana.baslik, k: s.ana.kaynaklar });
     s.haberler.forEach(function(h, i){ rows.push({ n: pad(i + 1), t: h.baslik, k: h.kaynaklar }); });
+    (s.takipte || []).forEach(function(f){ rows.push({ n: '↻', t: f.baslik, k: f.kaynaklar }); });
     if (s.veri) rows.push({ n: '%', t: s.veri.baslik, k: s.veri.kaynaklar });
     return '<thead><tr><th></th><th>' + t('tbl.content') + '</th><th>' + t('src.r') + '</th><th>' + t('src.i') + '</th></tr></thead><tbody>' +
       rows.map(function(r){ return '<tr><td class="n">' + esc(r.n) + '</td><td class="t">' + esc(r.t) + '</td><td data-l="' + t('src.rs') + '">' + linksHTML(r.k, 'resmi') + '</td><td data-l="' + t('src.is') + '">' + linksHTML(r.k, 'ikinci') + '</td></tr>'; }).join('') + '</tbody>';
@@ -1001,7 +1064,7 @@
   var METHOD = [['check', 'm1'], ['analytics', 'm2'], ['layers', 'm3'], ['image', 'm4']];
 
   /* Sayfa */
-  var SECTIONS = [['ozet', 'nav.ozet'], ['ana', 'nav.ana'], ['bu-hafta', 'nav.gundem'], ['sinyal', 'nav.sinyal'], ['veri', 'nav.veri'], ['izle', 'nav.izle'], ['kaynaklar', 'nav.kaynak'], ['arsiv', 'nav.arsiv']];
+  var SECTIONS = [['ozet', 'nav.ozet'], ['ana', 'nav.ana'], ['bu-hafta', 'nav.gundem'], ['takip', 'nav.takip'], ['sinyal', 'nav.sinyal'], ['veri', 'nav.veri'], ['izle', 'nav.izle'], ['kaynaklar', 'nav.kaynak'], ['arsiv', 'nav.arsiv']];
   function render(){
     var s = issue();
     items = {}; order = [];
@@ -1012,6 +1075,7 @@
     document.title = B.ad || document.title;
     document.getElementById('site-title').textContent = B.ad || '';
     document.getElementById('logo-name').textContent = B.ad || '';
+    document.getElementById('logo-short').textContent = B.kisaAd || B.ad || '';
     document.getElementById('deck').textContent = B.aciklama || '';
     document.getElementById('foot-title').textContent = B.altBaslik || B.ad || '';
     document.getElementById('foot-issue').textContent = t('issue') + ' ' + s.no + ' · ' + s.donem;
@@ -1033,7 +1097,7 @@
     } else nb.hidden = true;
 
     /* Bölümler */
-    var show = { 'ozet': !!(s.birDakika && s.birDakika.length), 'ana': !!s.ana, 'bu-hafta': s.haberler.length > 0, 'sinyal': !!s.sinyal, 'veri': !!s.veri, 'izle': !!(s.etkinlikler && s.etkinlikler.length), 'kaynaklar': true, 'arsiv': true };
+    var show = { 'ozet': !!(s.birDakika && s.birDakika.length), 'ana': !!s.ana, 'bu-hafta': s.haberler.length > 0, 'takip': !!(s.takipte && s.takipte.length), 'sinyal': !!s.sinyal, 'veri': !!s.veri, 'izle': !!(s.etkinlikler && s.etkinlikler.length), 'kaynaklar': true, 'arsiv': true };
     SECTIONS.forEach(function(x){ document.getElementById(x[0]).hidden = !show[x[0]]; });
 
     if (s.birDakika && s.birDakika.length) document.getElementById('brief').innerHTML = briefHTML(s.birDakika);
@@ -1041,6 +1105,7 @@
     var gh = s.haberler.filter(function(h){ return h.gecenHafta; }).length;
     document.getElementById('bh-note').textContent = s.haberler.length + ' ' + t('bh.items') + (s.gundemNotu ? ' · ' + s.gundemNotu : '') + ' · ' + t('bh.src') + (gh ? ' · ' + gh + ' ' + t('bh.prev') : '');
     document.getElementById('items').innerHTML = s.haberler.map(itemHTML).join('');
+    if (s.takipte && s.takipte.length) document.getElementById('follow').innerHTML = followHTML(s.takipte);
     if (s.sinyal) document.getElementById('signal').innerHTML = signalHTML(s.sinyal, s);
     if (s.veri) document.getElementById('data').innerHTML = dataHTML(s.veri);
     if (s.etkinlikler) document.getElementById('watch').innerHTML = eventsHTML(s.etkinlikler);
