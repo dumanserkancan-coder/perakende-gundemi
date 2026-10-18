@@ -5,7 +5,7 @@
 
   İÇERİK İLKELERİ
   - Sadece o haftanın haberleri (Pazartesi–Pazar).
-  - Haftanın en iyi 6 haberi seçilir; Türkiye ve dünya arasında yaklaşık denge gözetilir (katı kota yok).
+  - Haftanın en iyi 5–6 haberi önem sırasıyla dizilir; başlıklar en fazla 8–10 kelime; Türkiye ve dünya arasında yaklaşık denge gözetilir (katı kota yok).
   - Güçlü bir haber varsa "İşgücü ve Mağaza" ve "İç Giyim, Çorap ve Mayo" haberlerine öncelik verilir;
     güçlü haber yoksa zorla eklenmez.
   - Her haberin "onemi" (Neden önemli?) satırı, Türkiye'deki moda perakendesi açısından yazılır.
@@ -22,7 +22,8 @@
   Bir sayının bölümleri (bu sırayla görünür):
     birDakika    Bu hafta 1 dakikada: en önemli 3 gelişme + "anlam" satırı; ref = açılacak haber
     ana          Haftanın ana gelişmesi: tek konu, büyük görsel                       (HABER)
-    haberler     Haftalık gündem: 6 gelişme; gundemNotu = başlık altındaki kısa not  (HABER)
+    haberler     Haftalık gündem: haftanın en iyi 5–6 gelişmesi, önem sırasıyla;
+                 gundemNotu = başlık altındaki kısa not (örnek "3 Türkiye, 2 dünya")   (HABER)
                  kisa: sektörel gözlemdeki düğmede görünen kısa ad
     takipte      Takipte: önceki sayılardaki bir konuda bu hafta gerçekten yeni bir gelişme varsa (en fazla 3).
                  { baslik, kategori, tarih, onceki: { no: 1, id: "h1" }, simdi: "bu haftaki gelişme",
@@ -81,136 +82,112 @@ window.BULTEN = {
       yayin: "18 Ekim 2026",
       sonraki: "25 Ekim Pazar",
       okuma: 7,
-      gundemNotu: "3 Türkiye, 3 dünya",
+      gundemNotu: "3 Türkiye, 2 dünya",
       birDakika: [
         {
           baslik: "Perakende büyüyor, giyim geride: Ağustos'ta satış hacmi %10,1 arttı (saat ve mücevher hariç %6,1), tekstil-giyim-ayakkabıda artış %2,9'da kaldı.",
           anlam: "Tüketici harcıyor ama giyime daha az pay ayırıyor; büyüme internete kayıyor (%17,9).",
-          ref: "veri",
+          ref: "ana",
           en: {
             baslik: "Retail is growing, clothing is lagging: sales volume rose 10.1% in August (6.1% excluding watches and jewellery), while textiles, clothing and footwear rose just 2.9%.",
             anlam: "Consumers are spending, but a smaller share is going to clothing; growth is shifting online (17.9%)."
           }
         },
         {
-          baslik: "Avrupa'da moda perakendecilerine yönelik siber saldırılar sürüyor; bu hafta TFG London ve H&M olayları inceliyor.",
-          anlam: "ASOS örneğinde saldırgan bir çalışanı kandırarak girdi: çalışan farkındalığı ve iki aşamalı doğrulama öncelikli.",
-          ref: "ana",
-          en: {
-            baslik: "Cyber attacks on European fashion retailers continue; this week TFG London and H&M are investigating incidents.",
-            anlam: "In the ASOS case the attacker got in by deceiving an employee: staff awareness and two-factor authentication are priorities."
-          }
-        },
-        {
           baslik: "2027 asgari ücreti için senaryolar %25–35 artış arasında; bütçede 2027 enflasyon hedefi %21.",
-          anlam: "Tahminler tutarsa mağaza personel maliyeti enflasyonun üzerinde artar; bütçe senaryoları şimdiden hazırlanmalı.",
+          anlam: "Tahminler tutarsa mağaza personel maliyeti enflasyonun üzerinde artar; 2027 bütçesinde artış senaryoları önem kazanıyor.",
           ref: "h1",
           en: {
             baslik: "2027 minimum wage scenarios range from a 25% to a 35% rise; the budget targets 21% inflation for 2027.",
-            anlam: "If the forecasts hold, store staff costs will rise faster than inflation; budget scenarios should be prepared now."
+            anlam: "If the forecasts hold, store staff costs will rise faster than inflation; increase scenarios are gaining weight in 2027 budgets."
+          }
+        },
+        {
+          baslik: "Avrupa'da moda perakendecilerine yönelik siber saldırılar sürüyor; bu hafta TFG London ve H&M olayları inceliyor.",
+          anlam: "ASOS'ta saldırganın bir çalışanı kandırarak girdiği bildiriliyor; risk yalnızca teknolojide değil, insan tarafında da.",
+          ref: "h2",
+          en: {
+            baslik: "Cyber attacks on European fashion retailers continue; this week TFG London and H&M are investigating incidents.",
+            anlam: "In the ASOS case, the attacker reportedly got in by deceiving an employee; the risk lies not only in technology but also with people."
           }
         }
       ],
       ana: {
         id: "ana",
-        kisa: "Siber saldırılar",
-        kategori: "tek",
-        tarih: "13–15 Ekim",
-        tur: "Haftanın konusu",
-        okumaSuresi: 3,
-        baslik: "Avrupa'da moda perakendecilerine siber saldırılar sürüyor: TFG London ve H&M olayları inceliyor",
-        ozet: "Geçen hafta ASOS'un müşteri bilgilerinin ele geçirildiğini doğrulamasının ardından bu hafta yeni olaylar geldi. Phase Eight, Hobbs ve Whistles markalarının sahibi TFG London, BT sistemlerini etkileyen bir olay yaşadığını açıkladı. H&M ise bir hacker grubunun iddialarını incelediğini, şu ana kadar verilerinin ele geçirildiğine dair bir işaret bulmadığını söyledi. Hollandalı süpermarket grubu Ahold Delhaize de bir güvenlik sorunu sonrası bazı sistemlerini kapattı.",
-        onemi: "Bu dalgada öne çıkan yöntem teknolojiden çok insanı hedef alıyor: City AM'e göre ASOS'ta saldırgan, bir çalışanın güvendiği biri gibi davranarak sisteme girdi. Müşteri verisi tutan her perakendecide mağaza, çağrı merkezi ve merkez ofis çalışanlarının bu tür taleplere karşı bilgilendirilmesi ve şifreye ek bir doğrulama adımı (iki aşamalı doğrulama) kullanılması, riski azaltmanın en hızlı yolları arasında.",
+        kisa: "Giyim talebi",
+        kategori: "tr",
+        tarih: "12 Ekim",
+        tur: "Resmî veri",
+        okumaSuresi: 2,
+        baslik: "Perakende büyüyor, giyim geride kalıyor",
+        ozet: "TÜİK verilerine göre Ağustos'ta perakende satış hacmi geçen yılın aynı ayına göre %10,1 arttı. Bu büyüme giyime yansımadı: tekstil, giyim ve ayakkabı satış hacmindeki yıllık artış %2,9'da kaldı (Temmuz'da %7,6); satış hacmi bir önceki aya göre değişmedi. Saat ve mücevher hariç tutulduğunda perakendedeki yıllık artış %6,1'e iniyor.",
+        onemi: "Tüketici harcamaya devam ediyor ama bu harcamanın giyime giden payı küçülüyor; büyüme daha çok internetten ve saat-mücevher gibi kalemlerden geliyor. Bu tablo, giyimde büyümenin pazarın genel büyümesinden çok pazar payına ve kanal tercihine bağlı hâle geldiğine işaret ediyor.",
         bolumler: [
           {
-            baslik: "Bu hafta neler oldu?",
+            baslik: "Rakamlar (Ağustos 2026, yıllık değişim)",
             maddeler: [
-              "TFG London (14 Ekim): Phase Eight, Hobbs ve Whistles'ı etkileyen olayı pazar günü tespit etti. Mağazalar normal çalışıyor, bazı web sitesi işlevleri kullanılamayabiliyor. Şirket ödeme bilgilerinin etkilendiğini düşünmüyor; başka kişisel verilere erişilip erişilmediğini inceliyor.",
-              "H&M (13–14 Ekim): ShinyHunters adlı grubun iddialarını inceliyor. Şirket sözcüsü The Times'a, H&M Grubu verilerinin sınırlı bir kısmını içerebilecek olası bir siber güvenlik olayını incelediklerini söyledi; BBC'ye ise veri ortamının ele geçirildiğine dair bir işaret bulmadığını açıkladı. 14 Ekim'deki web sitesi kesintisinin ise uzayan bir bakım çalışmasından kaynaklandığını, dış bir etkiyle ilgisi olmadığını söyledi.",
-              "Ahold Delhaize: Hollandalı süpermarket grubu, ağındaki bir güvenlik sorunu sonrası bazı sistemlerini kapattı."
+              "Perakende satış hacmi: %10,1 (bir önceki aya göre %1,4)",
+              "Saat ve mücevher hariç perakende: %6,1",
+              "Posta veya internet üzerinden satışlar: %17,9",
+              "Gıda dışı satışlar: %12,8 · Gıda, içecek ve tütün: %5,3",
+              "Tekstil, giyim ve ayakkabı: %2,9 (Temmuz'da %7,6; satış hacmi bir önceki aya göre değişmedi)"
             ]
           },
           {
-            baslik: "Geçen haftadan arka plan: ASOS",
-            maddeler: [
-              "ASOS (6–8 Ekim) müşterilerin ad ve iletişim bilgilerinin ele geçirildiğini doğruladı; ödeme kartı bilgilerine ve hesap şifrelerine erişilmediğini açıkladı.",
-              "City AM'in haberine göre saldırgan, bir çalışanın güvendiği biri gibi davranarak şirketin veri sistemlerine erişti. Bu yöntem şirket tarafından ayrıca doğrulanmadı."
-            ]
-          },
-          {
-            baslik: "Bir saldırının maliyeti",
-            maddeler: [
-              "İngiltere'de 2025 baharında saldırıya uğrayan Co-op, saldırının kendisine 206 milyon sterlin gelir kaybettirdiğini açıklamıştı."
-            ]
+            baslik: "Fiyat tarafı",
+            maddeler: ["Giyim fiyatları da enflasyonun çok altında artıyor; ayrıntılar Sayılarla gündem bölümünde."]
           }
         ],
-        not: "Sosyal mühendislik: Saldırganın kendini güvenilir biri gibi tanıtıp çalışandan şifre ya da erişim alması. İki aşamalı doğrulama: Şifreye ek olarak telefona gelen kod gibi ikinci bir onay istenmesi.",
+        not: "Satış hacmi, fiyat artışlarının etkisi çıkarılarak hesaplanır; yani satılan ürün miktarındaki değişimi gösterir.",
         kapak: {
           gorsel: "kapak-sayi1.jpg",
-          gorselAciklama: "Bir mağaza ve online alışveriş ekranının önünde güvenlik kalkanı bulunan illüstrasyon",
-          en: { gorselAciklama: "Illustration of a security shield in front of a store and an online shopping screen" }
+          gorselAciklama: "Yükselen perakende çubukları, yanında daha kısa kalan bir giyim askısı ve büyüyen online alışveriş ekranı",
+          en: { gorselAciklama: "Rising retail bars next to a shorter clothing rail and a growing online shopping screen" }
         },
         kaynaklar: [
           {
-            ad: "FashionUnited · TFG London ve H&M",
-            url: "https://fashionunited.uk/news/business/tfg-london-and-h-m-investigate-cyber-security-incidents/2026101490841",
+            ad: "Karar · TÜİK perakende verileri",
+            url: "https://www.karar.com/ekonomi-haberleri/perakende-satis-hacmi-agustosta-yillik-yuzde-101-artti-2077787",
             tip: "ikinci",
-            en: { ad: "FashionUnited · TFG London and H&M" }
+            en: { ad: "Karar · TurkStat retail data" }
           },
           {
-            ad: "Cybernews · H&M sözcüsünün açıklaması",
-            url: "https://cybernews.com/security/h-m-investigates-data-breach-shinyhunters/",
+            ad: "Dünya · TÜİK ticaret verileri",
+            url: "https://www.dunya.com/ekonomik-veriler/ticaret-verileri-yayimlandi-perakende-yukseldi-otomotiv-geriledi-haberi-843504",
             tip: "ikinci",
-            en: { ad: "Cybernews · H&M spokesperson's statement" }
+            en: { ad: "Dünya · TurkStat trade data" }
           },
           {
-            ad: "FashionNetwork (Reuters) · H&M açıklaması",
-            url: "https://ww.fashionnetwork.com/news/H-m-says-website-availability-affected-by-maintenance-not-external-influence,1875729.html",
+            ad: "FashionUnited · Türkiye moda verileri",
+            url: "https://fashionunited.com/news/business/fashion-pulse-turkiye-august-2026/2026101575211",
             tip: "ikinci",
-            en: { ad: "FashionNetwork (Reuters) · H&M statement" }
-          },
-          {
-            ad: "FashionNetwork · ASOS açıklaması",
-            url: "https://uk.fashionnetwork.com/news/Asos-says-hack-exposed-some-customer-personal-data-but-payment-info-is-safe,1874167.html",
-            tip: "ikinci",
-            en: { ad: "FashionNetwork · ASOS statement" }
-          },
-          {
-            ad: "City AM · Perakende siber saldırıları",
-            url: "https://cityam.com/retailers-back-on-alert-after-new-wave-of-cyber-attacks",
-            tip: "ikinci",
-            en: { ad: "City AM · Retail cyber attacks" }
+            en: { ad: "FashionUnited · Türkiye fashion data" }
           }
         ],
         en: {
-          kisa: "Cyber attacks",
-          tarih: "13–15 Oct",
-          tur: "Story of the week",
-          baslik: "Cyber attacks on European fashion retailers continue: TFG London and H&M investigate incidents",
-          ozet: "After ASOS confirmed last week that customer data had been exposed, new incidents followed this week. TFG London, owner of the Phase Eight, Hobbs and Whistles brands, said an incident had affected its IT systems. H&M said it is investigating claims by a hacker group and has so far found no indication that its data has been compromised. Dutch supermarket group Ahold Delhaize also shut down some systems after a security issue.",
-          onemi: "The method standing out in this wave targets people more than technology: according to City AM, the ASOS attacker got in by posing as someone an employee trusted. For any retailer holding customer data, briefing store, call-centre and head-office staff on such requests and adding a second verification step on top of passwords (two-factor authentication) are among the fastest ways to reduce the risk.",
+          kisa: "Clothing demand",
+          tarih: "12 Oct",
+          tur: "Official data",
+          baslik: "Retail is growing, but clothing is lagging behind",
+          ozet: "According to TurkStat, retail sales volume rose 10.1% year on year in August. That growth did not reach clothing: textiles, clothing and footwear sales volume rose only 2.9% year on year (July: 7.6%) and was unchanged from the previous month. Excluding watches and jewellery, annual retail growth drops to 6.1%.",
+          onemi: "Consumers are still spending, but a smaller share of that spending is going to clothing; growth is coming more from online sales and items such as watches and jewellery. This suggests that growth in clothing now depends less on overall market growth and more on market share and channel choice.",
           bolumler: [
             {
-              baslik: "What happened this week?",
+              baslik: "The numbers (August 2026, annual change)",
               maddeler: [
-                "TFG London (14 Oct): Detected the incident affecting Phase Eight, Hobbs and Whistles on Sunday. Stores are operating normally; some website functions may be unavailable. The company does not believe payment information was affected and is checking whether other personal data was accessed.",
-                "H&M (13–14 Oct): Investigating claims by a group called ShinyHunters. A spokesperson told The Times the company was looking into a potential cybersecurity incident that may involve a limited scope of H&M Group data; it told the BBC it had found no indication that its data environment had been compromised. It said a website outage on 14 Oct was caused by a maintenance update that ran long and was not related to any external influence.",
-                "Ahold Delhaize: The Dutch supermarket group shut down some systems after a security issue on its network."
+                "Retail sales volume: 10.1% (1.4% month on month)",
+                "Retail excluding watches and jewellery: 6.1%",
+                "Mail-order or online sales: 17.9%",
+                "Non-food sales: 12.8% · Food, beverages and tobacco: 5.3%",
+                "Textiles, clothing and footwear: 2.9% (July: 7.6%; sales volume unchanged month on month)"
               ]
             },
             {
-              baslik: "Background from last week: ASOS",
-              maddeler: [
-                "ASOS (6–8 Oct) confirmed that customers' names and contact details had been exposed; it said no payment card information or account passwords were accessed.",
-                "According to City AM, the attacker accessed the company's data systems by posing as someone an employee trusted. ASOS has not separately confirmed this method."
-              ]
-            },
-            {
-              baslik: "What an attack can cost",
-              maddeler: ["Co-op, attacked in the UK in spring 2025, said the incident cost it £206m in revenue."]
+              baslik: "The price side",
+              maddeler: ["Clothing prices are also rising far below inflation; see By the numbers for details."]
             }
           ],
-          not: "Social engineering: an attacker posing as a trusted person to obtain a password or access from an employee. Two-factor authentication: requiring a second confirmation, such as a code sent to a phone, in addition to a password."
+          not: "Sales volume is calculated after removing the effect of price increases, so it shows the change in the quantity of goods sold."
         }
       },
       haberler: [
@@ -220,10 +197,10 @@ window.BULTEN = {
           kategori: "isgucu",
           tarih: "15–16 Ekim",
           tur: "Tahmin ve hedefler",
-          baslik: "2027 asgari ücreti için senaryolar %25–35 artış arasında; bütçede enflasyon hedefi %21",
+          baslik: "2027 asgari ücret senaryoları: %25 ile %35 arası artış",
           ozet: "2027 asgari ücreti için resmî bir rakam henüz yok; Asgari Ücret Tespit Komisyonu'nun Aralık'ın ilk haftasında toplanması bekleniyor. Sosyal güvenlik uzmanı Özgür Erdursun, şu an net 28.075 TL olan asgari ücretin %25 artışla 35.000 TL civarına çıkacağını öngördü. Sözcü'nün %25, %28,4, %30 ve %35'lik artış senaryolarına göre net asgari ücretin 35 bin TL ile 37.900 TL arasında şekillenmesi bekleniyor.",
-          ek: "16 Ekim'deki 2027 bütçe sunumunda yıl sonu enflasyon hedefi %21, işsizlik hedefi %8 olarak açıklandı; istihdamın 657 bin kişi artması bekleniyor. Sözcü'nün hesabına göre %25'lik artışta brüt ücret 41.287,50 TL'ye, işverenin indirimli maliyeti 51.093,29 TL'ye çıkıyor.",
-          onemi: "Asgari ücret, mağaza personel maliyetinin ana belirleyicisi. Artış %25–35 aralığında olur ve enflasyon %21 hedefine yakın gerçekleşirse personel maliyeti enflasyonun belirgin biçimde üzerinde artar. 2027 bütçesinde farklı artış oranları için senaryo hazırlamanın zamanı.",
+          ek: "16 Ekim'de açıklanan 2027 bütçe hedeflerine göre yıl sonu enflasyon hedefi %21, işsizlik hedefi %8; istihdamın 657 bin kişi artması bekleniyor. Sözcü'nün hesabına göre %25'lik artışta brüt ücret 41.287,50 TL'ye, işverenin indirimli maliyeti 51.093,29 TL'ye çıkıyor.",
+          onemi: "Asgari ücret, mağaza personel maliyetinin ana belirleyicisi. Artış %25–35 aralığında olur ve enflasyon %21 hedefine yakın gerçekleşirse, personel maliyeti enflasyonun belirgin biçimde üzerinde artabilir. Bu da 2027 bütçe çalışmalarında farklı artış senaryolarını öne çıkarıyor.",
           kaynaklar: [
             {
               ad: "Forbes Türkiye · 2027 bütçe hedefleri",
@@ -248,130 +225,118 @@ window.BULTEN = {
             kisa: "Minimum wage",
             tarih: "15–16 Oct",
             tur: "Forecasts and targets",
-            baslik: "2027 minimum wage scenarios range from a 25% to a 35% rise; the budget targets 21% inflation",
+            baslik: "2027 minimum wage scenarios: a rise of 25% to 35%",
             ozet: "There is no official figure yet for Türkiye's 2027 minimum wage; the Minimum Wage Determination Commission is expected to meet in the first week of December. Social security expert Özgür Erdursun expects the minimum wage, currently ₺28,075 net, to rise by 25% to around ₺35,000. Based on Sözcü's scenarios of 25%, 28.4%, 30% and 35% increases, the net minimum wage is expected to land between ₺35,000 and ₺37,900.",
-            ek: "The 2027 budget presentation on 16 Oct set a year-end inflation target of 21% and an unemployment target of 8%, with employment expected to grow by 657,000 people. By Sözcü's calculation, a 25% rise would take the gross wage to ₺41,287.50 and the employer's discounted cost to ₺51,093.29.",
-            onemi: "The minimum wage is the main driver of store staff costs. If the rise falls in the 25–35% range and inflation comes in close to the 21% target, staff costs will rise well above inflation. Now is the time to prepare 2027 budget scenarios for different increase rates."
+            ek: "According to the 2027 budget targets announced on 16 Oct, the year-end inflation target is 21% and the unemployment target 8%, with employment expected to grow by 657,000 people. By Sözcü's calculation, a 25% rise would take the gross wage to ₺41,287.50 and the employer's discounted cost to ₺51,093.29.",
+            onemi: "The minimum wage is the main driver of store staff costs. If the rise falls in the 25–35% range and inflation comes in close to the 21% target, staff costs could rise well above inflation. This puts different increase scenarios at the centre of 2027 budget work."
           }
         },
         {
           id: "h2",
-          kisa: "Boyner",
-          kategori: "tr",
-          tarih: "15 Ekim",
-          tur: "Rakip hamlesi",
-          baslik: "Boyner'in \"indirim koruması\" 2 milyon müşteriye ulaştı",
-          ozet: "Boyner, 2024'te başlattığı \"İndirim Korumalı Alışveriş\" uygulamasının sonuçlarını paylaştı: Satın alınan ürünün fiyatı 30 gün içinde düşerse aradaki fark müşterinin Hopi hesabına Paracık olarak yükleniyor. Şimdiye kadar yaklaşık 2 milyon müşteri toplam 1,7 milyar Paracık kazandı; müşteri başına ortalama 857 TL.",
-          ek: "Koruma yeni sezon ve sezonsuz ürünlerde geçerli; müşterinin fiyat takibi yapması ya da başvurması gerekmiyor. Kazanılan Paracıklar Boyner'in tüm kanallarında ve tüm ürünlerde, alt harcama limiti olmadan kullanılabiliyor. Açıklamayı Boyner Büyük Mağazacılık CEO'su Eren Çamurdan yaptı.",
-          onemi: "Müşterinin \"nasılsa indirime girer\" diye alışverişi ertelemesine karşı bir yöntem. Tam fiyatlı satışı korurken farkı nakit değil sadakat puanı olarak verdiği için para şirketin kendi ekosisteminde kalıyor. Sık kampanya yapan perakendeciler için izlenmesi gereken bir model.",
-          not: "Hopi: Boyner grubunun sadakat ve alışveriş uygulaması. Paracık: Hopi'de alışverişte kullanılabilen puan.",
+          kisa: "Siber saldırılar",
+          kategori: "tek",
+          tarih: "13–15 Ekim",
+          tur: "Sektör gelişmesi",
+          baslik: "Avrupa'da moda perakendecilerine siber saldırılar sürüyor",
+          ozet: "Geçen hafta ASOS'un müşteri bilgilerinin ele geçirildiğini doğrulamasının ardından bu hafta yeni olaylar geldi. Phase Eight, Hobbs ve Whistles markalarının sahibi TFG London, BT sistemlerini etkileyen bir olay yaşadığını açıkladı. H&M ise bir hacker grubunun iddialarını incelediğini, şu ana kadar verilerinin ele geçirildiğine dair bir işaret bulmadığını söyledi. Hollandalı süpermarket grubu Ahold Delhaize de bir güvenlik sorunu sonrası bazı sistemlerini kapattı.",
+          bolumler: [
+            {
+              baslik: "Bu hafta neler oldu?",
+              maddeler: [
+                "TFG London (14 Ekim): Phase Eight, Hobbs ve Whistles'ı etkileyen olayı pazar günü tespit etti. Mağazalar normal çalışıyor, bazı web sitesi işlevleri kullanılamayabiliyor. Şirket ödeme bilgilerinin etkilendiğini düşünmüyor; başka kişisel verilere erişilip erişilmediğini inceliyor.",
+                "H&M (13–14 Ekim): ShinyHunters adlı grubun iddialarını inceliyor. Şirket sözcüsü The Times'a, H&M Grubu verilerinin sınırlı bir kısmını içerebilecek olası bir siber güvenlik olayını incelediklerini söyledi; BBC'ye ise veri ortamının ele geçirildiğine dair bir işaret bulmadığını açıkladı. 14 Ekim'deki web sitesi kesintisinin ise uzayan bir bakım çalışmasından kaynaklandığını, dış bir etkiyle ilgisi olmadığını söyledi.",
+                "Ahold Delhaize: Hollandalı süpermarket grubu, ağındaki bir güvenlik sorunu sonrası bazı sistemlerini kapattı."
+              ]
+            },
+            {
+              baslik: "Geçen haftadan arka plan: ASOS",
+              maddeler: [
+                "ASOS (6–8 Ekim) müşterilerin ad ve iletişim bilgilerinin ele geçirildiğini doğruladı; ödeme kartı bilgilerine ve hesap şifrelerine erişilmediğini açıkladı.",
+                "City AM'in haberine göre saldırgan, bir çalışanın güvendiği biri gibi davranarak şirketin veri sistemlerine erişti. Bu yöntem şirket tarafından ayrıca doğrulanmadı."
+              ]
+            },
+            {
+              baslik: "Bir saldırının maliyeti",
+              maddeler: [
+                "İngiltere'de 2025 baharında saldırıya uğrayan Co-op, saldırının kendisine 206 milyon sterlin gelir kaybettirdiğini açıklamıştı."
+              ]
+            }
+          ],
+          onemi: "City AM'e göre ASOS'ta saldırgan, bir çalışanın güvendiği biri gibi davranarak sisteme girdi. Bu örnek, müşteri verisi tutan perakendeciler için riskin yalnızca sistemlerde değil, mağaza, çağrı merkezi ve merkez ofis çalışanlarının bu tür taleplere ne kadar hazırlıklı olduğunda da yattığını gösteriyor.",
+          not: "Sosyal mühendislik: Saldırganın kendini güvenilir biri gibi tanıtıp çalışandan şifre ya da erişim alması. İki aşamalı doğrulama: Şifreye ek olarak telefona gelen kod gibi ikinci bir onay istenmesi.",
           kaynaklar: [
             {
-              ad: "Perakende.org · Boyner açıklaması",
-              url: "https://perakende.org/boynerden-alisveriste-ya-sonra-indirime-girerse-endisesine-karsi-guvence/",
+              ad: "FashionUnited · TFG London ve H&M",
+              url: "https://fashionunited.uk/news/business/tfg-london-and-h-m-investigate-cyber-security-incidents/2026101490841",
               tip: "ikinci",
-              en: { ad: "Perakende.org · Boyner announcement" }
+              en: { ad: "FashionUnited · TFG London and H&M" }
+            },
+            {
+              ad: "Cybernews · H&M sözcüsünün açıklaması",
+              url: "https://cybernews.com/security/h-m-investigates-data-breach-shinyhunters/",
+              tip: "ikinci",
+              en: { ad: "Cybernews · H&M spokesperson's statement" }
+            },
+            {
+              ad: "FashionNetwork (Reuters) · H&M açıklaması",
+              url: "https://ww.fashionnetwork.com/news/H-m-says-website-availability-affected-by-maintenance-not-external-influence,1875729.html",
+              tip: "ikinci",
+              en: { ad: "FashionNetwork (Reuters) · H&M statement" }
+            },
+            {
+              ad: "FashionNetwork · ASOS açıklaması",
+              url: "https://uk.fashionnetwork.com/news/Asos-says-hack-exposed-some-customer-personal-data-but-payment-info-is-safe,1874167.html",
+              tip: "ikinci",
+              en: { ad: "FashionNetwork · ASOS statement" }
+            },
+            {
+              ad: "City AM · Perakende siber saldırıları",
+              url: "https://cityam.com/retailers-back-on-alert-after-new-wave-of-cyber-attacks",
+              tip: "ikinci",
+              en: { ad: "City AM · Retail cyber attacks" }
             }
           ],
           en: {
-            kisa: "Boyner",
-            tarih: "15 Oct",
-            tur: "Competitor move",
-            baslik: "Boyner's \"price protection\" has reached 2 million customers",
-            ozet: "Boyner shared results from the \"Price-Protected Shopping\" scheme it launched in 2024: if a product's price drops within 30 days of purchase, the difference is credited to the customer's Hopi account as Paracık points. So far about 2 million customers have earned a total of 1.7 billion Paracık, an average of ₺857 per customer.",
-            ek: "Protection covers new-season and non-seasonal products; customers do not need to track prices or apply. Earned Paracık can be spent across all Boyner channels and products with no minimum spend. The announcement was made by Eren Çamurdan, CEO of Boyner Büyük Mağazacılık.",
-            onemi: "A way to counter customers postponing purchases because \"it will go on sale anyway\". It protects full-price sales, and because the difference is paid in loyalty points rather than cash, the money stays within the company's own ecosystem. A model worth watching for retailers that run frequent promotions.",
-            not: "Hopi: the Boyner group's loyalty and shopping app. Paracık: points that can be spent when shopping through Hopi."
+            kisa: "Cyber attacks",
+            tarih: "13–15 Oct",
+            tur: "Industry development",
+            baslik: "Cyber attacks on European fashion retailers continue",
+            ozet: "After ASOS confirmed last week that customer data had been exposed, new incidents followed this week. TFG London, owner of the Phase Eight, Hobbs and Whistles brands, said an incident had affected its IT systems. H&M said it is investigating claims by a hacker group and has so far found no indication that its data has been compromised. Dutch supermarket group Ahold Delhaize also shut down some systems after a security issue.",
+            bolumler: [
+              {
+                baslik: "What happened this week?",
+                maddeler: [
+                  "TFG London (14 Oct): Detected the incident affecting Phase Eight, Hobbs and Whistles on Sunday. Stores are operating normally; some website functions may be unavailable. The company does not believe payment information was affected and is checking whether other personal data was accessed.",
+                  "H&M (13–14 Oct): Investigating claims by a group called ShinyHunters. A spokesperson told The Times the company was looking into a potential cybersecurity incident that may involve a limited scope of H&M Group data; it told the BBC it had found no indication that its data environment had been compromised. It said a website outage on 14 Oct was caused by a maintenance update that ran long and was not related to any external influence.",
+                  "Ahold Delhaize: The Dutch supermarket group shut down some systems after a security issue on its network."
+                ]
+              },
+              {
+                baslik: "Background from last week: ASOS",
+                maddeler: [
+                  "ASOS (6–8 Oct) confirmed that customers' names and contact details had been exposed; it said no payment card information or account passwords were accessed.",
+                  "According to City AM, the attacker accessed the company's data systems by posing as someone an employee trusted. ASOS has not separately confirmed this method."
+                ]
+              },
+              {
+                baslik: "What an attack can cost",
+                maddeler: ["Co-op, attacked in the UK in spring 2025, said the incident cost it £206m in revenue."]
+              }
+            ],
+            onemi: "According to City AM, the ASOS attacker got in by posing as someone an employee trusted. The case shows that, for retailers holding customer data, the risk lies not only in systems but also in how prepared store, call-centre and head-office staff are for such requests.",
+            not: "Social engineering: an attacker posing as a trusted person to obtain a password or access from an employee. Two-factor authentication: requiring a second confirmation, such as a code sent to a phone, in addition to a password."
           }
         },
         {
           id: "h3",
-          kisa: "Rossmann",
-          kategori: "isgucu",
-          tarih: "13 Ekim",
-          tur: "Uygulama örneği",
-          baslik: "Rossmann Türkiye \"haftada 2 gün izin\" modeliyle çalışan devrini düşürdüğünü açıkladı",
-          ozet: "Rossmann Türkiye, mağaza çalışanlarına haftada iki gün izin veren çalışma modeliyle Stevie Awards 2026'da 5 ödül aldı. Şirketin açıklamasına göre mağaza çalışanı devir oranı, 2025 ile Mayıs 2026 karşılaştırıldığında yaklaşık 4 kat iyileşti; hedef gerçekleşmesi %100'ün üzerine çıktı.",
-          ek: "Model, 50 mağazada bir yıl süren saha analizleri ve çalışan geri bildirimlerinin ardından pilot olarak başladı, sonra tüm mağazalara yayıldı. Devir oranındaki iyileşme şirketin kendi açıklamasıdır; bağımsız olarak doğrulanmış değildir.",
-          onemi: "Rossmann, AVM'lerde moda perakendecileriyle aynı mağaza çalışanı havuzundan personel alıyor. Ücret dışı bir düzenlemenin (izin günü) çalışan devrini bu ölçüde düşürmesi, mağazaya personel bulmanın zorlaştığı bir dönemde incelemeye değer bir örnek.",
-          not: "Çalışan devir oranı: Belirli bir dönemde işten ayrılan çalışanların toplam çalışan sayısına oranı.",
-          kaynaklar: [
-            {
-              ad: "Perakende.org · Rossmann haberi",
-              url: "https://perakende.org/rossmann-turkiyeye-stevie-awards-2026dan-5-odul-birden/",
-              tip: "ikinci",
-              en: { ad: "Perakende.org · Rossmann story" }
-            },
-            {
-              ad: "Gazete Anadolu · Rossmann haberi",
-              url: "https://www.gazeteanadolu.com/rossmann-turkiyeye-stevie-awards-2026dan-5-odul/157505",
-              tip: "ikinci",
-              en: { ad: "Gazete Anadolu · Rossmann story" }
-            }
-          ],
-          en: {
-            kisa: "Rossmann",
-            tarih: "13 Oct",
-            tur: "Practice example",
-            baslik: "Rossmann Türkiye says its \"two days off a week\" model has cut staff turnover",
-            ozet: "Rossmann Türkiye won five awards at the Stevie Awards 2026 for a working model that gives store employees two days off a week. According to the company, store staff turnover improved roughly fourfold comparing 2025 with May 2026, and target achievement rose above 100%.",
-            ek: "The model started as a pilot after a year of field analysis and employee feedback in 50 stores, then was rolled out to all stores. The improvement in turnover is the company's own statement and has not been independently verified.",
-            onemi: "Rossmann recruits from the same pool of mall store staff as fashion retailers. A non-pay measure (an extra day off) cutting turnover this much is an example worth studying at a time when finding store staff is getting harder.",
-            not: "Staff turnover rate: the share of employees who leave during a period, relative to total headcount."
-          }
-        },
-        {
-          id: "h4",
-          kisa: "İngiltere",
-          kategori: "moda",
-          tarih: "13–16 Ekim",
-          tur: "Sektör verisi",
-          baslik: "İngiltere'de sıcak geçen Eylül giyim satışlarını vurdu; Ekim'de modada büyümeyi online taşıyor",
-          ozet: "İngiliz Perakende Konsorsiyumu (BRC) ve KPMG verilerine göre İngiltere'de perakende satışlar Eylül'de yıllık %1,3 arttı; gıda dışı satışlar %0,3, mağazalardaki gıda dışı satışlar ise sadece %0,1 arttı. BRC CEO'su Helen Dickinson'a göre giyim ve ayakkabı, mevsim normallerinin üzerindeki sıcaklar nedeniyle zayıf bir ay geçirdi.",
-          ek: "KPMG'den Linda Ellett, uzayan yazın sonbahar-kış alışverişini geciktirmiş olabileceğini söyledi. BDO'nun 16 Ekim'de yayımlanan son haftalık verisinde ise moda satışları benzer mağazalar bazında %4,84 arttı; büyümeyi online satışlar taşıdı (%14,50), mağaza satışları %1,75 arttı.",
-          onemi: "Sezon geçişi giderek havaya bağlı. Sıcak sonbahar yeni sezon satışlarını geciktiriyor; sezon dönerken büyüme önce internetten geliyor. Sonbahar-kış stok ve indirim planlarında hava senaryosu ve online stok derinliği belirleyici oluyor.",
-          not: "Benzer mağaza satışı: Yeni açılan ya da kapanan mağazalar hariç, karşılaştırılabilir mağazaların satış değişimi.",
-          kaynaklar: [
-            {
-              ad: "FashionUnited · BRC Eylül verisi",
-              url: "https://fashionunited.uk/news/business/uk-clothing-and-footwear-retailers-face-weak-september/2026101390807",
-              tip: "ikinci",
-              en: { ad: "FashionUnited · BRC September data" }
-            },
-            {
-              ad: "FashionUnited · BDO haftalık satışlar",
-              url: "https://fashionunited.uk/news/business/fashion-jumps-as-online-surges-again-uk-bdo-weekly-sales/2026101690883",
-              tip: "ikinci",
-              en: { ad: "FashionUnited · BDO weekly sales" }
-            },
-            {
-              ad: "Sharecast · BRC verisi",
-              url: "https://www.sharecast.com/scroll_9/news/news-and-announcements--/uk-retail-sales-growth-eases-in-september---brc--23818030.html",
-              tip: "ikinci",
-              en: { ad: "Sharecast · BRC data" }
-            }
-          ],
-          en: {
-            kisa: "UK",
-            tarih: "13–16 Oct",
-            tur: "Industry data",
-            baslik: "A warm September hit UK clothing sales; online is driving fashion growth in October",
-            ozet: "According to British Retail Consortium (BRC) and KPMG data, UK retail sales rose 1.3% year on year in September; non-food sales grew 0.3%, and in-store non-food sales only 0.1%. BRC chief executive Helen Dickinson said clothing and footwear had a weak month as warmer-than-usual weather affected demand.",
-            ek: "KPMG's Linda Ellett said the prolonged summer may have delayed the switch to autumn/winter wardrobes. In BDO's latest weekly data, published on 16 Oct, fashion like-for-like sales rose 4.84%; growth was driven by online sales (14.50%), while store sales rose 1.75%.",
-            onemi: "The seasonal changeover increasingly depends on the weather. A warm autumn delays new-season sales, and when the season turns, growth comes online first. Weather scenarios and online stock depth are becoming decisive in autumn/winter stock and markdown planning.",
-            not: "Like-for-like sales: the change in sales at comparable stores, excluding newly opened or closed stores."
-          }
-        },
-        {
-          id: "h5",
           kisa: "Yapay zekâ ajanları",
           kategori: "tek",
           tarih: "14–15 Ekim",
           tur: "Şirket duyurusu",
-          baslik: "Alışverişte yapay zekâ ajanları: Google ortak sepetini açıyor, Majid Al Futtaim'de işlemlerin %9'unda yapay zekâ var",
+          baslik: "Alışverişte yapay zekâ asistanları yaygınlaşıyor",
           ozet: "Google, farklı mağazalardan ürünleri tek sepette toplayan Universal Cart'ı 15 Ekim'de ABD'de Google Arama ve Gemini uygulamasında kullanıma açmaya başladı. Aynı hafta perakende grubu Majid Al Futtaim'in CEO'su Ahmed Galal Ismail, Sharjah Yatırım Forumu'nda şirketin müşteri işlemlerinin %9'unda artık bir yapay zekâ ajanının yer aldığını, işlerinin dörtte birinin online yürüdüğünü söyledi.",
           ek: "Google'ın sepetinde ödeme Google Pay ile ya da mağazanın kendi sepetinde yapılabiliyor; satışı yapan taraf mağaza olmaya devam ediyor. İlk katılanlar arasında Nike, Sephora, Target ve Walmart var. 14 Ekim'de haberleştirilen Numerator araştırmasına göre ABD'de hanelerin %30'undan fazlası yapay zekâyı her hafta kullanıyor; araştırma yapay zekâdan en çok etkilenebilecek kategoriler arasında giyim, ayakkabı ve aksesuarı sayıyor.",
-          onemi: "Müşteri ürünü giderek bir yapay zekâ asistanına sorarak bulacak. Ürün bilgileri (beden, kumaş, stok, fiyat) eksiksiz ve düzenli değilse ürün bu asistanların önerilerinde görünmez. E-ticaret ekiplerinin ürün verisini bu gözle gözden geçirmesinin zamanı.",
+          onemi: "Müşterilerin ürünü bir yapay zekâ asistanına sorarak bulduğu bir dönem başlıyor. Bu durumda asistanların önerilerinde hangi ürünlerin çıkacağını, ürün bilgilerinin (beden, kumaş, stok, fiyat) ne kadar eksiksiz ve düzenli olduğu da etkileyecek.",
           not: "Yapay zekâ ajanı: Kullanıcı adına ürün arayan, karşılaştıran ve bazı adımları kendisi yapan yazılım asistanı.",
           kaynaklar: [
             {
@@ -397,110 +362,137 @@ window.BULTEN = {
             kisa: "AI agents",
             tarih: "14–15 Oct",
             tur: "Company announcement",
-            baslik: "AI agents in shopping: Google rolls out a shared cart, and AI is involved in 9% of Majid Al Futtaim's transactions",
+            baslik: "AI shopping assistants are gaining ground",
             ozet: "On 15 Oct Google began rolling out Universal Cart, which gathers products from different stores into a single cart, in Google Search and the Gemini app in the US. The same week, Ahmed Galal Ismail, CEO of retail group Majid Al Futtaim, told the Sharjah Investment Forum that 9% of the company's customer transactions now involve an AI agent and that a quarter of its business runs online.",
             ek: "In Google's cart, payment can be made with Google Pay or in the merchant's own checkout; the merchant remains the seller. Early participants include Nike, Sephora, Target and Walmart. According to a Numerator study reported on 14 Oct, more than 30% of US households now use AI weekly; the study lists apparel, footwear and accessories among the categories most exposed to AI-driven disruption.",
-            onemi: "Customers will increasingly find products by asking an AI assistant. If product information (size, fabric, stock, price) is incomplete or inconsistent, the product will not appear in these assistants' recommendations. It is time for e-commerce teams to review their product data with this in mind.",
+            onemi: "A period is beginning in which customers find products by asking an AI assistant. Which products these assistants recommend will be shaped partly by how complete and consistent the product information (size, fabric, stock, price) is.",
             not: "AI agent: a software assistant that searches for and compares products on the user's behalf and can complete some steps itself."
           }
         },
         {
-          id: "h6",
-          kisa: "Shein",
-          kategori: "eticaret",
-          tarih: "14 Ekim",
-          tur: "Şirket hamlesi",
-          baslik: "AB'de küçük paketlerde gümrük muafiyeti bitti; Shein Avrupa içi lojistik hizmeti başlattı",
-          ozet: "Shein, İspanya'daki pazar yeri satıcıları için GLS, FedEx ve CTT ile ortak bir lojistik hizmeti başlattı. Hizmet İspanya, Almanya, Fransa, İtalya ve Portekiz arasındaki gönderileri kapsıyor. FashionUnited'a göre İspanya'daki Shein satıcılarının %80'inden fazlası GLS ortaklığını şimdiden kullanıyor.",
-          ek: "Hamle, AB'nin 150 euroya kadar olan paketlerdeki gümrük vergisi muafiyetini kaldırıp yerine geçici, sabit bir gümrük işlem ücreti getirmesinin ardından geldi. FashionUnited, platformların tek tek paket göndermek yerine stoklarını AB içindeki depolara taşıdığını yazıyor.",
-          onemi: "Ucuz tek paket modeli Avrupa'da zorlaşınca Shein stoğu ve satıcıları Avrupa'ya taşıyor; bu da teslim sürelerini kısaltıp rekabeti artırabilir. Avrupa'da büyümeyi hedefleyen Türk moda markaları için rakip tablosu değişiyor.",
+          id: "h4",
+          kisa: "Boyner",
+          kategori: "tr",
+          tarih: "15 Ekim",
+          tur: "Rakip hamlesi",
+          baslik: "Boyner'in indirim koruması 2 milyon müşteriye ulaştı",
+          ozet: "Boyner, 2024'te başlattığı \"İndirim Korumalı Alışveriş\" uygulamasının sonuçlarını paylaştı: Satın alınan ürünün fiyatı 30 gün içinde düşerse aradaki fark müşterinin Hopi hesabına Paracık olarak yükleniyor. Şimdiye kadar yaklaşık 2 milyon müşteri toplam 1,7 milyar Paracık kazandı; müşteri başına ortalama 857 TL.",
+          ek: "Koruma yeni sezon ve sezonsuz ürünlerde geçerli; müşterinin fiyat takibi yapması ya da başvurması gerekmiyor. Kazanılan Paracıklar Boyner'in tüm kanallarında ve tüm ürünlerde, alt harcama limiti olmadan kullanılabiliyor. Açıklamayı Boyner Büyük Mağazacılık CEO'su Eren Çamurdan yaptı.",
+          onemi: "Müşterinin \"nasılsa indirime girer\" diye alışverişi ertelemesine karşı geliştirilmiş bir yöntem. Fark nakit yerine sadakat puanı olarak verildiği için para şirketin kendi ekosisteminde kalıyor. Sık kampanya yapılan bir pazarda tam fiyatlı satışı korumanın örneklerinden biri.",
+          not: "Hopi: Boyner grubunun sadakat ve alışveriş uygulaması. Paracık: Hopi'de alışverişte kullanılabilen puan.",
           kaynaklar: [
             {
-              ad: "FashionUnited · Shein lojistik hizmeti",
-              url: "https://fashionunited.uk/news/business/sheins-new-cooperative-logistics-service-in-spain-means-headwinds-for-the-european-market/2026101490853",
+              ad: "Perakende.org · Boyner açıklaması",
+              url: "https://perakende.org/boynerden-alisveriste-ya-sonra-indirime-girerse-endisesine-karsi-guvence/",
               tip: "ikinci",
-              en: { ad: "FashionUnited · Shein logistics service" }
-            },
-            {
-              ad: "Alimarket · Shein'in İspanya lojistiği",
-              url: "https://www.alimarket.es/logistica/noticia/432449/-como-organiza-shein-su-logistica-en-espana-",
-              tip: "ikinci",
-              en: { ad: "Alimarket · Shein's logistics in Spain" }
+              en: { ad: "Perakende.org · Boyner announcement" }
             }
           ],
           en: {
-            kisa: "Shein",
-            tarih: "14 Oct",
-            tur: "Company move",
-            baslik: "The EU's small-parcel customs exemption is gone; Shein launches an intra-European logistics service",
-            ozet: "Shein launched a joint logistics service with GLS, FedEx and CTT for marketplace sellers in Spain. The service covers shipments between Spain, Germany, France, Italy and Portugal. According to FashionUnited, more than 80% of Shein marketplace sellers in Spain already use the GLS partnership.",
-            ek: "The move follows the EU's abolition of the customs duty exemption for parcels worth up to €150, replaced by a transitional flat-rate customs handling fee. FashionUnited reports that platforms are moving stock into warehouses inside the EU instead of shipping individual parcels.",
-            onemi: "As the cheap single-parcel model gets harder in Europe, Shein is moving stock and sellers into Europe, which could shorten delivery times and intensify competition. The competitive landscape is shifting for Turkish fashion brands aiming to grow in Europe."
+            kisa: "Boyner",
+            tarih: "15 Oct",
+            tur: "Competitor move",
+            baslik: "Boyner's price protection reaches 2 million customers",
+            ozet: "Boyner shared results from the \"Price-Protected Shopping\" scheme it launched in 2024: if a product's price drops within 30 days of purchase, the difference is credited to the customer's Hopi account as Paracık points. So far about 2 million customers have earned a total of 1.7 billion Paracık, an average of ₺857 per customer.",
+            ek: "Protection covers new-season and non-seasonal products; customers do not need to track prices or apply. Earned Paracık can be spent across all Boyner channels and products with no minimum spend. The announcement was made by Eren Çamurdan, CEO of Boyner Büyük Mağazacılık.",
+            onemi: "A way to counter customers postponing purchases because \"it will go on sale anyway\". Because the difference is paid in loyalty points rather than cash, the money stays within the company's own ecosystem. One example of protecting full-price sales in a market with frequent promotions.",
+            not: "Hopi: the Boyner group's loyalty and shopping app. Paracık: points that can be spent when shopping through Hopi."
+          }
+        },
+        {
+          id: "h5",
+          kisa: "Rossmann",
+          kategori: "isgucu",
+          tarih: "13 Ekim",
+          tur: "Uygulama örneği",
+          baslik: "Rossmann'a göre haftada iki gün izin çalışan devrini düşürdü",
+          ozet: "Rossmann Türkiye, mağaza çalışanlarına haftada iki gün izin veren çalışma modeliyle Stevie Awards 2026'da 3 altın ve 1 gümüş ödül aldı; halk oylamasında da \"Yılın Şirketi\" seçildi (toplam 5 ödül). Şirketin açıklamasına göre mağaza çalışanı devir oranı, 2025 ile Mayıs 2026 karşılaştırıldığında yaklaşık 4 kat iyileşti; hedef gerçekleşmesi %100'ün üzerine çıktı.",
+          ek: "Model, 50 mağazada bir yıl süren saha analizleri ve çalışan geri bildirimlerinin ardından pilot olarak başladı, sonra tüm mağazalara yayıldı. Devir oranındaki iyileşme şirketin kendi açıklamasıdır; bağımsız olarak doğrulanmış değildir.",
+          onemi: "Rossmann da mağazalarında çok sayıda çalışan istihdam eden bir perakendeci. Şirketin, ücret dışı bir düzenlemenin (izin günü) çalışan devrini bu ölçüde düşürdüğü yönündeki açıklaması, mağaza çalışanlarını elde tutmada ücret dışı araçların da etkili olabileceğine dair bir örnek.",
+          not: "Çalışan devir oranı: Belirli bir dönemde işten ayrılan çalışanların toplam çalışan sayısına oranı.",
+          kaynaklar: [
+            {
+              ad: "Perakende.org · Rossmann haberi",
+              url: "https://perakende.org/rossmann-turkiyeye-stevie-awards-2026dan-5-odul-birden/",
+              tip: "ikinci",
+              en: { ad: "Perakende.org · Rossmann story" }
+            },
+            {
+              ad: "Gazete Anadolu · Rossmann haberi",
+              url: "https://www.gazeteanadolu.com/rossmann-turkiyeye-stevie-awards-2026dan-5-odul/157505",
+              tip: "ikinci",
+              en: { ad: "Gazete Anadolu · Rossmann story" }
+            }
+          ],
+          en: {
+            kisa: "Rossmann",
+            tarih: "13 Oct",
+            tur: "Practice example",
+            baslik: "Rossmann says two days off a week cut staff turnover",
+            ozet: "Rossmann Türkiye won three gold and one silver Stevie Awards 2026 for a working model that gives store employees two days off a week, and was also voted \"Company of the Year\" in a public vote (five awards in total). According to the company, store staff turnover improved roughly fourfold comparing 2025 with May 2026, and target achievement rose above 100%.",
+            ek: "The model started as a pilot after a year of field analysis and employee feedback in 50 stores, then was rolled out to all stores. The improvement in turnover is the company's own statement and has not been independently verified.",
+            onemi: "Rossmann is also a retailer employing many people in its stores. The company's statement that a non-pay measure (an extra day off) cut turnover this much is an example of how non-pay tools may also help retain store staff.",
+            not: "Staff turnover rate: the share of employees who leave during a period, relative to total headcount."
           }
         }
       ],
       sinyal: {
         baslik: "Bu haftanın ortak paydası: çalışan",
-        metin: "Bu haftanın üç ayrı başlığı aynı yere çıkıyor: mağaza ve merkez çalışanı. Siber saldırılarda hedef yalnızca sistemler değil, çalışanlar da; ASOS örneğinde saldırgan bir çalışanı kandırarak içeri girdi. Maliyet tarafında 2027 asgari ücret senaryoları, enflasyon hedefinin üzerinde bir artışa işaret ediyor. Bağlılık tarafında ise Rossmann, ücret dışı bir düzenlemeyle (haftada iki gün izin) çalışan devrini düşürdüğünü açıklıyor. Personel maliyetinin hızla arttığı bir yılda çalışanı elde tutmak ve doğru eğitmek, hem riski hem de işe alım ve eğitim maliyetini azaltmanın yolu olabilir.",
+        metin: "Bu haftanın üç ayrı başlığı aynı yere çıkıyor: mağaza ve merkez çalışanı. Siber saldırılarda hedef yalnızca sistemler değil, çalışanlar da; City AM'e göre ASOS örneğinde saldırgan bir çalışanı kandırarak içeri girdi. Maliyet tarafında 2027 asgari ücret senaryoları, enflasyon hedefinin üzerinde bir artışa işaret ediyor. Bağlılık tarafında ise Rossmann, ücret dışı bir düzenlemeyle (haftada iki gün izin) çalışan devrini düşürdüğünü açıklıyor. Personel maliyetinin hızla arttığı bir yılda çalışanı elde tutmak ve doğru eğitmek, hem riski hem de işe alım ve eğitim maliyetini azaltmanın yolu olabilir.",
         once: { ad: "Alışılmış bakış", metin: "Çalışan, kontrol altında tutulması gereken bir maliyet kalemi." },
         sonra: { ad: "Bu haftanın gösterdiği", metin: "Çalışan; maliyet, güvenlik ve bağlılığın kesiştiği yer." },
-        dayanak: ["ana", "h1", "h3"],
+        dayanak: ["h2", "h1", "h5"],
         en: {
           baslik: "This week's common thread: the employee",
-          metin: "Three separate stories this week point to the same place: store and head-office employees. In cyber attacks, the targets are not only systems but also people; in the ASOS case the attacker got in by deceiving an employee. On cost, the 2027 minimum wage scenarios point to a rise above the inflation target. On retention, Rossmann says a non-pay measure (two days off a week) has cut staff turnover. In a year when staff costs are rising fast, keeping employees and training them well may be a way to reduce both risk and the cost of hiring and training.",
+          metin: "Three separate stories this week point to the same place: store and head-office employees. In cyber attacks, the targets are not only systems but also people; according to City AM, in the ASOS case the attacker got in by deceiving an employee. On cost, the 2027 minimum wage scenarios point to a rise above the inflation target. On retention, Rossmann says a non-pay measure (two days off a week) has cut staff turnover. In a year when staff costs are rising fast, keeping employees and training them well may be a way to reduce both risk and the cost of hiring and training.",
           once: { ad: "The usual view", metin: "Employees are a cost line to be kept under control." },
           sonra: { ad: "What this week shows", metin: "Employees are where cost, security and retention meet." }
         }
       },
       veri: {
         id: "veri",
+        kisa: "Giyim fiyatları",
         kategori: "tr",
-        tarih: "12 Ekim",
+        tarih: "3 Eylül",
         tur: "Resmî veri",
-        deger: "%2,9",
-        baslik: "TÜİK: Perakende satış hacmi %10,1 arttı, tekstil-giyim-ayakkabıda artış %2,9'da kaldı",
-        metin: "Ağustos'ta perakende satış hacmi geçen yılın aynı ayına göre %10,1 artarken tekstil, giyim ve ayakkabı satış hacmindeki artış %2,9'da kaldı. Saat ve mücevher hariç perakende %6,1, internet ve posta yoluyla satışlar %17,9 arttı.",
+        deger: "%8,1",
+        baslik: "TÜİK: Ağustos'ta kadın ve kız çocuk giyiminde yıllık fiyat artışı %8,1",
+        metin: "Ağustos'ta genel enflasyon %31,51 iken giyim ve ayakkabı fiyatları yıllık %13,16 arttı. Erkek ve erkek çocuk giyiminde artış %22,64, kadın ve kız çocuk giyiminde ise %8,1 oldu.",
         karsilastirma: [
-          { etiket: "Posta veya internet üzerinden satış", deger: 17.9, en: { etiket: "Mail-order or online sales" } },
-          { etiket: "Gıda dışı satışlar", deger: 12.8, en: { etiket: "Non-food sales" } },
-          { etiket: "Perakende satış hacmi (toplam)", deger: 10.1, en: { etiket: "Retail sales volume (total)" } },
+          { etiket: "Genel enflasyon (TÜFE)", deger: 31.51, en: { etiket: "Headline inflation (CPI)" } },
+          { etiket: "Erkek ve erkek çocuk giyimi", deger: 22.64, en: { etiket: "Men's and boys' garments" } },
+          { etiket: "Giyim ve ayakkabı", deger: 13.16, en: { etiket: "Clothing and footwear" } },
           {
-            etiket: "Saat ve mücevher hariç perakende",
-            deger: 6.1,
-            en: { etiket: "Retail excl. watches and jewellery" }
-          },
-          { etiket: "Gıda, içecek ve tütün", deger: 5.3, en: { etiket: "Food, beverages and tobacco" } },
-          {
-            etiket: "Tekstil, giyim ve ayakkabı",
-            deger: 2.9,
+            etiket: "Kadın ve kız çocuk giyimi",
+            deger: 8.1,
             vurgu: true,
-            en: { etiket: "Textiles, clothing and footwear" }
+            en: { etiket: "Women's and girls' garments" }
           }
         ],
-        olcek: 20,
-        orneklem: "Yıllık değişim, Ağustos 2026",
-        ozet: "TÜİK'in Ağustos 2026 perakende satış verilerinden öne çıkanlar:",
+        olcek: 35,
+        orneklem: "Yıllık fiyat değişimi, Ağustos 2026 · FashionUnited derlemesi, 15 Ekim",
+        ozet: "TÜİK'in Ağustos 2026 enflasyon verilerinden giyimle ilgili öne çıkanlar:",
         maddeler: [
-          "Perakende satış hacmi yıllık %10,1, aylık %1,4 arttı. Öncü verilere göre saat ve mücevher hariç tutulduğunda yıllık artış %6,1.",
-          "Tekstil, giyim ve ayakkabı satış hacmi yıllık %2,9 arttı; bir önceki aya göre değişmedi.",
-          "Gıda dışı satışlar yıllık %12,8, gıda, içecek ve tütün satışları %5,3 arttı.",
-          "Posta veya internet üzerinden satışlar yıllık %17,9 arttı.",
-          "TÜİK verilerine göre (Merkez Bankası'nın Eylül fiyat gelişmeleri raporu) giyim ve ayakkabı fiyatları Eylül'de yıllık %12,91 arttı; genel enflasyon %29,73."
+          "Genel enflasyon yıllık %31,51 (TÜİK, 3 Eylül'de açıkladı).",
+          "Giyim ve ayakkabı fiyatları yıllık %13,16 arttı.",
+          "Erkek ve erkek çocuk giyiminde artış %22,64, kadın ve kız çocuk giyiminde %8,1 oldu.",
+          "Eylül'de giyim ve ayakkabı malları (hizmetler hariç) yıllık %12,91 arttı, genel enflasyon %29,73 oldu (Merkez Bankası'nın Eylül fiyat gelişmeleri raporu). Bu seri yukarıdaki Ağustos rakamlarıyla birebir karşılaştırılamaz.",
+          "Kadın ve erkek giyimi ayrımı, FashionUnited'ın 15 Ekim'de yayımladığı Türkiye derlemesinden (TÜİK verisi) alındı."
         ],
-        onemi: "Perakende geneli büyürken giyimde satılan miktar geride kalıyor ve fiyatlar enflasyonun çok altında artıyor. Pazarın kendiliğinden büyümesine güvenmek zorlaşıyor; büyüme için rakiplerden pay almak ve internet kanalını güçlendirmek öne çıkıyor.",
-        not: "Satış hacmi, fiyat artışlarının etkisi çıkarılarak hesaplanır; yani satılan ürün miktarındaki değişimi gösterir.",
+        onemi: "Kadın giyiminde fiyatların enflasyonun bu kadar gerisinde kalması, bu kategoride fiyat rekabetinin yoğun olduğuna ve fiyat artışıyla ciro büyütme alanının dar olduğuna işaret ediyor. Erkek giyimiyle aradaki fark, kategoriler arasında fiyatlama gücünün farklı olabileceğini düşündürüyor.",
+        not: "Yıllık fiyat değişimi: bir ürün grubunun fiyatının geçen yılın aynı ayına göre ne kadar arttığı.",
         kaynaklar: [
           {
-            ad: "Karar · TÜİK perakende verileri",
-            url: "https://www.karar.com/ekonomi-haberleri/perakende-satis-hacmi-agustosta-yillik-yuzde-101-artti-2077787",
-            tip: "ikinci",
-            en: { ad: "Karar · TurkStat retail data" }
-          },
-          {
-            ad: "FashionUnited · Türkiye moda verileri",
+            ad: "FashionUnited · Türkiye moda verileri (TÜİK)",
             url: "https://fashionunited.com/news/business/fashion-pulse-turkiye-august-2026/2026101575211",
             tip: "ikinci",
-            en: { ad: "FashionUnited · Türkiye fashion data" }
+            en: { ad: "FashionUnited · Türkiye fashion data (TurkStat)" }
+          },
+          {
+            ad: "TEKSİF · Ağustos 2026 TÜFE",
+            url: "https://teksif.org.tr/tuketici-fiyat-endeksi-agustos-2026/",
+            tip: "ikinci",
+            en: { ad: "TEKSİF · August 2026 CPI" }
           },
           {
             ad: "TCMB · Eylül ayı fiyat gelişmeleri",
@@ -510,22 +502,23 @@ window.BULTEN = {
           }
         ],
         en: {
-          tarih: "12 Oct",
+          kisa: "Clothing prices",
+          tarih: "3 Sep",
           tur: "Official data",
-          deger: "2.9%",
-          baslik: "TurkStat: Retail sales volume up 10.1%, textiles, clothing and footwear up just 2.9%",
-          metin: "In August, retail sales volume rose 10.1% year on year, while textiles, clothing and footwear sales volume rose only 2.9%. Retail excluding watches and jewellery grew 6.1%, and mail-order and online sales grew 17.9%.",
-          orneklem: "Annual change, August 2026",
-          ozet: "Highlights from TurkStat's (TÜİK) August 2026 retail sales data:",
+          deger: "8.1%",
+          baslik: "TurkStat: Women's and girls' garment prices up 8.1% year on year in August",
+          metin: "In August, headline inflation was 31.51%, while clothing and footwear prices rose 13.16% year on year. Prices of garments for men and boys rose 22.64%, and for women and girls 8.1%.",
+          orneklem: "Annual price change, August 2026 · FashionUnited round-up, 15 Oct",
+          ozet: "Clothing highlights from TurkStat's August 2026 inflation data:",
           maddeler: [
-            "Retail sales volume rose 10.1% year on year and 1.4% month on month. According to preliminary data, annual growth excluding watches and jewellery was 6.1%.",
-            "Textiles, clothing and footwear sales volume rose 2.9% year on year; it was unchanged from the previous month.",
-            "Non-food sales rose 12.8% year on year; food, beverages and tobacco sales rose 5.3%.",
-            "Mail-order or online sales rose 17.9% year on year.",
-            "According to TurkStat data (Central Bank's September price developments report), clothing and footwear prices rose 12.91% year on year in September; headline inflation was 29.73%."
+            "Headline inflation was 31.51% year on year (published by TurkStat on 3 Sep).",
+            "Clothing and footwear prices rose 13.16% year on year.",
+            "Prices of garments for men and boys rose 22.64%, and for women and girls 8.1%.",
+            "In September, clothing and footwear goods (excluding services) rose 12.91% year on year and headline inflation was 29.73% (Central Bank's September price developments report). This series is not directly comparable with the August figures above.",
+            "The split between women's and men's clothing comes from FashionUnited's Türkiye round-up published on 15 Oct (TurkStat data)."
           ],
-          onemi: "While retail overall is growing, clothing volumes are lagging and prices are rising far below inflation. Relying on the market to grow on its own is getting harder; taking share from competitors and strengthening the online channel are coming to the fore.",
-          not: "Sales volume is calculated after removing the effect of price increases, so it shows the change in the quantity of goods sold."
+          onemi: "Women's clothing prices lagging so far behind inflation points to intense price competition in this category and limited room to grow revenue through price increases. The gap with men's clothing suggests that pricing power may differ across categories.",
+          not: "Annual price change: how much a product group's price has risen compared with the same month last year."
         }
       },
       etkinlikler: [
@@ -625,7 +618,7 @@ window.BULTEN = {
         donem: "12–18 October 2026",
         yayin: "18 October 2026",
         sonraki: "Sunday, 25 October",
-        gundemNotu: "3 Türkiye, 3 global"
+        gundemNotu: "3 Türkiye, 2 global"
       }
     }
   ],
