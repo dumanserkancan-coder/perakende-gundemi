@@ -70,12 +70,595 @@ window.BULTEN = {
   },
   yeni: [],
   siradaki: {
-    no: 2,
-    donem: "19–25 Ekim 2026",
-    yayin: "25 Ekim Pazar",
-    en: { donem: "19–25 October 2026", yayin: "Sunday, 25 October" }
+    no: 3,
+    donem: "26 Ekim – 1 Kasım 2026",
+    yayin: "1 Kasım Pazar",
+    en: { donem: "26 October – 1 November 2026", yayin: "Sunday, 1 November" }
   },
   sayilar: [
+    {
+      no: 2,
+      donem: "19–25 Ekim 2026",
+      yayin: "25 Ekim 2026",
+      sonraki: "1 Kasım Pazar",
+      okuma: 7,
+      gundemNotu: "2 Türkiye, 3 dünya",
+      birDakika: [
+        {
+          baslik: "Tüketici güveni Ekim'de %7,7 düşüşle 84,8'e indi; Merkez Bankası politika faizini %37'den %36'ya indirdi; karar metninde iç talebin zayıf seyrettiği belirtildi.",
+          anlam: "Kasım indirimleri ve yılbaşı sezonuna, tüketicinin bütçesine dair beklentisinin belirgin biçimde kötüleştiği bir ortamda giriliyor.",
+          ref: "ana",
+          en: {
+            baslik: "Consumer confidence fell 7.7% to 84.8 in October; the Central Bank cut its policy rate from 37% to 36%, noting in its decision that domestic demand remains weak.",
+            anlam: "The November sales and the year-end season begin at a time when consumers' expectations for their own budgets have worsened markedly."
+          }
+        },
+        {
+          baslik: "Ticaret Bakanlığı: Alışverişte müşteriyi hedefli reklam onayı vermeye zorlamak haksız ticari uygulama.",
+          anlam: "Sorun olarak görülen izin istemek değil, iznin alışverişin şartı gibi sunulması; kasadaki onay akışları daha görünür hâle geliyor.",
+          ref: "h1",
+          en: {
+            baslik: "Ministry of Trade: forcing shoppers to consent to targeted advertising is an unfair commercial practice.",
+            anlam: "The issue is not asking for consent but presenting it as a condition of the purchase; consent flows at the checkout are coming under closer view."
+          }
+        },
+        {
+          baslik: "Reuters: Shein, ABD'deki FTC soruşturmasını 100 milyon dolarla kapatıyor; AB'de düşük değerli paketlere 1 Kasım'dan itibaren 2 euroluk ek ücret geliyor.",
+          anlam: "Ultra hızlı modanın Avrupa'daki fiyat avantajı daralıyor; teslimat sözü de düzenleyicilerin denetlediği bir taahhüt.",
+          ref: "h2",
+          en: {
+            baslik: "Reuters: Shein is settling a US FTC probe for $100 million; from 1 November the EU adds a €2 fee on low-value parcels.",
+            anlam: "Ultra-fast fashion's price advantage in Europe is narrowing; delivery promises are also commitments that regulators check."
+          }
+        }
+      ],
+      ana: {
+        id: "ana",
+        kisa: "Tüketici güveni",
+        kategori: "tr",
+        tarih: "22 Ekim",
+        tur: "Resmî veri ve karar",
+        okumaSuresi: 2,
+        baslik: "Tüketici güveni sert düştü, Merkez Bankası faizi indirdi",
+        ozet: "TÜİK verilerine göre tüketici güven endeksi Ekim'de bir önceki aya göre %7,7 azalarak 91,9'dan 84,8'e geriledi; dört alt endeksin dördü de düştü. Aynı gün Merkez Bankası politika faizini 100 baz puan indirerek %37'den %36'ya çekti. Karar metninde, iktisadi faaliyet verilerinin iç talepteki zayıf seyrin devam ettiğini gösterdiği belirtildi.",
+        onemi: "Tüketicinin hem bugünkü hem de gelecek 12 aydaki maddi durumuna dair beklentisi bir ayda belirgin biçimde kötüleşti; Merkez Bankası da iç talebin zayıf olduğunu açıkça yazdı. Kasım indirimleri ve yılbaşı dönemine girerken bu tablo, sezonun talep tarafında temkinli bir başlangıca işaret ediyor. Faiz indiriminin kredi ve taksitli harcamaya ne zaman ve ne ölçüde yansıyacağı ise açık bir soru.",
+        bolumler: [
+          {
+            baslik: "Tüketici güveni (Ekim 2026, bir önceki aya göre)",
+            maddeler: [
+              "Tüketici güven endeksi: 84,8 (Eylül: 91,9; %7,7 düşüş)",
+              "Hanenin mevcut maddi durumu: 68,3 (Eylül: 75,3; %9,3 düşüş)",
+              "Gelecek 12 ayda hanenin maddi durum beklentisi: 86,4 (Eylül: 93,7; %7,7 düşüş)",
+              "Gelecek 12 ayda genel ekonomik durum beklentisi: 81,7 (Eylül: 89,8; %9 düşüş)",
+              "Gelecek 12 ayda dayanıklı tüketim mallarına harcama yapma düşüncesi: 102,7 (Eylül: 108,8; %5,6 düşüş)",
+              "Endeks24'ün hesabına göre bu, Ağustos 2023'ten bu yana en sert aylık düşüş; endeks Ocak 2026'dan (83,7) bu yana en düşük seviyede."
+            ]
+          },
+          {
+            baslik: "Merkez Bankası kararı (22 Ekim)",
+            maddeler: [
+              "Politika faizi (bir hafta vadeli repo ihale faiz oranı): %37'den %36'ya",
+              "Gecelik borç verme faizi %40'tan %39'a, gecelik borçlanma faizi %35,5'ten %34,5'e indi.",
+              "Ocak'tan bu yana ilk faiz indirimi (Ocak'ta politika faizi %38'den %37'ye inmişti).",
+              "Kurul, son enflasyon verilerinin ve öncü göstergelerin ana eğilimdeki gerilemeyi teyit ettiğini, yüksek enerji fiyatlarının ise enflasyon görünümü için yukarı yönlü risk oluşturmaya devam ettiğini belirtti.",
+              "Sonraki adımların büyüklüğü ve zamanlaması toplantı bazlı ve ihtiyatlı bir yaklaşımla belirlenecek; bir sonraki karar 10 Aralık'ta."
+            ]
+          }
+        ],
+        not: "Tüketici güven endeksi: 100'ün altındaki değerler tüketicinin genel olarak kötümser olduğunu gösterir. Baz puan: Yüzde puanın yüzde biri; 100 baz puan 1 yüzde puana eşittir.",
+        kapak: {
+          gorsel: "kapak-sayi2.jpg",
+          gorselAciklama: "Düşük bölgeye inen bir güven göstergesi, bir alışveriş çantası ve kısalan çubukların üzerinde aşağı yönlü bir ok",
+          en: { gorselAciklama: "A confidence gauge dipping into the low zone, a shopping bag and a downward arrow over shrinking bars" }
+        },
+        kaynaklar: [
+          {
+            ad: "TCMB · Faiz kararı basın duyurusu (2026-45)",
+            url: "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2026/DUY2026-45",
+            tip: "resmi",
+            en: { ad: "CBRT · Rate decision press release (2026-45)" }
+          },
+          {
+            ad: "Medyascope · TÜİK tüketici güveni",
+            url: "https://medyascope.tv/2026/10/22/tuketici-guveni-dokuz-ayin-en-dusuk-seviyesine-indi/",
+            tip: "ikinci",
+            en: { ad: "Medyascope · TurkStat consumer confidence" }
+          },
+          {
+            ad: "Takvim · Alt endeksler",
+            url: "https://www.takvim.com.tr/ekonomi/2026/10/22/tuketici-guven-endeksi-ekim-2026-verileri",
+            tip: "ikinci",
+            en: { ad: "Takvim · Sub-indices" }
+          },
+          {
+            ad: "Endeks24 · Düşüşün karşılaştırması",
+            url: "https://www.endeks24.com/tuketici-guven-endeksi-ekimde-848e-geriledi",
+            tip: "ikinci",
+            en: { ad: "Endeks24 · How the drop compares" }
+          },
+          {
+            ad: "TRT Haber · Faiz kararı",
+            url: "https://www.trthaber.com/haber/ekonomi/merkez-bankasi-faiz-kararini-acikladi-960891.html",
+            tip: "ikinci",
+            en: { ad: "TRT Haber · Rate decision" }
+          }
+        ],
+        en: {
+          kisa: "Consumer confidence",
+          tarih: "22 Oct",
+          tur: "Official data and decision",
+          baslik: "Consumer confidence falls sharply; Central Bank cuts rates",
+          ozet: "According to TurkStat, the consumer confidence index fell 7.7% month on month in October, from 91.9 to 84.8; all four sub-indices declined. On the same day the Central Bank cut its policy rate by 100 basis points, from 37% to 36%. The decision text said economic activity data show that the weak trend in domestic demand is continuing.",
+          onemi: "Consumers' views of both their current financial situation and the next 12 months worsened markedly in a single month, and the Central Bank stated plainly that domestic demand is weak. Heading into the November sales and the year-end period, this points to a cautious start to the season on the demand side. When and how far the rate cut will feed through to credit and instalment spending remains an open question.",
+          bolumler: [
+            {
+              baslik: "Consumer confidence (October 2026, month on month)",
+              maddeler: [
+                "Consumer confidence index: 84.8 (September: 91.9; down 7.7%)",
+                "Household's current financial situation: 68.3 (September: 75.3; down 9.3%)",
+                "Household financial expectations, next 12 months: 86.4 (September: 93.7; down 7.7%)",
+                "General economic expectations, next 12 months: 81.7 (September: 89.8; down 9%)",
+                "Intention to spend on durable goods, next 12 months: 102.7 (September: 108.8; down 5.6%)",
+                "By Endeks24's calculation, this is the steepest monthly fall since August 2023; the index is at its lowest since January 2026 (83.7)."
+              ]
+            },
+            {
+              baslik: "Central Bank decision (22 Oct)",
+              maddeler: [
+                "Policy rate (one-week repo auction rate): from 37% to 36%",
+                "The overnight lending rate fell from 40% to 39% and the overnight borrowing rate from 35.5% to 34.5%.",
+                "The first rate cut since January (when the policy rate was cut from 38% to 37%).",
+                "The Committee said recent inflation data and leading indicators confirm the decline in the underlying trend, while high energy prices continue to pose upside risks to the inflation outlook.",
+                "The size and timing of further steps will be set meeting by meeting with a cautious approach; the next decision is on 10 Dec."
+              ]
+            }
+          ],
+          not: "Consumer confidence index: values below 100 indicate that consumers are generally pessimistic. Basis point: one hundredth of a percentage point; 100 basis points equal 1 percentage point."
+        }
+      },
+      haberler: [
+        {
+          id: "h1",
+          kisa: "Reklam onayı",
+          kategori: "tr",
+          tarih: "21 Ekim",
+          tur: "Düzenleyici açıklama",
+          baslik: "Bakanlık: Alışverişte reklam onayına zorlamak haksız uygulama",
+          ozet: "Ticaret Bakanlığı Basın ve Halkla İlişkiler Müşavirliği, mağazada ya da internette alışveriş veya hizmet alımı sırasında tüketicinin hedefli reklam amacıyla onay vermeye zorlanmasının haksız ticari uygulama olduğunu açıkladı. Bakanlık, bu şekilde davranan işletmelerin Reklam Kurulu tarafından incelemeye alınacağını belirtti ve tüketicileri bu tür taleplere sessiz kalmamaya çağırdı.",
+          ek: "Haberlere göre tüketiciler şikâyetlerini e-Reklam portalı, e-Devlet'teki \"Reklam ve Haksız Ticari Uygulama Şikâyeti\" hizmeti ya da CİMER üzerinden yapabiliyor. Ajans 344'ün haberine göre uyarı, SMS doğrulamasının tamamen yasaklandığı anlamına gelmiyor; sorun, reklam izninin alışverişin zorunlu bir adımı olarak sunulması. Haberlerde bir ceza tutarına yer verilmedi.",
+          onemi: "Kasada telefon numarası ve ileti izni almak, moda perakendesinde sadakat programlarının ve müşteri iletişiminin yaygın bir parçası. Bakanlığın vurgusu izin istenmesine değil, iznin alışverişin şartı gibi sunulmasına. Bu ayrımın mağazadaki konuşmada ve kasa ekranındaki akışta nasıl karşılık bulduğu, bundan sonra daha görünür bir soru.",
+          not: "Hedefli reklam: Kişinin bilgilerine ve alışveriş davranışına göre seçilerek gösterilen reklam. Haksız ticari uygulama: Tüketicinin ekonomik davranışını bozan, mevzuatta yasaklanan ticari uygulama.",
+          kaynaklar: [
+            {
+              ad: "GZT · Bakanlık açıklaması",
+              url: "https://www.gzt.com/gundem/magazalarda-sms-onayina-zorlanan-tuketiciler-dikkat-ticaret-bakanligi-noktayi-koydu-4271440",
+              tip: "ikinci",
+              en: { ad: "GZT · Ministry statement" }
+            },
+            {
+              ad: "Ajans 344 · Şikâyet kanalları",
+              url: "https://www.ajans344.com/genel/magazada-reklam-onayi-baskisina-bakanliktan-uyari/411002",
+              tip: "ikinci",
+              en: { ad: "Ajans 344 · Complaint channels" }
+            }
+          ],
+          en: {
+            kisa: "Ad consent",
+            tarih: "21 Oct",
+            tur: "Regulatory statement",
+            baslik: "Ministry: forcing ad consent while shopping is an unfair practice",
+            ozet: "The Ministry of Trade's Press and Public Relations Office said that forcing consumers to give consent for targeted advertising while shopping or buying a service, in store or online, is an unfair commercial practice. The ministry said businesses that do so will be reviewed by the Advertising Board and urged consumers not to stay silent when faced with such demands.",
+            ek: "According to reports, consumers can file complaints through the e-Reklam portal, the \"Advertising and Unfair Commercial Practice Complaint\" service on e-Devlet, or CİMER. According to Ajans 344, the warning does not mean SMS verification is banned altogether; the problem is presenting advertising consent as a mandatory step of the purchase. The reports did not mention any fine amount.",
+            onemi: "Collecting phone numbers and messaging consent at the checkout is a common part of loyalty programmes and customer communication in fashion retail. The ministry's emphasis is not on asking for consent but on presenting it as a condition of the purchase. How this distinction plays out in conversations at the till and in checkout-screen flows is now a more visible question.",
+            not: "Targeted advertising: ads selected and shown based on a person's data and shopping behaviour. Unfair commercial practice: a commercial practice, prohibited by law, that distorts the consumer's economic behaviour."
+          }
+        },
+        {
+          id: "h2",
+          kisa: "Shein",
+          kategori: "eticaret",
+          tarih: "23 Ekim",
+          tur: "Düzenleyici gelişme",
+          baslik: "Reuters: Shein, ABD soruşturmasını 100 milyon dolarla kapatıyor",
+          ozet: "Reuters'ın konuya doğrudan bilgisi olan bir kaynağa dayandırdığı habere göre Shein, ABD Federal Ticaret Komisyonu'nun (FTC) teslimat gecikmeleri ve diğer müşteri şikâyetleri üzerine yürüttüğü soruşturmayı kapatmak için 100 milyon dolar ödemeyi kabul etti. Shein, Reuters'a FTC ile \"yapıcı bir sonuca\" ulaştığını söyledi; FTC yorum yapmadı.",
+          ek: "Reuters'ın incelediği FTC kayıtlarına göre Ocak 2020–Haziran 2026 arasında toplam 11 milyon doları aşan alışverişlerle ilgili 12 binden fazla şikâyet yapıldı. Reuters'ın hesabına göre tutar, Shein'ın ikinci çeyrek kârının yaklaşık %44'üne denk geliyor. Reuters'a göre Shein hisseleri 1 Eylül'deki halka arz fiyatının %22 altında ve yatırımcıların odağında AB'nin düşük değerli paketlere getirdiği 3 euroluk vergi var. AB, 1 Kasım'dan itibaren 150 euronun altındaki paketlere 2 euroluk işlem ücreti de ekliyor.",
+          onemi: "Reuters'a göre Shein, ABD'de ve ardından Avrupa'da gümrük muafiyetlerinin kalkmasıyla fiyatlarını artırdı; yani ultra hızlı modanın fiyat avantajı daralıyor. Avrupa'ya online satış yapan markalar açısından fiyat rekabetinin nasıl değişeceği izlenecek bir soru. ABD'deki uzlaşma ise teslimat sözünün de denetlenen bir taahhüt olduğunu hatırlatıyor.",
+          not: "FTC: ABD'de tüketiciyi korumaktan ve rekabetten sorumlu federal kurum. Düşük değerli paket: AB'de değeri 150 euronun altındaki gönderi.",
+          kaynaklar: [
+            {
+              ad: "Investing.com (Reuters) · Shein-FTC uzlaşması",
+              url: "https://www.investing.com/news/stock-market-news/exclusivefastfashion-group-shein-agrees-to-pay-100-million-to-settle-us-ftc-probe-4969789",
+              tip: "ikinci",
+              en: { ad: "Investing.com (Reuters) · Shein-FTC settlement" }
+            },
+            {
+              ad: "Gulf Times (Reuters) · Şikâyet ve AB ücreti ayrıntıları",
+              url: "https://www.gulf-times.com/article/736548/business/fast-fashion-group-shein-agrees-to-pay-100mn-to-settle-us-ftc-probe",
+              tip: "ikinci",
+              en: { ad: "Gulf Times (Reuters) · Complaint and EU fee details" }
+            },
+            {
+              ad: "Bandcamp · AB'nin 1 Kasım gümrük değişikliği",
+              url: "https://blog.bandcamp.com/2026/10/20/eu-customs-beginning-november-1-a-new-e2-handling-fee-and-product-ids/",
+              tip: "ikinci",
+              en: { ad: "Bandcamp · EU customs change on 1 November" }
+            }
+          ],
+          en: {
+            kisa: "Shein",
+            tarih: "23 Oct",
+            tur: "Regulatory development",
+            baslik: "Reuters: Shein to settle US probe for $100 million",
+            ozet: "According to Reuters, citing a source with direct knowledge, Shein has agreed to pay $100 million to settle a US Federal Trade Commission (FTC) investigation into delivery delays and other customer complaints. Shein told Reuters it had \"reached a constructive outcome with the FTC\"; the FTC declined to comment.",
+            ek: "According to FTC records reviewed by Reuters, more than 12,000 complaints were filed between January 2020 and June 2026 over purchases totalling more than $11 million. By Reuters' calculation, the amount equals about 44% of Shein's second-quarter profit. According to Reuters, Shein's shares are 22% below their 1 September listing price, with investors focused on the EU's €3 duty on low-value parcels. From 1 November the EU also adds a €2 handling fee on parcels worth less than €150.",
+            onemi: "According to Reuters, Shein raised prices after customs exemptions were removed in the US and then in Europe; in other words, ultra-fast fashion's price advantage is narrowing. How price competition will shift for brands selling online into Europe is a question to watch. The US settlement is also a reminder that delivery promises are commitments that regulators check.",
+            not: "FTC: the US federal agency responsible for consumer protection and competition. Low-value parcel: in the EU, a shipment worth less than €150."
+          }
+        },
+        {
+          id: "h3",
+          kisa: "Hazır giyim istihdamı",
+          kategori: "tr",
+          tarih: "19 Ekim",
+          tur: "Sektör raporu",
+          baslik: "TGSD: Hazır giyimde kayıtlı istihdam 2022'den beri %29,7 azaldı",
+          ozet: "Türkiye Giyim Sanayicileri Derneği'nin (TGSD) TÜİK, Merkez Bankası ve SGK verilerine dayanan Hazır Giyim ve Tekstil Katma Değer Raporu 2025'e göre, sektördeki kayıtlı istihdam Aralık 2022'den Temmuz 2026'ya 362.879 kişi (%29,7) azaldı; sigortalı çalışanı olan iş yeri sayısı 10.624 (%16,6) geriledi. Aynı dönemde imalat sanayisindeki kayıtlı istihdam kaybının %64'ü bu sektörden geldi.",
+          ek: "Rapora göre sektör, 2025'te ortalama 897.671 kayıtlı çalışanla imalat sanayisinin en büyük işvereni oldu ve mal ticaretinde 15,8 milyar dolar net fazla verdi. Sektörde yaratılan katma değerin %62'si ücret ve personel giderlerine gidiyor (imalat ortalaması %49). TGSD Başkanı Toygar Narbay, hazır giyim ve tekstilin stratejik sektör ilan edilmesini istedi.",
+          onemi: "Yurt içinde üretim yapan tedarikçi tabanı belirgin biçimde daralıyor ve sektörde yaratılan değerin büyük kısmı işçiliğe gidiyor. Bu tablo, yakın tedarikin sağladığı hız ve sipariş tekrarlama esnekliğinin önümüzdeki dönemde ne ölçüde korunabileceği sorusunu gündeme getiriyor.",
+          not: "Katma değer: Üretim değerinden, üretimde kullanılan mal ve hizmetlerin değeri çıkarıldıktan sonra kalan tutar. Yakın tedarik: Ürünlerin satış pazarına yakın ülkelerde üretilmesi.",
+          kaynaklar: [
+            {
+              ad: "Ticaret Gazetesi · TGSD raporu",
+              url: "https://ticaretgazetesi.com.tr/2026/10/19/tgsd-baskani-toygar-narbay-hazir-giyim-ve-tekstil-stratejik-sektor-ilan-edilmeli/",
+              tip: "ikinci",
+              en: { ad: "Ticaret Gazetesi · TGSD report" }
+            },
+            {
+              ad: "Ekonomim · TGSD raporu",
+              url: "https://www.ekonomim.com/sektorler/tgsd-baskani-toygar-narbay-hazir-giyim-ve-tekstil-stratejik-sektor-ilan-edilmeli-haberi-925576",
+              tip: "ikinci",
+              en: { ad: "Ekonomim · TGSD report" }
+            }
+          ],
+          en: {
+            kisa: "Apparel jobs",
+            tarih: "19 Oct",
+            tur: "Industry report",
+            baslik: "TGSD: registered apparel employment down 29.7% since Dec 2022",
+            ozet: "According to the Turkish Clothing Manufacturers' Association's (TGSD) Apparel and Textile Value Added Report 2025, based on TurkStat, Central Bank and social security (SGK) data, registered employment in the sector fell by 362,879 people (29.7%) between December 2022 and July 2026, and the number of workplaces with insured employees fell by 10,624 (16.6%). Over the same period, the sector accounted for 64% of registered job losses in manufacturing.",
+            ek: "According to the report, the sector was manufacturing's largest employer in 2025 with an average of 897,671 registered workers and posted a net surplus of $15.8 billion in goods trade. 62% of the value added in the sector goes to wages and staff costs (manufacturing average: 49%). TGSD President Toygar Narbay called for apparel and textiles to be declared a strategic sector.",
+            onemi: "The domestic supplier base is shrinking markedly, and most of the value created in the sector goes to labour. This raises the question of how far the speed and repeat-order flexibility that near-sourcing provides can be preserved in the period ahead.",
+            not: "Value added: the value of production minus the value of goods and services used in production. Near-sourcing: producing goods in countries close to the market where they are sold."
+          }
+        },
+        {
+          id: "h4",
+          kisa: "Walmart AI ajanları",
+          kategori: "tek",
+          tarih: "21 Ekim",
+          tur: "Şirket duyurusu",
+          baslik: "Walmart, AI ajanlarına harcama limitiyle alışveriş izni veriyor",
+          ozet: "Walmart, müşterilerin yapay zekâ ajanlarına kendi hesapları üzerinden alışveriş yetkisi vermesini sağlayacak \"Agent Profiles\" özelliğini duyurdu. Şirketin açıklamasına göre her ajan için ayrı bir profil oluşuyor; müşteri her ajana harcama limiti (örnek olarak 50, 100 veya 200 dolar) koyabiliyor ya da her alışverişte onay isteyebiliyor. Özelliğin önümüzdeki ay içinde kullanıma açılması planlanıyor.",
+          ek: "Şirketin yeni kurallarına göre ajanların alışverişleri varsayılan olarak müşteri onayı gerektiriyor; Walmart limit içinde bile ek onay isteyebiliyor ve müşteri izinleri istediği an kapatabiliyor. Şirket, ajanların Walmart.com'daki fiyatların aynısını gördüğünü belirtti. Duyuruda, ajanların siteye tarayıcı üzerinden değil doğrudan bağlanmasını sağlayacak Walmart Agent Gateway altyapısının şirketler ve geliştiriciler için sınırlı beta olarak başlayacağı da açıklandı.",
+          onemi: "Geçen sayıda yer alan Google'ın ortak sepetinin ardından bu hafta büyük bir perakendeci, ajanlara kendi kurallarıyla kapı açtı. Walmart örneğinde, ajanların hangi limitle ve hangi onay adımıyla alışveriş yapacağını perakendecinin kendisi belirliyor. Bu kuralların müşterinin güvenini ve satın alma kararını nasıl etkileyeceği açık bir soru.",
+          not: "AI ajanı: Kullanıcı adına ürün arayan, karşılaştıran ve izin verilirse satın alma adımlarını tamamlayan yazılım asistanı. Beta: Yeni bir hizmetin sınırlı bir kullanıcı grubuyla denendiği ilk sürüm.",
+          kaynaklar: [
+            {
+              ad: "Walmart · Resmî duyuru",
+              url: "https://corporate.walmart.com/news/2026/10/Making-It-Possible-for-Agents-to-Shop-on-Behalf-of-Customers",
+              tip: "resmi",
+              en: { ad: "Walmart · Official announcement" }
+            },
+            {
+              ad: "Digital Commerce 360 · Walmart'ın ajan kuralları",
+              url: "https://www.digitalcommerce360.com/2026/10/23/walmart-unveils-ai-agent-shopping-controls-spending-limits/amp/",
+              tip: "ikinci",
+              en: { ad: "Digital Commerce 360 · Walmart's agent rules" }
+            }
+          ],
+          en: {
+            kisa: "Walmart AI agents",
+            tarih: "21 Oct",
+            tur: "Company announcement",
+            baslik: "Walmart lets AI agents shop within spending limits",
+            ozet: "Walmart announced \"Agent Profiles\", which will let customers authorise AI agents to shop through their accounts. According to the company, each agent gets its own profile; customers can set a spending limit for each agent (for example $50, $100 or $200) or require approval for every purchase. The feature is planned to launch within the next month.",
+            ek: "Under the company's new terms, agent purchases require customer approval by default; Walmart may ask for additional approval even within a limit, and customers can switch permissions off at any time. The company said agents see the same prices as on Walmart.com. The announcement also said Walmart Agent Gateway, which lets agents connect directly rather than navigating the website through a browser, will start as a limited beta for companies and developers.",
+            onemi: "After Google's shared cart, covered in the last issue, a major retailer this week opened its doors to agents on its own terms. In Walmart's case, the retailer itself sets the limits and approval steps agents shop with. How these rules will affect customer trust and purchase decisions is an open question.",
+            not: "AI agent: a software assistant that searches for and compares products on the user's behalf and, if permitted, completes the purchase steps. Beta: an early version of a new service tested with a limited group of users."
+          }
+        },
+        {
+          id: "h5",
+          kisa: "Gap işe alım",
+          kategori: "isgucu",
+          tarih: "22–23 Ekim",
+          tur: "Şirket duyurusu",
+          baslik: "Gap, sezonluk işe alımda AI asistanı kullanıyor",
+          ozet: "Gap Inc., yılbaşı sezonu işe alımında adaylara rol keşfi, başvuru ve mülakat planlama adımlarında yardım eden, yapay zekâ destekli \"Bridgette\" adlı sanal kariyer rehberini kullandığını açıkladı. Şirketin açıklamasına göre Haziran'dan bu yana yaklaşık 45 bin aday Bridgette ile etkileşime geçti; araç mağaza yöneticileri için 7 binden fazla mülakat planladı.",
+          ek: "Pilot uygulama 100'den fazla mağazayı ve altı bölgesel dağıtım merkezini kapsıyor. Şirket, yılbaşı için mağaza ve dağıtım merkezlerine yaklaşık 200 bin sezonluk iş başvurusu gelmesini bekliyor; kaç kişiyi işe alacağını açıklamadı. Araç Paradox tarafından geliştirildi ve Workday Recruiting ile entegre çalışıyor. Gap'in insan kaynaklarından sorumlu üst yöneticisi Amy Thompson, işe alımın hızlı ilerlediğini ama deneyimin yine de kişisel hissettirmesi gerektiğini söyledi.",
+          onemi: "Yoğun dönem öncesinde çok sayıda başvurunun kısa sürede değerlendirilmesi, mağaza yöneticileri için ek bir iş yükü. Gap örneği, yapay zekânın mağazada satışın yanı sıra işe alım gibi arka plandaki süreçlerde de kullanıldığını gösteriyor. Açıklama tek bir şirketin pilot uygulamasına dayanıyor ve işe alım süresine dair bir sonuç içermiyor.",
+          not: "Sanal kariyer rehberi: Adayın sorularını yanıtlayan, başvuru ve mülakat planlama gibi adımları yürüten sohbet tabanlı yazılım.",
+          kaynaklar: [
+            {
+              ad: "Gap Inc. · Resmî duyuru",
+              url: "https://www.gapinc.com/en-us/articles/2026/10/gap-inc-reimagines-holiday-hiring-with-ai-tools-to",
+              tip: "resmi",
+              en: { ad: "Gap Inc. · Official announcement" }
+            },
+            {
+              ad: "Yahoo Finance (WWD) · Gap'in AI destekli işe alımı",
+              url: "https://sg.finance.yahoo.com/news/gap-inc-gets-ai-assist-203656661.html",
+              tip: "ikinci",
+              en: { ad: "Yahoo Finance (WWD) · Gap's AI-assisted hiring" }
+            }
+          ],
+          en: {
+            kisa: "Gap hiring",
+            tarih: "22–23 Oct",
+            tur: "Company announcement",
+            baslik: "Gap uses an AI assistant for seasonal hiring",
+            ozet: "Gap Inc. said it is using \"Bridgette\", an AI-enabled virtual career guide that helps candidates explore roles, apply and schedule interviews, for holiday-season hiring. According to the company, nearly 45,000 candidates have engaged with Bridgette since June, and the tool has scheduled more than 7,000 interviews for store leaders.",
+            ek: "The pilot covers more than 100 stores and six regional distribution centres. The company expects about 200,000 seasonal job applications at its stores and distribution centres for the holidays; it did not say how many people it will hire. The tool was built by Paradox and integrates with Workday Recruiting. Amy Thompson, Gap's chief people officer, said holiday hiring moves quickly but the experience should still feel personal.",
+            onemi: "Reviewing large numbers of applications in a short time before the peak season adds to store managers' workload. The Gap example shows AI being used not only in selling but also in back-office processes such as hiring. The announcement is based on a single company's pilot and gives no results on time-to-hire.",
+            not: "Virtual career guide: chat-based software that answers candidates' questions and handles steps such as applications and interview scheduling."
+          }
+        }
+      ],
+      takipte: [
+        {
+          baslik: "Asgari ücret: Bütçede vergi istisnası ödeneği %33,7 artıyor",
+          kategori: "isgucu",
+          tarih: "22–23 Ekim",
+          onceki: { no: 1, id: "h1" },
+          simdi: "A Haber'in bütçe verilerine dayanan haberine göre 2027 bütçesinde asgari ücret vergi istisnası desteği için ayrılan ödenek, 2026'daki 1,092 trilyon TL'den %33,7 artışla 1,460 trilyon TL'ye çıkıyor. Vergi uzmanı Ozan Bingöl bu veriden hareketle 2027 net asgari ücretinin 36.500 TL civarında olabileceğini söyledi; resmî rakam henüz yok.",
+          kaynaklar: [
+            {
+              ad: "A Haber · Bütçedeki ödenek",
+              url: "https://www.ahaber.com.tr/galeri/ekonomi/2027-asgari-ucret-zammi-icin-yeni-senaryo",
+              tip: "ikinci",
+              en: { ad: "A Haber · Budget allocation" }
+            },
+            {
+              ad: "Karar · Ozan Bingöl'ün tahmini",
+              url: "https://karar.com/ekonomi-haberleri/butce-rakamlari-uzerinden-2027-asgari-ucret-tahminini-acikladi-net-36-2080243",
+              tip: "ikinci",
+              en: { ad: "Karar · Ozan Bingöl's forecast" }
+            }
+          ],
+          en: {
+            baslik: "Minimum wage: budget allocation for tax exemption up 33.7%",
+            tarih: "22–23 Oct",
+            simdi: "According to A Haber, citing budget data, the 2027 budget allocation for the minimum wage tax exemption rises 33.7%, from ₺1.092 trillion in 2026 to ₺1.460 trillion. Based on this, tax expert Ozan Bingöl said the 2027 net minimum wage could be around ₺36,500; there is no official figure yet."
+          }
+        }
+      ],
+      sinyal: {
+        baslik: "Güven, yeni rekabet alanı",
+        metin: "Bu haftanın haberleri farklı yerlerden aynı konuya çıkıyor: güven. Tüketicinin ekonomiye ve kendi bütçesine güveni zayıflarken, düzenleyiciler müşterinin güvenini zedeleyen uygulamalara daha yakından bakıyor: Türkiye'de reklam onayına zorlamak haksız uygulama sayıldı, Reuters'a göre ABD'de Shein'a yönelik teslimat şikâyetleri bir uzlaşmayla kapanıyor. Yapay zekâ ajanlarıyla alışverişte de Walmart'ın modeli limit ve onay gibi güven mekanizmaları üzerine kuruluyor. Talebin zayıfladığı bir dönemde, verilen sözün tutulması (teslimat, iletişim izni, fiyat) müşteri ilişkisinde daha görünür bir unsur hâline geliyor.",
+        once: { ad: "Alışılmış bakış", metin: "Güven, marka iletişiminin bir parçası." },
+        sonra: { ad: "Bu haftanın gösterdiği", metin: "Güven; izin, teslimat ve ödeme süreçlerinde sınanan bir uygulama." },
+        dayanak: ["ana", "h1", "h2", "h4"],
+        en: {
+          baslik: "Trust as a new arena of competition",
+          metin: "This week's stories arrive at the same theme from different directions: trust. As consumers' confidence in the economy and their own budgets weakens, regulators are looking more closely at practices that erode customer trust: in Türkiye, forcing advertising consent was deemed an unfair practice, and in the US, according to Reuters, delivery complaints against Shein are being settled. In shopping with AI agents, too, Walmart's model is built on trust mechanisms such as limits and approvals. At a time of weakening demand, keeping promises (delivery, messaging consent, price) is becoming a more visible part of the customer relationship.",
+          once: { ad: "The usual view", metin: "Trust is part of brand communication." },
+          sonra: { ad: "What this week shows", metin: "Trust is a practice tested in consent, delivery and payment processes." }
+        }
+      },
+      veri: {
+        id: "veri",
+        kisa: "Kartlı ödemeler",
+        kategori: "tr",
+        tarih: "23 Ekim",
+        tur: "Sektör verisi",
+        deger: "%35",
+        baslik: "BKM: Kartlı ödemeler Eylül'de yıllık %35 arttı",
+        metin: "Bankalararası Kart Merkezi (BKM) verilerine göre Eylül 2026'da kartlı ödemeler, geçen yılın aynı ayına göre %35 artarak 2.965,5 milyar TL'ye ulaştı. İşlem adedindeki yıllık artış %11 oldu. Aynı ay yıllık enflasyon %29,73'tü.",
+        karsilastirma: [
+          { etiket: "Temassız ödemeler (tutar)", deger: 43, en: { etiket: "Contactless payments (value)" } },
+          { etiket: "Banka kartı ödemeleri (tutar)", deger: 39, en: { etiket: "Debit card payments (value)" } },
+          { etiket: "Toplam kartlı ödeme (tutar)", deger: 35, vurgu: true, en: { etiket: "Total card payments (value)" } },
+          { etiket: "İnternetten kartlı ödeme (tutar)", deger: 35, en: { etiket: "Online card payments (value)" } },
+          { etiket: "Yıllık enflasyon (TÜFE)", deger: 29.73, en: { etiket: "Annual inflation (CPI)" } },
+          { etiket: "Toplam işlem adedi", deger: 11, en: { etiket: "Total number of transactions" } }
+        ],
+        olcek: 50,
+        orneklem: "Yıllık değişim (nominal), Eylül 2026 · BKM verisi 23 Ekim'de açıklandı; TÜFE: TÜİK, 5 Ekim",
+        ozet: "BKM'nin Eylül 2026 verilerinden öne çıkanlar:",
+        maddeler: [
+          "Toplam kartlı ödeme: 2.965,5 milyar TL (Eylül 2025: 2.189,2 milyar TL), yıllık %35 artış.",
+          "İşlem adedi: 1,95 milyar, yıllık %11 artış.",
+          "İnternetten kartlı ödemeler: 901 milyar TL, yıllık %35 artış; toplam tutardaki payı %30.",
+          "Temassız ödemeler: 1.024,5 milyar TL, yıllık %43 artış; adet bazında mağaza içi kartlı ödemelerin %81'i temassız yapıldı.",
+          "Yıllık enflasyon Eylül'de %29,73 oldu (TÜİK, 5 Ekim). Kartlı ödeme tutarları nominaldir, yani fiyat etkisinden arındırılmamıştır; iki seri birebir karşılaştırılamaz."
+        ],
+        onemi: "Kartlı ödemelerdeki %35'lik nominal artış, %29,73'lük yıllık enflasyonun çok üzerinde değil; işlem adedindeki artış ise %11'de kalıyor. Bu, harcama tutarındaki büyümenin önemli bölümünün fiyattan geldiğine işaret ediyor. İnternetin toplam tutardaki payının %30'a ulaşması ve mağaza içi ödemelerin adet bazında beşte dördünün temassız yapılması da ödeme alışkanlıklarındaki değişimi gösteriyor.",
+        not: "Nominal: Fiyat artışlarının etkisi çıkarılmamış, cari fiyatlarla hesaplanan tutar. Temassız ödeme: Kartın ya da telefonun POS cihazına yaklaştırılarak yapılan ödeme.",
+        kaynaklar: [
+          {
+            ad: "FinTech İstanbul · BKM Eylül verileri",
+            url: "https://fintechistanbul.org/2026/10/23/bkm-2026-yili-eylul-ayi-verilerini-acikladi/",
+            tip: "ikinci",
+            en: { ad: "FinTech İstanbul · BKM September data" }
+          },
+          {
+            ad: "YatırımX · BKM Eylül verileri",
+            url: "https://www.yatirimx.com.tr/ekonomi/bkm-eylul-verileri-aciklandi-kartli-odemelerde-296-trilyon-tl-rekor/27087",
+            tip: "ikinci",
+            en: { ad: "YatırımX · BKM September data" }
+          },
+          {
+            ad: "Medyascope · TÜİK Eylül enflasyonu",
+            url: "https://medyascope.tv/2026/10/05/eylulde-ayinda-enflasyon-tuik-yuzde-2973-enag-yuzde-4661-dedi/",
+            tip: "ikinci",
+            en: { ad: "Medyascope · TurkStat September inflation" }
+          }
+        ],
+        en: {
+          kisa: "Card payments",
+          tarih: "23 Oct",
+          tur: "Industry data",
+          deger: "35%",
+          baslik: "BKM: card payments up 35% year on year in September",
+          metin: "According to Interbank Card Center (BKM) data, card payments rose 35% year on year in September 2026 to ₺2,965.5 billion. The number of transactions rose 11% year on year. Annual inflation was 29.73% in the same month.",
+          orneklem: "Annual change (nominal), September 2026 · BKM data published 23 Oct; CPI: TurkStat, 5 Oct",
+          ozet: "Highlights from BKM's September 2026 data:",
+          maddeler: [
+            "Total card payments: ₺2,965.5 billion (September 2025: ₺2,189.2 billion), up 35% year on year.",
+            "Number of transactions: 1.95 billion, up 11% year on year.",
+            "Online card payments: ₺901 billion, up 35% year on year; 30% of the total value.",
+            "Contactless payments: ₺1,024.5 billion, up 43% year on year; by number of transactions, 81% of in-store card payments were contactless.",
+            "Annual inflation was 29.73% in September (TurkStat, 5 Oct). Card payment values are nominal, meaning they are not adjusted for price effects; the two series are not directly comparable."
+          ],
+          onemi: "The 35% nominal rise in card payments is not far above annual inflation of 29.73%, while the number of transactions rose just 11%. This suggests that much of the growth in spending value is coming from prices. Online reaching 30% of total value and four in five in-store payments (by number) being contactless also show how payment habits are changing.",
+          not: "Nominal: an amount calculated at current prices, without removing the effect of price increases. Contactless payment: a payment made by holding a card or phone near the POS terminal."
+        }
+      },
+      etkinlikler: [
+        {
+          ad: "AB'de düşük değerli paketlere ek ücret",
+          tur: "Düzenleme",
+          baslangic: "2026-11-01",
+          bitis: "2026-11-01",
+          yer: "Avrupa Birliği",
+          aciklama: "AB dışından gelen, değeri 150 euronun altındaki paketlere 3 euroluk gümrük vergisine ek olarak 2 euroluk işlem ücreti uygulanmaya başlıyor.",
+          url: "https://blog.bandcamp.com/2026/10/20/eu-customs-beginning-november-1-a-new-e2-handling-fee-and-product-ids/",
+          en: {
+            ad: "New EU fee on low-value parcels",
+            tur: "Regulation",
+            yer: "European Union",
+            aciklama: "A €2 handling fee starts to apply, on top of the €3 customs duty, to parcels worth less than €150 entering the EU from outside."
+          }
+        },
+        {
+          ad: "Ekim ayı enflasyonu",
+          tur: "Veri günü",
+          baslangic: "2026-11-03",
+          bitis: "2026-11-03",
+          yer: "TÜİK",
+          aciklama: "TÜİK Ekim ayı tüketici fiyatlarını açıklayacak; giyimde sezon geçişinin fiyatlara etkisi görülecek.",
+          url: "https://www.foreks.com/haber/detay/69566f3367ad3132ebdf7774/PICNEWS/tr/tuik-2026-yili-veri-yayin-takvimini-acikladi-01-01-26/",
+          en: {
+            ad: "October inflation",
+            tur: "Data release",
+            yer: "TurkStat",
+            aciklama: "TurkStat will publish October consumer prices, showing the effect of the seasonal changeover on clothing prices."
+          }
+        },
+        {
+          ad: "11.11 ile Kasım indirim dönemi",
+          tur: "İndirim dönemi",
+          baslangic: "2026-11-11",
+          bitis: "2026-11-11",
+          yer: "Online",
+          aciklama: "Online platformlarda 11.11 kampanyalarıyla Kasım indirim dönemi başlıyor.",
+          en: {
+            ad: "11.11 and the November sales season",
+            tur: "Sales period",
+            yer: "Online",
+            aciklama: "The November sales season kicks off with 11.11 campaigns on online platforms."
+          }
+        },
+        {
+          ad: "Merkez Bankası Enflasyon Raporu",
+          tur: "Rapor günü",
+          baslangic: "2026-11-12",
+          bitis: "2026-11-12",
+          yer: "TCMB",
+          aciklama: "Yılın dördüncü Enflasyon Raporu; Merkez Bankası enflasyon tahminlerini güncelleyecek.",
+          url: "https://www.cnbce.com/faiz/turkiye-cumhuriyet-merkez-bankasi-2026-yili-para-politikasi-kurulu-ppk-toplantilari-ve-rapor-takvimini-acikladi-h22037",
+          en: {
+            ad: "Central Bank Inflation Report",
+            tur: "Report day",
+            yer: "CBRT",
+            aciklama: "The year's fourth Inflation Report; the Central Bank will update its inflation forecasts."
+          }
+        },
+        {
+          ad: "Kasım ayı tüketici güveni",
+          tur: "Veri günü",
+          baslangic: "2026-11-20",
+          bitis: "2026-11-20",
+          yer: "TÜİK",
+          aciklama: "Ekim'deki sert düşüşün ardından tüketici güveninin Kasım'da nasıl seyrettiği görülecek.",
+          url: "https://www.takvim.com.tr/ekonomi/2026/10/22/tuketici-guven-endeksi-ekim-2026-verileri",
+          en: {
+            ad: "November consumer confidence",
+            tur: "Data release",
+            yer: "TurkStat",
+            aciklama: "Shows how consumer confidence moved in November after October's sharp fall."
+          }
+        },
+        {
+          ad: "Black Friday",
+          tur: "İndirim dönemi",
+          baslangic: "2026-11-27",
+          bitis: "2026-11-27",
+          yer: "Küresel",
+          aciklama: "ABD'de Şükran Günü'nün ertesi günü; yılın en büyük indirim günlerinden.",
+          en: {
+            ad: "Black Friday",
+            tur: "Sales period",
+            yer: "Global",
+            aciklama: "The day after Thanksgiving in the US; one of the biggest discount days of the year."
+          }
+        },
+        {
+          ad: "Asgari Ücret Tespit Komisyonu",
+          tur: "Beklenen toplantı",
+          baslangic: "2026-12-01",
+          bitis: "2026-12-07",
+          yer: "Türkiye",
+          aciklama: "Komisyonun Aralık'ın ilk haftasında toplanması bekleniyor; kesin tarih henüz açıklanmadı.",
+          url: "https://sozcu.com.tr/asgari-ucret-buyuk-ihtimalle-bu-iki-rakam-arasinda-olacak-p369379",
+          en: {
+            ad: "Minimum Wage Determination Commission",
+            tur: "Expected meeting",
+            yer: "Türkiye",
+            aciklama: "The commission is expected to meet in the first week of December; the exact date has not been announced.",
+            tahminiMetin: "First week of December (estimated)"
+          },
+          tahmini: true,
+          tahminiMetin: "Aralık'ın ilk haftası (tahmini)"
+        },
+        {
+          ad: "Merkez Bankası faiz kararı",
+          tur: "Karar günü",
+          baslangic: "2026-12-10",
+          bitis: "2026-12-10",
+          yer: "TCMB",
+          aciklama: "Para Politikası Kurulu'nun yılın son toplantısı.",
+          url: "https://www.cnbce.com/faiz/turkiye-cumhuriyet-merkez-bankasi-2026-yili-para-politikasi-kurulu-ppk-toplantilari-ve-rapor-takvimini-acikladi-h22037",
+          en: {
+            ad: "Central Bank rate decision",
+            tur: "Decision day",
+            yer: "CBRT",
+            aciklama: "The Monetary Policy Committee's last meeting of the year."
+          }
+        },
+        {
+          ad: "NRF 2027: Retail's Big Show",
+          tur: "Konferans ve fuar",
+          baslangic: "2027-01-10",
+          bitis: "2027-01-12",
+          yer: "New York",
+          aciklama: "Perakende sektörünün dünyadaki en büyük etkinliklerinden.",
+          url: "https://nrfbigshow.nrf.com/",
+          en: {
+            ad: "NRF 2027: Retail's Big Show",
+            tur: "Conference and expo",
+            yer: "New York",
+            aciklama: "One of the largest retail industry events in the world."
+          }
+        }
+      ],
+      en: {
+        donem: "19–25 October 2026",
+        yayin: "25 October 2026",
+        sonraki: "Sunday, 1 November",
+        gundemNotu: "2 Türkiye, 3 global"
+      }
+    },
     {
       no: 1,
       donem: "12–18 Ekim 2026",
