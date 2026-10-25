@@ -81,8 +81,8 @@ window.BULTEN = {
       donem: "19–25 Ekim 2026",
       yayin: "25 Ekim 2026",
       sonraki: "1 Kasım Pazar",
-      okuma: 7,
-      gundemNotu: "2 Türkiye, 3 dünya",
+      okuma: 6,
+      gundemNotu: "2 Türkiye, 2 dünya",
       birDakika: [
         {
           baslik: "Tüketici güveni Ekim'de %7,7 düşüşle 84,8'e indi; Merkez Bankası politika faizini %37'den %36'ya indirdi; karar metninde iç talebin zayıf seyrettiği belirtildi.",
@@ -261,9 +261,9 @@ window.BULTEN = {
           tur: "Düzenleyici gelişme",
           baslik: "Reuters: Shein, ABD soruşturmasını 100 milyon dolarla kapatıyor",
           ozet: "Reuters'ın konuya doğrudan bilgisi olan bir kaynağa dayandırdığı habere göre Shein, ABD Federal Ticaret Komisyonu'nun (FTC) teslimat gecikmeleri ve diğer müşteri şikâyetleri üzerine yürüttüğü soruşturmayı kapatmak için 100 milyon dolar ödemeyi kabul etti. Shein, Reuters'a FTC ile \"yapıcı bir sonuca\" ulaştığını söyledi; FTC yorum yapmadı.",
-          ek: "Reuters'ın incelediği FTC kayıtlarına göre Ocak 2020–Haziran 2026 arasında toplam 11 milyon doları aşan alışverişlerle ilgili 12 binden fazla şikâyet yapıldı. Reuters'ın hesabına göre tutar, Shein'ın ikinci çeyrek kârının yaklaşık %44'üne denk geliyor. Reuters'a göre Shein hisseleri 1 Eylül'deki halka arz fiyatının %22 altında ve yatırımcıların odağında AB'nin düşük değerli paketlere getirdiği 3 euroluk vergi var. AB, 1 Kasım'dan itibaren 150 euronun altındaki paketlere 2 euroluk işlem ücreti de ekliyor.",
+          ek: "Reuters'ın incelediği FTC kayıtlarına göre Ocak 2020–Haziran 2026 arasında toplam 11 milyon doları aşan alışverişlerle ilgili 12 binden fazla şikâyet yapıldı. Reuters'ın hesabına göre tutar, Shein'ın ikinci çeyrek kârının yaklaşık %44'üne denk geliyor. Reuters'a göre Shein hisseleri 1 Eylül'deki halka arz fiyatının %22 altında ve yatırımcıların odağında AB'nin düşük değerli paketlere getirdiği 3 euroluk vergi var. Avrupa Komisyonu'na göre AB, 1 Temmuz'dan beri değeri 150 euroya kadar olan gönderilerde ürün başına 3 euro gümrük vergisi uyguluyor; 1 Kasım'dan itibaren buna 2 euroluk Birlik işlem ücreti de ekleniyor.",
           onemi: "Reuters'a göre Shein, ABD'de ve ardından Avrupa'da gümrük muafiyetlerinin kalkmasıyla fiyatlarını artırdı; yani ultra hızlı modanın fiyat avantajı daralıyor. Avrupa'ya online satış yapan markalar açısından fiyat rekabetinin nasıl değişeceği izlenecek bir soru. ABD'deki uzlaşma ise teslimat sözünün de denetlenen bir taahhüt olduğunu hatırlatıyor.",
-          not: "FTC: ABD'de tüketiciyi korumaktan ve rekabetten sorumlu federal kurum. Düşük değerli paket: AB'de değeri 150 euronun altındaki gönderi.",
+          not: "FTC: ABD'de tüketiciyi korumaktan ve rekabetten sorumlu federal kurum. Düşük değerli gönderi: AB'de değeri 150 euroya kadar olan gönderi.",
           kaynaklar: [
             {
               ad: "Investing.com (Reuters) · Shein-FTC uzlaşması",
@@ -278,10 +278,10 @@ window.BULTEN = {
               en: { ad: "Gulf Times (Reuters) · Complaint and EU fee details" }
             },
             {
-              ad: "Bandcamp · AB'nin 1 Kasım gümrük değişikliği",
-              url: "https://blog.bandcamp.com/2026/10/20/eu-customs-beginning-november-1-a-new-e2-handling-fee-and-product-ids/",
-              tip: "ikinci",
-              en: { ad: "Bandcamp · EU customs change on 1 November" }
+              ad: "Avrupa Komisyonu · AB gümrük reformu ve düşük değerli gönderiler",
+              url: "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en",
+              tip: "resmi",
+              en: { ad: "European Commission · EU customs reform and low-value consignments" }
             }
           ],
           en: {
@@ -290,9 +290,9 @@ window.BULTEN = {
             tur: "Regulatory development",
             baslik: "Reuters: Shein to settle US probe for $100 million",
             ozet: "According to Reuters, citing a source with direct knowledge, Shein has agreed to pay $100 million to settle a US Federal Trade Commission (FTC) investigation into delivery delays and other customer complaints. Shein told Reuters it had \"reached a constructive outcome with the FTC\"; the FTC declined to comment.",
-            ek: "According to FTC records reviewed by Reuters, more than 12,000 complaints were filed between January 2020 and June 2026 over purchases totalling more than $11 million. By Reuters' calculation, the amount equals about 44% of Shein's second-quarter profit. According to Reuters, Shein's shares are 22% below their 1 September listing price, with investors focused on the EU's €3 duty on low-value parcels. From 1 November the EU also adds a €2 handling fee on parcels worth less than €150.",
+            ek: "According to FTC records reviewed by Reuters, more than 12,000 complaints were filed between January 2020 and June 2026 over purchases totalling more than $11 million. By Reuters' calculation, the amount equals about 44% of Shein's second-quarter profit. According to Reuters, Shein's shares are 22% below their 1 September listing price, with investors focused on the EU's €3 duty on low-value parcels. According to the European Commission, since 1 July the EU has applied a €3 customs duty per item on consignments worth up to €150; from 1 November a €2 Union handling fee is added.",
             onemi: "According to Reuters, Shein raised prices after customs exemptions were removed in the US and then in Europe; in other words, ultra-fast fashion's price advantage is narrowing. How price competition will shift for brands selling online into Europe is a question to watch. The US settlement is also a reminder that delivery promises are commitments that regulators check.",
-            not: "FTC: the US federal agency responsible for consumer protection and competition. Low-value parcel: in the EU, a shipment worth less than €150."
+            not: "FTC: the US federal agency responsible for consumer protection and competition. Low-value consignment: in the EU, a shipment worth up to €150."
           }
         },
         {
@@ -365,42 +365,6 @@ window.BULTEN = {
             ek: "Under the company's new terms, agent purchases require customer approval by default; Walmart may ask for additional approval even within a limit, and customers can switch permissions off at any time. The company said agents see the same prices as on Walmart.com. The announcement also said Walmart Agent Gateway, which lets agents connect directly rather than navigating the website through a browser, will start as a limited beta for companies and developers.",
             onemi: "After Google's shared cart, covered in the last issue, a major retailer this week opened its doors to agents on its own terms. In Walmart's case, the retailer itself sets the limits and approval steps agents shop with. How these rules will affect customer trust and purchase decisions is an open question.",
             not: "AI agent: a software assistant that searches for and compares products on the user's behalf and, if permitted, completes the purchase steps. Beta: an early version of a new service tested with a limited group of users."
-          }
-        },
-        {
-          id: "h5",
-          kisa: "Gap işe alım",
-          kategori: "isgucu",
-          tarih: "22–23 Ekim",
-          tur: "Şirket duyurusu",
-          baslik: "Gap, sezonluk işe alımda AI asistanı kullanıyor",
-          ozet: "Gap Inc., yılbaşı sezonu işe alımında adaylara rol keşfi, başvuru ve mülakat planlama adımlarında yardım eden, yapay zekâ destekli \"Bridgette\" adlı sanal kariyer rehberini kullandığını açıkladı. Şirketin açıklamasına göre Haziran'dan bu yana yaklaşık 45 bin aday Bridgette ile etkileşime geçti; araç mağaza yöneticileri için 7 binden fazla mülakat planladı.",
-          ek: "Pilot uygulama 100'den fazla mağazayı ve altı bölgesel dağıtım merkezini kapsıyor. Şirket, yılbaşı için mağaza ve dağıtım merkezlerine yaklaşık 200 bin sezonluk iş başvurusu gelmesini bekliyor; kaç kişiyi işe alacağını açıklamadı. Araç Paradox tarafından geliştirildi ve Workday Recruiting ile entegre çalışıyor. Gap'in insan kaynaklarından sorumlu üst yöneticisi Amy Thompson, işe alımın hızlı ilerlediğini ama deneyimin yine de kişisel hissettirmesi gerektiğini söyledi.",
-          onemi: "Yoğun dönem öncesinde çok sayıda başvurunun kısa sürede değerlendirilmesi, mağaza yöneticileri için ek bir iş yükü. Gap örneği, yapay zekânın mağazada satışın yanı sıra işe alım gibi arka plandaki süreçlerde de kullanıldığını gösteriyor. Açıklama tek bir şirketin pilot uygulamasına dayanıyor ve işe alım süresine dair bir sonuç içermiyor.",
-          not: "Sanal kariyer rehberi: Adayın sorularını yanıtlayan, başvuru ve mülakat planlama gibi adımları yürüten sohbet tabanlı yazılım.",
-          kaynaklar: [
-            {
-              ad: "Gap Inc. · Resmî duyuru",
-              url: "https://www.gapinc.com/en-us/articles/2026/10/gap-inc-reimagines-holiday-hiring-with-ai-tools-to",
-              tip: "resmi",
-              en: { ad: "Gap Inc. · Official announcement" }
-            },
-            {
-              ad: "Yahoo Finance (WWD) · Gap'in AI destekli işe alımı",
-              url: "https://sg.finance.yahoo.com/news/gap-inc-gets-ai-assist-203656661.html",
-              tip: "ikinci",
-              en: { ad: "Yahoo Finance (WWD) · Gap's AI-assisted hiring" }
-            }
-          ],
-          en: {
-            kisa: "Gap hiring",
-            tarih: "22–23 Oct",
-            tur: "Company announcement",
-            baslik: "Gap uses an AI assistant for seasonal hiring",
-            ozet: "Gap Inc. said it is using \"Bridgette\", an AI-enabled virtual career guide that helps candidates explore roles, apply and schedule interviews, for holiday-season hiring. According to the company, nearly 45,000 candidates have engaged with Bridgette since June, and the tool has scheduled more than 7,000 interviews for store leaders.",
-            ek: "The pilot covers more than 100 stores and six regional distribution centres. The company expects about 200,000 seasonal job applications at its stores and distribution centres for the holidays; it did not say how many people it will hire. The tool was built by Paradox and integrates with Workday Recruiting. Amy Thompson, Gap's chief people officer, said holiday hiring moves quickly but the experience should still feel personal.",
-            onemi: "Reviewing large numbers of applications in a short time before the peak season adds to store managers' workload. The Gap example shows AI being used not only in selling but also in back-office processes such as hiring. The announcement is based on a single company's pilot and gives no results on time-to-hire.",
-            not: "Virtual career guide: chat-based software that answers candidates' questions and handles steps such as applications and interview scheduling."
           }
         }
       ],
@@ -521,13 +485,13 @@ window.BULTEN = {
           baslangic: "2026-11-01",
           bitis: "2026-11-01",
           yer: "Avrupa Birliği",
-          aciklama: "AB dışından gelen, değeri 150 euronun altındaki paketlere 3 euroluk gümrük vergisine ek olarak 2 euroluk işlem ücreti uygulanmaya başlıyor.",
-          url: "https://blog.bandcamp.com/2026/10/20/eu-customs-beginning-november-1-a-new-e2-handling-fee-and-product-ids/",
+          aciklama: "Değeri 150 euroya kadar olan gönderilerde, 1 Temmuz'dan beri uygulanan ürün başına 3 euroluk gümrük vergisine ek olarak 2 euroluk Birlik işlem ücreti uygulanmaya başlıyor.",
+          url: "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en",
           en: {
             ad: "New EU fee on low-value parcels",
             tur: "Regulation",
             yer: "European Union",
-            aciklama: "A €2 handling fee starts to apply, on top of the €3 customs duty, to parcels worth less than €150 entering the EU from outside."
+            aciklama: "A €2 Union handling fee starts to apply to consignments worth up to €150, on top of the €3 per-item customs duty in place since 1 July."
           }
         },
         {
@@ -546,6 +510,38 @@ window.BULTEN = {
           }
         },
         {
+          ad: "Primark'ın sahibi ABF'nin yıllık sonuçları",
+          tur: "Rakip sonuçları",
+          baslangic: "2026-11-03",
+          bitis: "2026-11-03",
+          yer: "Londra",
+          aciklama: "Associated British Foods (ABF), Primark'ın da yer aldığı 2026 mali yılı sonuçlarını açıklayacak; şirketin finans takviminde yer alan tarih.",
+          url: "https://www.abf.co.uk/investors/financial-calendar",
+          en: {
+            ad: "Annual results of Primark owner ABF",
+            tur: "Competitor results",
+            yer: "London",
+            aciklama: "Associated British Foods (ABF) will publish its 2026 financial year results, including Primark; date from the company's financial calendar."
+          }
+        },
+        {
+          ad: "Eylül ayı perakende satışları",
+          tur: "Veri günü",
+          baslangic: "2026-11-09",
+          bitis: "2026-11-13",
+          yer: "TÜİK",
+          aciklama: "TÜİK Eylül ayı perakende satış verilerini açıklayacak; tekstil, giyim ve ayakkabı satış hacmindeki seyir görülecek. Ağustos verisi 12 Ekim'de açıklanmıştı; kesin tarih doğrulanamadı.",
+          en: {
+            ad: "September retail sales",
+            tur: "Data release",
+            yer: "TurkStat",
+            aciklama: "TurkStat will publish September retail sales, showing the trend in textiles, clothing and footwear sales volume. August data was published on 12 Oct; the exact date could not be verified.",
+            tahminiMetin: "Second week of November (estimated)"
+          },
+          tahmini: true,
+          tahminiMetin: "Kasım'ın ikinci haftası (tahmini)"
+        },
+        {
           ad: "11.11 ile Kasım indirim dönemi",
           tur: "İndirim dönemi",
           baslangic: "2026-11-11",
@@ -557,36 +553,6 @@ window.BULTEN = {
             tur: "Sales period",
             yer: "Online",
             aciklama: "The November sales season kicks off with 11.11 campaigns on online platforms."
-          }
-        },
-        {
-          ad: "Merkez Bankası Enflasyon Raporu",
-          tur: "Rapor günü",
-          baslangic: "2026-11-12",
-          bitis: "2026-11-12",
-          yer: "TCMB",
-          aciklama: "Yılın dördüncü Enflasyon Raporu; Merkez Bankası enflasyon tahminlerini güncelleyecek.",
-          url: "https://www.cnbce.com/faiz/turkiye-cumhuriyet-merkez-bankasi-2026-yili-para-politikasi-kurulu-ppk-toplantilari-ve-rapor-takvimini-acikladi-h22037",
-          en: {
-            ad: "Central Bank Inflation Report",
-            tur: "Report day",
-            yer: "CBRT",
-            aciklama: "The year's fourth Inflation Report; the Central Bank will update its inflation forecasts."
-          }
-        },
-        {
-          ad: "Kasım ayı tüketici güveni",
-          tur: "Veri günü",
-          baslangic: "2026-11-20",
-          bitis: "2026-11-20",
-          yer: "TÜİK",
-          aciklama: "Ekim'deki sert düşüşün ardından tüketici güveninin Kasım'da nasıl seyrettiği görülecek.",
-          url: "https://www.takvim.com.tr/ekonomi/2026/10/22/tuketici-guven-endeksi-ekim-2026-verileri",
-          en: {
-            ad: "November consumer confidence",
-            tur: "Data release",
-            yer: "TurkStat",
-            aciklama: "Shows how consumer confidence moved in November after October's sharp fall."
           }
         },
         {
@@ -622,41 +588,29 @@ window.BULTEN = {
           tahminiMetin: "Aralık'ın ilk haftası (tahmini)"
         },
         {
-          ad: "Merkez Bankası faiz kararı",
-          tur: "Karar günü",
-          baslangic: "2026-12-10",
-          bitis: "2026-12-10",
-          yer: "TCMB",
-          aciklama: "Para Politikası Kurulu'nun yılın son toplantısı.",
-          url: "https://www.cnbce.com/faiz/turkiye-cumhuriyet-merkez-bankasi-2026-yili-para-politikasi-kurulu-ppk-toplantilari-ve-rapor-takvimini-acikladi-h22037",
+          ad: "Inditex 9 aylık sonuçları",
+          tur: "Rakip sonuçları",
+          baslangic: "2026-12-02",
+          bitis: "2026-12-02",
+          yer: "Arteixo",
+          aciklama: "Zara'nın sahibi Inditex, Şubat–Ekim dönemi sonuçlarını açıklayacak. Tarih piyasa takviminden; şirket henüz teyit etmedi.",
+          url: "https://www.marketscreener.com/quote/stock/INDITEX-46535998/calendar/",
           en: {
-            ad: "Central Bank rate decision",
-            tur: "Decision day",
-            yer: "CBRT",
-            aciklama: "The Monetary Policy Committee's last meeting of the year."
-          }
-        },
-        {
-          ad: "NRF 2027: Retail's Big Show",
-          tur: "Konferans ve fuar",
-          baslangic: "2027-01-10",
-          bitis: "2027-01-12",
-          yer: "New York",
-          aciklama: "Perakende sektörünün dünyadaki en büyük etkinliklerinden.",
-          url: "https://nrfbigshow.nrf.com/",
-          en: {
-            ad: "NRF 2027: Retail's Big Show",
-            tur: "Conference and expo",
-            yer: "New York",
-            aciklama: "One of the largest retail industry events in the world."
-          }
+            ad: "Inditex nine-month results",
+            tur: "Competitor results",
+            yer: "Arteixo",
+            aciklama: "Zara owner Inditex will publish its February–October results. Date from a market calendar; not yet confirmed by the company.",
+            tahminiMetin: "2 December (estimated)"
+          },
+          tahmini: true,
+          tahminiMetin: "2 Aralık (tahmini)"
         }
       ],
       en: {
         donem: "19–25 October 2026",
         yayin: "25 October 2026",
         sonraki: "Sunday, 1 November",
-        gundemNotu: "2 Türkiye, 3 global"
+        gundemNotu: "2 Türkiye, 2 global"
       }
     },
     {
