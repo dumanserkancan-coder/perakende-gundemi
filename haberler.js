@@ -510,21 +510,6 @@ window.BULTEN = {
           }
         },
         {
-          ad: "Primark'ın sahibi ABF'nin yıllık sonuçları",
-          tur: "Rakip sonuçları",
-          baslangic: "2026-11-03",
-          bitis: "2026-11-03",
-          yer: "Londra",
-          aciklama: "Associated British Foods (ABF), Primark'ın da yer aldığı 2026 mali yılı sonuçlarını açıklayacak; şirketin finans takviminde yer alan tarih.",
-          url: "https://www.abf.co.uk/investors/financial-calendar",
-          en: {
-            ad: "Annual results of Primark owner ABF",
-            tur: "Competitor results",
-            yer: "London",
-            aciklama: "Associated British Foods (ABF) will publish its 2026 financial year results, including Primark; date from the company's financial calendar."
-          }
-        },
-        {
           ad: "Eylül ayı perakende satışları",
           tur: "Veri günü",
           baslangic: "2026-11-09",
