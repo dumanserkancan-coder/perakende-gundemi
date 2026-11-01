@@ -70,12 +70,477 @@ window.BULTEN = {
   },
   yeni: [],
   siradaki: {
-    no: 3,
-    donem: "26 Ekim – 1 Kasım 2026",
-    yayin: "1 Kasım Pazar",
-    en: { donem: "26 October – 1 November 2026", yayin: "Sunday, 1 November" }
+    no: 4,
+    donem: "2–8 Kasım 2026",
+    yayin: "8 Kasım Pazar",
+    en: { donem: "2–8 November 2026", yayin: "Sunday, 8 November" }
   },
   sayilar: [
+    {
+      no: 3,
+      donem: "26 Ekim – 1 Kasım 2026",
+      yayin: "1 Kasım 2026",
+      sonraki: "8 Kasım Pazar",
+      okuma: 6,
+      gundemNotu: "1 Türkiye, 2 dünya",
+      birDakika: [
+        {
+          baslik: "Ticaret Bakanlığı Kasım indirim reklamlarını mecra ayrımı gözetmeden takibe aldı; indirimden önceki fiyatın son 10 günün en düşük fiyatı olması kuralı denetimin merkezinde.",
+          anlam: "Kasım, 1 Ağustos'ta yürürlüğe giren kurallarla girilen ilk büyük indirim dönemlerinden; Bakanlığa göre aykırılıkta 99.339 TL ile 39.916.524 TL arasında idari para cezası uygulanabiliyor.",
+          ref: "ana",
+          en: {
+            baslik: "The Ministry of Trade is monitoring November discount ads across all channels; the rule that the pre-discount price must be the lowest price of the previous 10 days is at the centre of the checks.",
+            anlam: "November is one of the first major sales periods under the rules in force since 1 August; according to the ministry, violations can draw administrative fines of between ₺99,339 and ₺39,916,524."
+          }
+        },
+        {
+          baslik: "İşsizlik oranı Eylül'de 0,5 puan artarak %8,4'e çıktı; işsiz sayısı bir ayda 198 bin arttı.",
+          anlam: "Bloomberg HT'ye göre oran Şubat'tan bu yana en yüksek seviyede; aynı hafta açıklanan ekonomik güven endeksi de 100'ün altına indi.",
+          ref: "h1",
+          en: {
+            baslik: "The unemployment rate rose 0.5 points to 8.4% in September; the number of unemployed rose by 198,000 in a month.",
+            anlam: "According to Bloomberg HT, the rate is at its highest since February; the economic confidence index, published the same week, also fell below 100."
+          }
+        },
+        {
+          baslik: "Adidas üçüncü çeyrekte rekor gelir açıkladı, Puma'nın satışları kur etkisinden arındırılmış olarak %6,3 düştü; Puma, Avrupa'daki talebin durgun seyrettiğini belirtti.",
+          anlam: "Aynı kategoride iki büyük oyuncu arasında belirgin bir ayrışma var; iki şirkette de kendi mağaza ve online kanalları toptan satıştan daha iyi seyretti.",
+          ref: "h2",
+          en: {
+            baslik: "Adidas reported record third-quarter revenue, while Puma's sales fell 6.3% currency-adjusted; Puma said demand in Europe was subdued.",
+            anlam: "There is a clear divergence between two major players in the same category; at both companies, their own stores and online channels performed better than wholesale."
+          }
+        }
+      ],
+      ana: {
+        id: "ana",
+        kisa: "Kasım indirimleri",
+        kategori: "tr",
+        tarih: "28 Ekim",
+        tur: "Düzenleyici açıklama",
+        okumaSuresi: 2,
+        baslik: "Kasım indirimleri Ticaret Bakanlığı'nın yakın takibinde",
+        ozet: "Ticaret Bakanlığı, Kasım ayı boyunca indirimli satış reklamlarının \"mecra ayrımı gözetilmeksizin\" yakından takip edileceğini açıkladı. Bakanlığa göre mevzuata aykırı bulunan reklamlar için ihlalin niteliğine göre 99.339 TL ile 39.916.524 TL arasında idari para cezası uygulanabiliyor. Açıklamada, indirimli satış reklamlarına ilişkin kuralların 1 Ağustos 2026'da yürürlüğe giren mevzuat değişikliğiyle güncellendiği hatırlatıldı.",
+        ek: "Haberlere göre değişiklik, 1 Temmuz 2026 tarihli Resmî Gazete'de yayımlanan Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği değişikliğiyle yapıldı. Tüketiciler şikâyetlerini Reklam Kurulu'na iletebiliyor.",
+        onemi: "Kasım, yeni kurallarla girilen ilk büyük indirim dönemlerinden. Denetimin odağı indirim oranının kendisinden çok, indirimden önceki fiyatın nasıl belirlendiği, kampanya tarihlerinin ve koşullarının nasıl gösterildiği. Mağaza, web sitesi ve pazaryerinde aynı anda yürüyen kampanyalarda fiyat geçmişinin ve koşulların tutarlı görünmesi bu sezonun belirgin bir sorusu.",
+        bolumler: [
+          {
+            baslik: "Bakanlığın saydığı aykırılık örnekleri",
+            maddeler: [
+              "İndirim başlangıç tarihinden önceki on gün içinde uygulanan en düşük fiyatın esas alınmaması",
+              "Gerçekte olmayan bir indirimin varmış gibi sunulması",
+              "Kampanyanın başlangıç ve bitiş tarihlerinin belirtilmemesi",
+              "\"%70 + %10 + %5\" gibi birden fazla indirim oranının kullanılması",
+              "Sadakat programı ve şartlı satış reklamlarına ilişkin kurallara uyulmaması",
+              "Reklamdaki ana vaat ile istisnalar arasında uyumsuzluk; koşulların gizlenmesi ya da zor bulunur olması"
+            ]
+          },
+          {
+            baslik: "1 Ağustos'tan bu yana geçerli kurallar",
+            maddeler: [
+              "İndirimden önceki fiyat olarak, indirimin başlangıç tarihinden önceki son on gün içinde uygulanan en düşük fiyat, üzeri çizilerek gösterilebiliyor.",
+              "İndirim ya da başka bir faydayı bir şarta bağlayan şartlı satış reklamları da indirimli satış kurallarına tabi.",
+              "Ceza aralığı: 99.339 TL ile 39.916.524 TL; tutar ihlalin niteliğine ve reklamın yayımlandığı mecraya göre belirleniyor."
+            ]
+          }
+        ],
+        not: "İdari para cezası: Mahkeme kararı olmadan, ilgili kurumun (burada Reklam Kurulu) verdiği para cezası. Şartlı satış: İndirimin bir koşula bağlandığı satış (örneğin belirli bir tutarın üzerindeki alışverişe indirim).",
+        kapak: {
+          gorsel: "kapak-sayi3.jpg",
+          gorselAciklama: "Üzerindeki bir satırı çizilmiş pembe bir fiyat etiketi, arkasında yeşil bir etiket, etiketi inceleyen sarı bir büyüteç ve bir günü vurgulanmış takvim yaprağı",
+          en: { gorselAciklama: "A pink price tag with one line struck through, a green tag behind it, a yellow magnifying glass examining the tag and a calendar page with one day highlighted" }
+        },
+        kaynaklar: [
+          {
+            ad: "Ticaret Bakanlığı · Kasım ayı indirim kampanyaları duyurusu",
+            url: "https://ticaret.gov.tr/haberler/kasim-ayi-indirim-kampanyalari-ticaret-bakanliginin-yakin-takibinde",
+            tip: "resmi",
+            en: { ad: "Ministry of Trade · November sales campaigns announcement" }
+          },
+          {
+            ad: "GZT (Anadolu Ajansı) · Kasım indirimlerine denetim",
+            url: "https://www.gzt.com/gundem/efsane-cuma-ve-kasim-indirimleri-icin-siki-denetim-supheli-indirimi-tespit-eden-cezasini-odeyecek-4273454",
+            tip: "ikinci",
+            en: { ad: "GZT (Anadolu Agency) · Checks on November sales" }
+          },
+          {
+            ad: "NTV · 1 Ağustos'ta yürürlüğe giren reklam kuralları",
+            url: "https://www.ntv.com.tr/ntvpara/influencer-yapay-zeka-ve-indirimlere-1-agustos-freni-1734728",
+            tip: "ikinci",
+            en: { ad: "NTV · Advertising rules in force since 1 August" }
+          }
+        ],
+        en: {
+          kisa: "November sales",
+          tarih: "28 Oct",
+          tur: "Regulatory statement",
+          baslik: "November sales under close watch by the Ministry of Trade",
+          ozet: "The Ministry of Trade announced that discount advertising will be closely monitored throughout November \"regardless of channel\". According to the ministry, advertisements found to breach the rules can draw administrative fines of between ₺99,339 and ₺39,916,524, depending on the nature of the violation. The statement noted that the rules on discount advertising were updated by a regulatory change that took effect on 1 August 2026.",
+          ek: "According to reports, the change was made through an amendment to the Regulation on Commercial Advertising and Unfair Commercial Practices published in the Official Gazette on 1 July 2026. Consumers can file complaints with the Advertising Board.",
+          onemi: "November is one of the first major sales periods under the new rules. The focus of the checks is less the size of the discount than how the pre-discount price is set and how campaign dates and conditions are shown. Whether price histories and conditions look consistent across campaigns running at the same time in stores, on websites and on marketplaces is a clear question for this season.",
+          bolumler: [
+            {
+              baslik: "Examples of violations listed by the ministry",
+              maddeler: [
+                "Not using the lowest price applied in the ten days before the discount start date as the reference",
+                "Presenting a discount that does not actually exist",
+                "Not stating the campaign's start and end dates",
+                "Using multiple discount rates such as \"70% + 10% + 5%\"",
+                "Not following the rules on loyalty programme and conditional-sale advertising",
+                "A mismatch between the ad's main promise and its exceptions; hidden or hard-to-find conditions"
+              ]
+            },
+            {
+              baslik: "Rules in force since 1 August",
+              maddeler: [
+                "The lowest price applied in the last ten days before the discount start date can be shown, struck through, as the pre-discount price.",
+                "Conditional-sale ads that tie a discount or other benefit to a condition are also subject to the discount advertising rules.",
+                "Fine range: ₺99,339 to ₺39,916,524; the amount depends on the nature of the violation and the channel in which the ad was published."
+              ]
+            }
+          ],
+          not: "Administrative fine: a fine imposed by the relevant authority (here the Advertising Board) without a court ruling. Conditional sale: a sale where the discount depends on a condition (for example a discount on purchases above a certain amount)."
+        }
+      },
+      haberler: [
+        {
+          id: "h1",
+          kisa: "İşsizlik",
+          kategori: "isgucu",
+          tarih: "27 Ekim",
+          tur: "Resmî veri",
+          baslik: "İşsizlik Eylül'de %8,4'e yükseldi",
+          ozet: "TÜİK'in mevsim etkisinden arındırılmış verilerine göre işsizlik oranı Eylül 2026'da bir önceki aya göre 0,5 puan artarak %8,4 oldu. İşsiz sayısı bir ayda 198 bin kişi artarak 2 milyon 967 bine çıktı; istihdam 49 bin kişi azalarak 32 milyon 445 bine indi. İstihdam oranı 0,1 puan düşüşle %48,3 oldu.",
+          ek: "15–24 yaş grubunda işsizlik oranı bir önceki aya göre 1,6 puan artarak %14,8'e çıktı. Bloomberg HT'ye göre işsizlik oranı Şubat'tan bu yana en yüksek seviyede.",
+          onemi: "İşgücü arzı artarken özellikle gençlerde işsizliğin bir ayda hızla yükselmesi dikkat çekici. Aynı tablo, Kasım ve yılbaşı sezonuna girerken hanelerin harcama gücüne dair temkinli bir işaret. Tek aylık bir veri olduğu için eğilimin kalıcı olup olmadığı önümüzdeki aylarda netleşecek.",
+          not: "Mevsim etkisinden arındırılmış: Her yıl aynı dönemlerde tekrarlanan dalgalanmaların (tatil, hasat gibi) çıkarıldığı veri.",
+          kaynaklar: [
+            {
+              ad: "Strateji ve Bütçe Başkanlığı · Eylül 2026 işgücü piyasası gelişmeleri",
+              url: "https://www.sbb.gov.tr/2026-yili-eylul-ayi-isgucu-piyasasi-gelismeleri/",
+              tip: "resmi",
+              en: { ad: "Presidency of Strategy and Budget · September 2026 labour market developments" }
+            },
+            {
+              ad: "Forbes Türkiye · TÜİK Eylül işgücü verileri",
+              url: "https://www.forbes.com.tr/haberler/tuik-eylul-2026-issizlik-oranlari-issizlik-yuzde-8-4-e-yukseldi",
+              tip: "ikinci",
+              en: { ad: "Forbes Türkiye · TurkStat September labour data" }
+            },
+            {
+              ad: "Bloomberg HT · Şubat'tan bu yana en yüksek seviye",
+              url: "https://www.bloomberght.com/issizlik-yedi-ayin-zirvesinde-3792634",
+              tip: "ikinci",
+              en: { ad: "Bloomberg HT · Highest level since February" }
+            }
+          ],
+          en: {
+            kisa: "Unemployment",
+            tarih: "27 Oct",
+            tur: "Official data",
+            baslik: "Unemployment rose to 8.4% in September",
+            ozet: "According to TurkStat's seasonally adjusted data, the unemployment rate rose 0.5 points month on month to 8.4% in September 2026. The number of unemployed rose by 198,000 in a month to 2,967,000; employment fell by 49,000 to 32,445,000. The employment rate fell 0.1 points to 48.3%.",
+            ek: "Unemployment among 15–24-year-olds rose 1.6 points month on month to 14.8%. According to Bloomberg HT, the unemployment rate is at its highest since February.",
+            onemi: "As labour supply grows, the rapid one-month rise in youth unemployment in particular is notable. The same picture is a cautious signal for household spending power heading into the November and year-end season. As this is a single month of data, whether the trend persists will become clearer in the coming months.",
+            not: "Seasonally adjusted: data with recurring fluctuations at the same time each year (holidays, harvests, etc.) removed."
+          }
+        },
+        {
+          id: "h2",
+          kisa: "Adidas ve Puma",
+          kategori: "moda",
+          tarih: "29–30 Ekim",
+          tur: "Şirket sonuçları",
+          baslik: "Adidas'ta rekor çeyrek, Puma'da satışlar geriledi",
+          ozet: "Adidas, Temmuz–Eylül döneminde gelirlerinin %9 artışla 7,25 milyar euroya ulaştığını açıkladı (kur etkisinden arındırılmış artış %7); faaliyet kârı %37 artışla 1,008 milyar euro oldu. Puma'nın aynı dönemdeki satışları ise kur etkisinden arındırılmış olarak %6,3 azalarak 1,776 milyar euroya geriledi (euro bazında düşüş %5).",
+          ek: "Adidas'ın açıklamasına göre giyim satışları kur etkisinden arındırılmış olarak %19 arttı; şirket yıllık faaliyet kârı beklentisini yaklaşık 2,3 milyar eurodan yaklaşık 2,5 milyar euroya yükseltti. Adidas, Avrupa'da gelirlerin %4 gerilemesini toptan satışta izlediği temkinli sevkiyat politikasına ve teslimatların bir kısmının dördüncü çeyreğe kaymasına bağladı. Puma'da Avrupa, Orta Doğu ve Afrika (EMEA) satışları kur etkisinden arındırılmış olarak %11,5 geriledi; şirket Avrupa'daki talebin, Orta Doğu'daki çatışmanın yayılan etkileri nedeniyle durgun seyrettiğini belirtti.",
+          onemi: "İki şirkette de kendi mağaza ve online kanalları toptan satıştan daha iyi seyretti: Adidas'ta doğrudan tüketiciye satışlar %17 artarken toptan satış %2 arttı, Puma'da doğrudan satışlar %1,2 artarken toptan satış %9,6 geriledi. Avrupa'da ise Puma talep zayıflığına işaret ederken Adidas düşüşü kendi sevkiyat kararına bağladı. Aynı kategoride iki büyük oyuncu arasındaki bu ayrışma, marka gücünün zayıf talep ortamında ne ölçüde fark yarattığı sorusunu öne çıkarıyor.",
+          not: "Kur etkisinden arındırılmış: Döviz kurlarındaki değişimin etkisi çıkarılarak hesaplanan büyüme. Toptan satış: Ürünlerin başka perakendecilere (mağaza zincirleri, pazaryerleri) satılması. Doğrudan tüketiciye satış (DTC): Markanın kendi mağazaları ve online kanalları üzerinden yaptığı satış.",
+          kaynaklar: [
+            {
+              ad: "Adidas · Üçüncü çeyrek sonuçları (resmî duyuru)",
+              url: "https://www.adidas-group.com/en/media/press-releases/adidas-achieves-record-results-in-the-third-quarter-of-2026-and-increases-full-year-profit-outlook",
+              tip: "resmi",
+              en: { ad: "Adidas · Third-quarter results (official release)" }
+            },
+            {
+              ad: "Puma · Üçüncü çeyrek sonuçları (resmî duyuru, EQS)",
+              url: "https://www.tradingview.com/news/eqs:3bc9f41a5094b:0-puma-q3-2026-sales-performance-improves-sequentially-fy-2026-outlook-updated/",
+              tip: "resmi",
+              en: { ad: "Puma · Third-quarter results (official release, EQS)" }
+            },
+            {
+              ad: "TheIndustry.fashion · Puma'nın üçüncü çeyreği",
+              url: "https://www.theindustry.fashion/puma-narrows-annual-loss-forecast-as-q3-sales-fall-5/",
+              tip: "ikinci",
+              en: { ad: "TheIndustry.fashion · Puma's third quarter" }
+            }
+          ],
+          en: {
+            kisa: "Adidas and Puma",
+            tarih: "29–30 Oct",
+            tur: "Company results",
+            baslik: "Record quarter at Adidas, sales decline at Puma",
+            ozet: "Adidas reported that revenues rose 9% to €7.25 billion in July–September (up 7% currency-neutral); operating profit rose 37% to €1.008 billion. Puma's sales in the same period fell 6.3% currency-adjusted to €1.776 billion (down 5% in euro terms).",
+            ek: "According to Adidas, apparel sales rose 19% currency-neutral; the company raised its full-year operating profit outlook from around €2.3 billion to around €2.5 billion. Adidas attributed the 4% decline in revenues in Europe to its conservative sell-in approach in wholesale and to some deliveries shifting into the fourth quarter. At Puma, sales in Europe, the Middle East and Africa (EMEA) fell 11.5% currency-adjusted; the company said demand in Europe was subdued amid spillover effects from the conflict in the Middle East.",
+            onemi: "At both companies, their own stores and online channels performed better than wholesale: at Adidas, direct-to-consumer sales rose 17% while wholesale rose 2%; at Puma, direct sales rose 1.2% while wholesale fell 9.6%. In Europe, Puma pointed to weak demand, while Adidas attributed the decline to its own sell-in decision. This divergence between two major players in the same category raises the question of how much brand strength makes a difference in a weak demand environment.",
+            not: "Currency-adjusted / currency-neutral: growth calculated excluding the effect of exchange-rate changes. Wholesale: selling products to other retailers (store chains, marketplaces). Direct-to-consumer (DTC): sales through the brand's own stores and online channels."
+          }
+        },
+        {
+          id: "h3",
+          kisa: "AB ve Temu",
+          kategori: "eticaret",
+          tarih: "26 Ekim",
+          tur: "Düzenleyici karar",
+          baslik: "AB, Temu'nun yasa dışı ürün eylem planını kabul etti",
+          ozet: "Avrupa Komisyonu, Dijital Hizmetler Yasası (DSA) kapsamındaki ihlali gidermek için Temu'nun sunduğu eylem planını kabul ettiğini açıkladı. Plan, platformda yasa dışı ürünlerin bulunmasıyla mücadeleye yönelik beş önlemden oluşuyor. Temu'nun, 30 Kasım 2026'ya kadarki altı aylık dönemi kapsayan ara risk değerlendirmesini yapmak için dört ayı var.",
+          ek: "Eylem planı, Komisyon'un Mayıs 2026'da Temu'nun risk değerlendirme yükümlülüklerini yerine getirmediğini tespit ederek verdiği 200 milyon euroluk cezanın ardından geldi.",
+          onemi: "Avrupa Komisyonu, ultra ucuz pazaryerlerinden platformda satılan ürünler için ölçülebilir önlem istiyor. Geçen hafta yer alan düşük değerli paket ücretleriyle birlikte bu, söz konusu platformların Avrupa'daki faaliyet koşullarını ağırlaştıran bir başka adım.",
+          not: "Dijital Hizmetler Yasası (DSA): AB'de çevrim içi platformların yasa dışı içerik ve ürünlere karşı yükümlülüklerini düzenleyen yasa. Öneri sistemi: Platformun kullanıcıya hangi ürünü göstereceğini seçen algoritma.",
+          kaynaklar: [
+            {
+              ad: "Avrupa Komisyonu · Temu eylem planının kabulü",
+              url: "https://digital-strategy.ec.europa.eu/en/news/commission-accepts-temus-action-plan-remedy-breach-digital-services-act",
+              tip: "resmi",
+              en: { ad: "European Commission · Acceptance of Temu's action plan" }
+            },
+            {
+              ad: "The Brussels Times · AB'nin Temu kararı",
+              url: "https://www.brusselstimes.com/eu-affairs/2378864/eu-forces-temu-to-act-after-e200m-fine-under-european-digital-law",
+              tip: "ikinci",
+              en: { ad: "The Brussels Times · EU decision on Temu" }
+            }
+          ],
+          en: {
+            kisa: "EU and Temu",
+            tarih: "26 Oct",
+            tur: "Regulatory decision",
+            baslik: "EU accepts Temu's action plan on illegal products",
+            ozet: "The European Commission announced that it has accepted the action plan Temu submitted to remedy its breach of the Digital Services Act (DSA). The plan consists of five measures to tackle the availability of illegal products on the platform. Temu has four months to carry out an interim risk assessment covering a six-month period until 30 November 2026.",
+            ek: "The action plan follows the €200 million fine the Commission imposed in May 2026 after finding that Temu had failed to meet its risk assessment obligations.",
+            onemi: "The European Commission is requiring ultra-low-cost marketplaces to take measurable steps on the products sold on their platforms. Together with the low-value parcel fees covered last week, this is another step tightening the conditions under which these platforms operate in Europe.",
+            not: "Digital Services Act (DSA): the EU law setting out online platforms' obligations regarding illegal content and products. Recommender system: the algorithm that chooses which products a platform shows to the user."
+          }
+        }
+      ],
+      sinyal: {
+        baslik: "Kasım'a temkinli talep ve sıkı kurallarla giriliyor",
+        metin: "Bu haftanın Türkiye verileri Kasım sezonuna temkinli bir tablo çiziyor: işsizlik yükseldi, ekonomik güven 100'ün altına indi ve perakendecilerin önümüzdeki üç aya dair satış beklentisi de geriledi. Aynı hafta Ticaret Bakanlığı, indirim reklamlarını Kasım boyunca izleyeceğini duyurdu. Talebin zayıf seyrettiği bir dönemde indirimler daha çok öne çıkarken, bu indirimlerin yeni kurallara göre doğrulanabilir olması da aynı ölçüde önem kazanıyor.",
+        dayanak: ["ana", "h1", "veri"],
+        en: {
+          baslik: "November begins with cautious demand and strict rules",
+          metin: "This week's Turkish data paint a cautious picture for the November season: unemployment rose, economic confidence fell below 100, and retailers' sales expectations for the next three months also declined. In the same week, the Ministry of Trade announced it will monitor discount ads throughout November. At a time of weak demand, as discounts become more prominent, it matters just as much that those discounts can be verified under the new rules."
+        }
+      },
+      veri: {
+        id: "veri",
+        kisa: "Güven endeksleri",
+        kategori: "tr",
+        tarih: "26 ve 30 Ekim",
+        tur: "Resmî veri",
+        deger: "97,3",
+        baslik: "Ekonomik güven 100'ün altına indi, perakende güveni arttı",
+        metin: "TÜİK verilerine göre ekonomik güven endeksi Ekim'de bir önceki aya göre %3,9 azalarak 101,3'ten 97,3'e geriledi. Alt endekslerde en sert düşüş tüketici güveninde görüldü; perakende ticaret güven endeksi ise aynı ay %1,1 artışla 112,5'e yükseldi.",
+        karsilastirma: [
+          { etiket: "Perakende ticaret güveni", deger: 1.1, en: { etiket: "Retail trade confidence" } },
+          { etiket: "İnşaat güveni", deger: 0.4, en: { etiket: "Construction confidence" } },
+          { etiket: "Reel kesim güveni", deger: -1.4, en: { etiket: "Real sector confidence" } },
+          { etiket: "Hizmet güveni", deger: -2.4, en: { etiket: "Services confidence" } },
+          { etiket: "Ekonomik güven endeksi", deger: -3.9, vurgu: true, en: { etiket: "Economic confidence index" } },
+          { etiket: "Tüketici güveni", deger: -7.7, en: { etiket: "Consumer confidence" } }
+        ],
+        olcek: 10,
+        orneklem: "Aylık değişim (%), Ekim 2026 · Sektörel güven 26 Ekim'de, ekonomik güven 30 Ekim'de açıklandı; tüketici güveni 22 Ekim'de açıklanmıştı (geçen sayının ana gelişmesi)",
+        ozet: "TÜİK'in Ekim 2026 güven endekslerinden öne çıkanlar (mevsim etkisinden arındırılmış; tüketici güveninde mevsim etkisi yok):",
+        maddeler: [
+          "Ekonomik güven endeksi: 97,3 (Eylül: 101,3), %3,9 düşüş.",
+          "Tüketici güveni: 84,8 (Eylül: 91,9), %7,7 düşüş.",
+          "Reel kesim güveni: 101,1 (Eylül: 102,5), %1,4 düşüş.",
+          "Hizmet güveni: 109,2 (Eylül: 111,9), %2,4 düşüş.",
+          "Perakende ticaret güveni: 112,5 (Eylül: 111,3), %1,1 artış. Alt endekslerde son üç aydaki iş hacmi-satışlar %6,2 ve mevcut stok seviyesi %1,2 artarken, gelecek üç aya dair iş hacmi-satış beklentisi %3,4 düştü.",
+          "İnşaat güveni: 83,3 (Eylül: 83,0), %0,4 artış."
+        ],
+        onemi: "Perakende güvenindeki artışı son üç ayın satışları sürükledi; perakendecilerin önümüzdeki üç aya dair satış beklentisi ise geriledi. Tüketici güveninin de bir ayda belirgin biçimde düşmesiyle birlikte, hem tüketici hem perakendeci tarafında ileriye dönük beklentiler zayıflamış görünüyor. Kasım ve yılbaşı satışlarının bu beklentileri ne ölçüde değiştireceği sezonun temel sorusu.",
+        not: "Güven endeksi: 100'ün üzerindeki değerler iyimserliği, altındaki değerler kötümserliği gösterir. Ekonomik güven endeksi: Tüketici, reel kesim (imalat), hizmet, perakende ticaret ve inşaat güven endekslerinin birleşiminden oluşan genel gösterge.",
+        kaynaklar: [
+          {
+            ad: "YatırımX · TÜİK ekonomik güven endeksi, Ekim",
+            url: "https://www.yatirimx.com.tr/ekonomi/ekonomik-guven-endeksi-ekim-2026da-yuzde-39-dustu/27374",
+            tip: "ikinci",
+            en: { ad: "YatırımX · TurkStat economic confidence index, October" }
+          },
+          {
+            ad: "CNBC-e · Perakende güveni alt endeksleri",
+            url: "https://www.cnbce.com/veriler/tuik-acikladi-hizmet-sektorunde-guven-ekimde-azaldi-insaat-ve-perakende-ticarette-artti-h40291",
+            tip: "ikinci",
+            en: { ad: "CNBC-e · Retail confidence sub-indices" }
+          },
+          {
+            ad: "YatırımX · TÜİK sektörel güven endeksleri, Ekim",
+            url: "https://www.yatirimx.com.tr/ekonomi/tuik-sektorel-guven-endeksleri-aciklandi-iste-ekim-verileri/27152",
+            tip: "ikinci",
+            en: { ad: "YatırımX · TurkStat sectoral confidence indices, October" }
+          }
+        ],
+        en: {
+          kisa: "Confidence indices",
+          tarih: "26 and 30 Oct",
+          tur: "Official data",
+          deger: "97.3",
+          baslik: "Economic confidence falls below 100, retail confidence rises",
+          metin: "According to TurkStat, the economic confidence index fell 3.9% month on month in October, from 101.3 to 97.3. Among the sub-indices, the sharpest fall was in consumer confidence, while the retail trade confidence index rose 1.1% to 112.5 in the same month.",
+          orneklem: "Monthly change (%), October 2026 · Sectoral confidence published 26 Oct, economic confidence 30 Oct; consumer confidence was published on 22 Oct (last issue's main story)",
+          ozet: "Highlights from TurkStat's October 2026 confidence indices (seasonally adjusted; consumer confidence has no seasonal effect):",
+          maddeler: [
+            "Economic confidence index: 97.3 (September: 101.3), down 3.9%.",
+            "Consumer confidence: 84.8 (September: 91.9), down 7.7%.",
+            "Real sector confidence: 101.1 (September: 102.5), down 1.4%.",
+            "Services confidence: 109.2 (September: 111.9), down 2.4%.",
+            "Retail trade confidence: 112.5 (September: 111.3), up 1.1%. Among the sub-indices, business volume-sales over the last three months rose 6.2% and current stock levels rose 1.2%, while the business volume-sales expectation for the next three months fell 3.4%.",
+            "Construction confidence: 83.3 (September: 83.0), up 0.4%."
+          ],
+          onemi: "The rise in retail confidence was driven by sales over the last three months, while retailers' sales expectations for the next three months declined. With consumer confidence also falling markedly in a single month, forward-looking expectations appear to have weakened on both the consumer and the retailer side. How far November and year-end sales will change these expectations is the key question of the season.",
+          not: "Confidence index: values above 100 indicate optimism, values below 100 pessimism. Economic confidence index: an overall indicator combining the consumer, real sector (manufacturing), services, retail trade and construction confidence indices."
+        }
+      },
+      etkinlikler: [
+        {
+          ad: "Koton üçüncü çeyrek sonuçları",
+          tur: "Şirket sonuçları",
+          baslangic: "2026-11-02",
+          bitis: "2026-11-13",
+          yer: "KAP",
+          aciklama: "Koton'un Temmuz–Eylül dönemi sonuçları. Şirketin finansal takviminde henüz tarih yok; geçen yıl üçüncü çeyrek sonuçları 6 Kasım'da açıklanmıştı.",
+          url: "https://kurumsal.koton.com.tr/en/investor-relations/financial-calendar/",
+          en: {
+            ad: "Koton third-quarter results",
+            tur: "Company results",
+            yer: "KAP",
+            aciklama: "Koton's July–September results. There is no date yet in the company's financial calendar; last year's third-quarter results were published on 6 November.",
+            tahminiMetin: "First half of November (estimated)"
+          },
+          tahmini: true,
+          tahminiMetin: "Kasım'ın ilk yarısı (tahmini)"
+        },
+        {
+          ad: "Ekim ayı enflasyonu",
+          tur: "Veri günü",
+          baslangic: "2026-11-03",
+          bitis: "2026-11-03",
+          yer: "TÜİK",
+          aciklama: "TÜİK Ekim ayı tüketici fiyatlarını açıklayacak; giyimde sezon geçişinin fiyatlara etkisi görülecek.",
+          url: "https://www.foreks.com/haber/detay/69566f3367ad3132ebdf7774/PICNEWS/tr/tuik-2026-yili-veri-yayin-takvimini-acikladi-01-01-26/",
+          en: {
+            ad: "October inflation",
+            tur: "Data release",
+            yer: "TurkStat",
+            aciklama: "TurkStat will publish October consumer prices, showing the effect of the seasonal changeover on clothing prices."
+          }
+        },
+        {
+          ad: "Eylül ayı ticaret ve perakende satışları",
+          tur: "Veri günü",
+          baslangic: "2026-11-11",
+          bitis: "2026-11-11",
+          yer: "TÜİK",
+          aciklama: "TÜİK Eylül ayı ticaret satış hacim endekslerini açıklayacak; perakendede tekstil, giyim ve ayakkabı satış hacmindeki seyir görülecek.",
+          url: "https://www.foreks.com/haber/detay/69566f3367ad3132ebdf7774/PICNEWS/tr/tuik-2026-yili-veri-yayin-takvimini-acikladi-01-01-26/",
+          en: {
+            ad: "September trade and retail sales",
+            tur: "Data release",
+            yer: "TurkStat",
+            aciklama: "TurkStat will publish its September trade sales volume indices, showing the trend in textiles, clothing and footwear sales volume in retail."
+          }
+        },
+        {
+          ad: "Black Friday",
+          tur: "İndirim dönemi",
+          baslangic: "2026-11-27",
+          bitis: "2026-11-27",
+          yer: "Küresel",
+          aciklama: "ABD'de Şükran Günü'nün ertesi günü; Türkiye'de de Kasım indirimlerinin en yoğun haftası. Ticaret Bakanlığı indirim reklamlarını Kasım boyunca takip ediyor.",
+          url: "https://ticaret.gov.tr/haberler/kasim-ayi-indirim-kampanyalari-ticaret-bakanliginin-yakin-takibinde",
+          en: {
+            ad: "Black Friday",
+            tur: "Sales period",
+            yer: "Global",
+            aciklama: "The day after Thanksgiving in the US; in Türkiye too, the busiest week of the November sales. The Ministry of Trade is monitoring discount ads throughout November."
+          }
+        },
+        {
+          ad: "Asgari Ücret Tespit Komisyonu",
+          tur: "Beklenen toplantı",
+          baslangic: "2026-12-01",
+          bitis: "2026-12-07",
+          yer: "Türkiye",
+          aciklama: "Komisyonun Aralık'ın ilk haftasında toplanması bekleniyor; kesin tarih henüz açıklanmadı.",
+          en: {
+            ad: "Minimum Wage Determination Commission",
+            tur: "Expected meeting",
+            yer: "Türkiye",
+            aciklama: "The commission is expected to meet in the first week of December; the exact date has not been announced.",
+            tahminiMetin: "First week of December (estimated)"
+          },
+          tahmini: true,
+          tahminiMetin: "Aralık'ın ilk haftası (tahmini)"
+        },
+        {
+          ad: "Inditex 9 aylık sonuçları",
+          tur: "Şirket sonuçları",
+          baslangic: "2026-12-02",
+          bitis: "2026-12-02",
+          yer: "Arteixo",
+          aciklama: "Zara'nın sahibi Inditex, Şubat–Ekim dönemi sonuçlarını açıklayacak. Tarih piyasa takviminden; şirket henüz teyit etmedi.",
+          url: "https://www.marketscreener.com/quote/stock/INDITEX-46535998/calendar/",
+          en: {
+            ad: "Inditex nine-month results",
+            tur: "Company results",
+            yer: "Arteixo",
+            aciklama: "Zara owner Inditex will publish its February–October results. Date from a market calendar; not yet confirmed by the company.",
+            tahminiMetin: "2 December (estimated)"
+          },
+          tahmini: true,
+          tahminiMetin: "2 Aralık (tahmini)"
+        },
+        {
+          ad: "Kasım ayı enflasyonu",
+          tur: "Veri günü",
+          baslangic: "2026-12-03",
+          bitis: "2026-12-03",
+          yer: "TÜİK",
+          aciklama: "TÜİK Kasım ayı tüketici fiyatlarını açıklayacak; indirim döneminin giyim fiyatlarına yansıması görülecek.",
+          url: "https://www.foreks.com/haber/detay/69566f3367ad3132ebdf7774/PICNEWS/tr/tuik-2026-yili-veri-yayin-takvimini-acikladi-01-01-26/",
+          en: {
+            ad: "November inflation",
+            tur: "Data release",
+            yer: "TurkStat",
+            aciklama: "TurkStat will publish November consumer prices, showing how the sales period is reflected in clothing prices."
+          }
+        },
+        {
+          ad: "Merkez Bankası faiz kararı",
+          tur: "Karar günü",
+          baslangic: "2026-12-10",
+          bitis: "2026-12-10",
+          yer: "TCMB",
+          aciklama: "Para Politikası Kurulu'nun bir sonraki faiz kararı. Ekim'deki toplantıda politika faizi %37'den %36'ya indirilmişti.",
+          url: "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2026/DUY2026-45",
+          en: {
+            ad: "Central Bank rate decision",
+            tur: "Decision day",
+            yer: "CBRT",
+            aciklama: "The Monetary Policy Committee's next rate decision. At the October meeting the policy rate was cut from 37% to 36%."
+          }
+        }
+      ],
+      en: {
+        donem: "26 October – 1 November 2026",
+        yayin: "1 November 2026",
+        sonraki: "Sunday, 8 November",
+        gundemNotu: "1 Türkiye, 2 global"
+      }
+    },
     {
       no: 2,
       donem: "19–25 Ekim 2026",
