@@ -70,12 +70,527 @@ window.BULTEN = {
   },
   yeni: [],
   siradaki: {
-    no: 4,
-    donem: "2–8 Kasım 2026",
-    yayin: "8 Kasım Pazar",
-    en: { donem: "2–8 November 2026", yayin: "Sunday, 8 November" }
+    no: 5,
+    donem: "9–15 Kasım 2026",
+    yayin: "15 Kasım Pazar",
+    en: { donem: "9–15 November 2026", yayin: "Sunday, 15 November" }
   },
   sayilar: [
+    {
+      no: 4,
+      donem: "2–8 Kasım 2026",
+      yayin: "8 Kasım 2026",
+      sonraki: "15 Kasım Pazar",
+      okuma: 7,
+      gundemNotu: "4 dünya; ana gelişme ve veri Türkiye'den",
+      birDakika: [
+        {
+          baslik: "Koton, 2026 satış beklentisini \"düşük tek haneli daralma\"ya çekti; şirketin üçüncü çeyrek satışları yıllık %9,1 geriledi.",
+          anlam: "Borsada işlem gören bir geniş kitle moda perakendecisinin beklentisini büyümeden daralmaya çevirmesi, şirketin yılın son çeyreğine zayıf talep ve marj baskısıyla girdiğini gösteriyor; sunumda talepteki belirgin zayıflama vurgulandı.",
+          ref: "ana",
+          en: {
+            baslik: "Koton cut its 2026 sales outlook to a \"low single-digit decline\"; the company's third-quarter sales fell 9.1% year on year.",
+            anlam: "A listed mass-market fashion retailer turning its outlook from growth to decline shows the company entering the final quarter with weak demand and margin pressure; its presentation highlighted a marked weakening in demand."
+          }
+        },
+        {
+          baslik: "Ekim'de giyim ve ayakkabı fiyatları aylık %12,58 ile en çok artan grup oldu; yıllık artış ise %13,38 ile ana gruplar arasında en düşük.",
+          anlam: "Yıllık enflasyon %29,77'ye çıkarken giyimde yıllık fiyat artışı genel enflasyonun yarısının altında kaldı; Kasım'da uygulanacak kira artış sınırı ise %31,23.",
+          ref: "veri",
+          en: {
+            baslik: "In October, clothing and footwear prices were the fastest-rising group month on month at 12.58%; the annual increase, at 13.38%, was the lowest among the main groups.",
+            anlam: "As annual inflation rose to 29.77%, the annual price increase in clothing stayed below half of headline inflation; the rent increase cap for November is 31.23%."
+          }
+        },
+        {
+          baslik: "Primark'ın yıllık düzeltilmiş faaliyet kârı yaklaşık %11 düştü; Avrupa kıtasında benzer mağaza satışları %4,7 geriledi.",
+          anlam: "Şirket, zayıf tüketici ortamında Temmuz'da yüzlerce üründe fiyat indirdi; yeni mali yıl için faaliyet kâr marjı beklentisi yaklaşık %10.",
+          ref: "h1",
+          en: {
+            baslik: "Primark's annual adjusted operating profit fell about 11%; like-for-like sales in continental Europe fell 4.7%.",
+            anlam: "In a weak consumer environment, the company cut prices on hundreds of lines in July; it expects an operating margin of about 10% for the new financial year."
+          }
+        }
+      ],
+      ana: {
+        id: "ana",
+        kisa: "Koton sonuçları",
+        kategori: "tr",
+        tarih: "5 Kasım",
+        tur: "Şirket sonuçları",
+        okumaSuresi: 2,
+        baslik: "Koton, 2026 beklentisini ikinci kez düşürdü",
+        ozet: "Koton, 5 Kasım'da 2026'nın ilk dokuz ayına ait finansal sonuçlarını ve güncellenmiş 2026 beklentilerini açıkladı. Şirketin enflasyon muhasebesine (TMS 29) göre hazırlanan sunumuna göre üçüncü çeyrek satışları bir önceki yılın aynı dönemine göre %9,1 azalarak 9,33 milyar TL'ye geriledi; dokuz aylık satışlar 28,2 milyar TL oldu. Şirket dokuz ayı 940,3 milyon TL net zararla kapattı.",
+        ek: "Koton, 2026 satış büyümesi beklentisini \"yatay–düşük tek haneli büyüme\"den \"düşük tek haneli daralma\"ya çekti. Bu, yıl içindeki ikinci güncelleme. Şirketin sunumunda üçüncü çeyrek için tüketici talebinde belirgin bir zayıflama olduğu belirtildi.",
+        onemi: "Borsa İstanbul'da işlem gören geniş kitle moda perakendecilerinden birinin, yılın son çeyreğine girerken satış beklentisini büyümeden daralmaya çevirmesi, talep tarafındaki zayıflığın şirket sonuçlarına yansıdığı bir örnek. Satıştaki gerilemenin yanında brüt marj beklentisinin de düşürülmesi, Kasım indirimleri ve yılbaşı sezonunda fiyat ve promosyon rekabetinin nasıl şekilleneceği sorusunu öne çıkarıyor. Türkiye satışları gerilerken yurt dışı satışların dolar bazında büyümesi de dikkat çekici.",
+        bolumler: [
+          {
+            baslik: "Dokuz ay ve üçüncü çeyrek (şirket sunumu, TMS 29)",
+            maddeler: [
+              "Üçüncü çeyrek satışları: 9,33 milyar TL (geçen yılın aynı dönemi: 10,27 milyar TL), yıllık %9,1 düşüş.",
+              "Dokuz aylık satışlar: 28,2 milyar TL (geçen yılın aynı dönemi: 29,7 milyar TL).",
+              "Türkiye satışları dokuz ayda yıllık %6,9 geriledi; yurt dışı satışlar dolar bazında %7,4 arttı.",
+              "Dokuz aylık brüt kâr marjı %54,8; FAVÖK 5,96 milyar TL, FAVÖK marjı %21,1.",
+              "Dokuz aylık net zarar: 940,3 milyon TL.",
+              "Mağaza sayısı Ekim sonunda 470; yılbaşından bu yana net artış 6 mağaza."
+            ]
+          },
+          {
+            baslik: "2026 beklentisi: önceki ve yeni (şirket sunumu, TMS 29 dahil)",
+            maddeler: [
+              "Satış büyümesi: \"yatay–düşük tek haneli büyüme\" → \"düşük tek haneli daralma\".",
+              "Brüt kâr marjı: yaklaşık %54 → yaklaşık %52.",
+              "FAVÖK marjı: yaklaşık %24 → yaklaşık %21.",
+              "Net finansal borç/FAVÖK: yaklaşık 0,5 kat → yaklaşık 0,6 kat.",
+              "Net yeni mağaza: 5+ (değişmedi)."
+            ]
+          }
+        ],
+        not: "TMS 29: Yüksek enflasyon dönemlerinde finansal tabloların enflasyona göre düzeltilmesini öngören muhasebe standardı; bu nedenle geçmiş dönem rakamları da bugünkü fiyatlarla gösterilir. FAVÖK: Faiz, amortisman ve vergi öncesi kâr; şirketin esas faaliyetlerinden ne kadar nakit ürettiğine dair yaygın bir gösterge. Brüt kâr marjı: Satış gelirinden satılan malın maliyeti düşüldükten sonra kalan tutarın satışlara oranı.",
+        kapak: {
+          gorsel: "kapak-sayi4.jpg",
+          gorselAciklama: "Askılıkta pembe bir elbise ve nane yeşili bir tişört; yanında boyları giderek kısalan lavanta renkli sütunlar, üzerlerinden aşağı doğru kıvrılan sarı bir ok ve pembe bir alışveriş çantası",
+          en: { gorselAciklama: "A pink dress and a mint-green T-shirt on a clothes rail; beside them, lavender columns getting progressively shorter, a yellow arrow curving down over them and a pink shopping bag" }
+        },
+        kaynaklar: [
+          {
+            ad: "Koton · 3. çeyrek 2026 sonuç sunumu",
+            url: "https://kurumsal.koton.com.tr/wp-content/uploads/2026/11/KOTON-Q3-9M-2026-Earnings-Presentation.pdf",
+            tip: "resmi",
+            en: { ad: "Koton · Q3 2026 earnings presentation" }
+          },
+          {
+            ad: "Koton Yatırımcı İlişkileri · 2026 çeyrek sonuçları",
+            url: "https://kurumsal.koton.com.tr/en/investor-relations/quarterly-results/2026-2/",
+            tip: "resmi",
+            en: { ad: "Koton Investor Relations · 2026 quarterly results" }
+          },
+          {
+            ad: "YatırımX · Koton'un dokuz aylık sonuçları",
+            url: "https://www.yatirimx.com.tr/sirket-haberleri/kotonun-zarari-940-milyon-tlye-ulasti-satislar-da-geriledi/27784",
+            tip: "ikinci",
+            en: { ad: "YatırımX · Koton's nine-month results" }
+          },
+          {
+            ad: "Matriks (TradingView) · Koton 3. çeyrek değerlendirmesi",
+            url: "https://tr.tradingview.com/news/matriks:6880445:0/",
+            tip: "ikinci",
+            en: { ad: "Matriks (TradingView) · Koton Q3 review" }
+          }
+        ],
+        en: {
+          kisa: "Koton results",
+          tarih: "5 Nov",
+          tur: "Company results",
+          baslik: "Koton lowers its 2026 outlook for the second time",
+          ozet: "On 5 November, Koton published its financial results for the first nine months of 2026 and updated 2026 guidance. According to the company's presentation, prepared under inflation accounting (TAS 29), third-quarter sales fell 9.1% year on year to ₺9.33 billion; nine-month sales were ₺28.2 billion. The company ended the nine months with a net loss of ₺940.3 million.",
+          ek: "Koton lowered its 2026 sales growth guidance from \"flat to low single-digit growth\" to a \"low single-digit decline\". This is the second update during the year. The company's presentation said consumer demand weakened markedly in the third quarter.",
+          onemi: "One of the mass-market fashion retailers listed on Borsa Istanbul turning its sales outlook from growth to decline as the final quarter begins is an example of demand weakness feeding through to company results. Alongside lower sales, the cut in its gross margin expectation raises the question of how price and promotional competition will play out during the November sales and the year-end season. The growth of international sales in dollar terms while Türkiye sales decline is also notable.",
+          bolumler: [
+            {
+              baslik: "Nine months and third quarter (company presentation, TAS 29)",
+              maddeler: [
+                "Third-quarter sales: ₺9.33 billion (same period last year: ₺10.27 billion), down 9.1% year on year.",
+                "Nine-month sales: ₺28.2 billion (same period last year: ₺29.7 billion).",
+                "Türkiye sales fell 6.9% year on year over nine months; international sales rose 7.4% in dollar terms.",
+                "Nine-month gross margin 54.8%; EBITDA ₺5.96 billion, EBITDA margin 21.1%.",
+                "Nine-month net loss: ₺940.3 million.",
+                "Store count 470 at the end of October; a net increase of 6 stores since the start of the year."
+              ]
+            },
+            {
+              baslik: "2026 guidance: previous and new (company presentation, including TAS 29)",
+              maddeler: [
+                "Sales growth: \"flat to low single-digit growth\" → \"low single-digit decline\".",
+                "Gross margin: about 54% → about 52%.",
+                "EBITDA margin: about 24% → about 21%.",
+                "Net financial debt/EBITDA: about 0.5x → about 0.6x.",
+                "Net new stores: 5+ (unchanged)."
+              ]
+            }
+          ],
+          not: "TAS 29: the accounting standard requiring financial statements to be restated for inflation in high-inflation periods; prior-period figures are therefore also shown in current prices. EBITDA: earnings before interest, tax, depreciation and amortisation; a common indicator of how much cash a company generates from its core operations. Gross margin: the share of sales remaining after deducting the cost of goods sold."
+        }
+      },
+      haberler: [
+        {
+          id: "h1",
+          kisa: "Primark",
+          kategori: "moda",
+          tarih: "3 Kasım",
+          tur: "Şirket sonuçları",
+          baslik: "Primark'ın kârı düştü, Avrupa'da benzer mağaza satışları geriledi",
+          ozet: "Associated British Foods'un (ABF) açıkladığı yıllık sonuçlara göre Primark'ın satışları 12 Eylül 2026'da biten 52 haftalık dönemde 9,8 milyar sterline yükseldi; yeni mağazalar büyümeye yaklaşık 5 puan katkı yaptı. Benzer mağaza satışları ise %2,6 azaldı: İngiltere'de %0,5 artarken Avrupa kıtasında %4,7 geriledi. Düzeltilmiş faaliyet kârı yaklaşık %11 düşüşle 1,126 milyar sterlinden 1,005 milyar sterline indi; faaliyet kâr marjı %11,9'dan %10,2'ye geriledi.",
+          ek: "Şirket, kârdaki düşüşü daha zayıf benzer mağaza satışlarına, daha yüksek indirimlere ve fiyat, ürün, pazarlama ve dijitale yaptığı yatırımlara bağladı; Primark Temmuz'da yüzlerce üründe fiyat indirmişti. Yıl içinde 14'ü ABD'de olmak üzere 33 yeni mağaza açıldı; ABD'de satışlar %13 arttı. Şirket yeni mali yıl için yaklaşık %10 faaliyet kâr marjı bekliyor. ABF, Primark'ı gıda işlerinden ayırma planının takvimde olduğunu açıkladı.",
+          onemi: "Avrupa'nın en büyük düşük fiyatlı moda perakendecilerinden biri, zayıf tüketici ortamında fiyata yatırım yapmayı seçti; bunun bedeli faaliyet kâr marjında görüldü. Primark örneğinde büyümenin ağırlıkla yeni mağazalardan gelmesi, mevcut mağazalarda ise benzer mağaza satışlarının gerilemesi dikkat çekiyor. Talebin zayıf seyrettiği bir dönemde büyük bir oyuncunun fiyat indirimiyle hacmi korumaya çalışması, sezon boyunca fiyat rekabetinin yönüne dair izlenecek bir örnek.",
+          not: "Benzer mağaza satışları (LFL): En az bir yıldır açık olan mağazaların satışlarının bir önceki yılla karşılaştırılması; yeni mağazaların etkisini dışarıda bırakır. Düzeltilmiş faaliyet kârı: Tek seferlik kalemler hariç tutularak hesaplanan faaliyet kârı.",
+          kaynaklar: [
+            {
+              ad: "ABF · 2026 yıllık sonuç duyurusu",
+              url: "https://www.abf.co.uk/content/dam/abf/corporate/Documents/investors/results-and-presentations/2026/abf-annual-results-2026-announcement.pdf",
+              tip: "resmi",
+              en: { ad: "ABF · 2026 annual results announcement" }
+            },
+            {
+              ad: "TheJournal.ie · Primark'ın kârı düştü",
+              url: "https://www.thejournal.ie/penneys-primark-profits-fall-abf-7213303-Nov2026/",
+              tip: "ikinci",
+              en: { ad: "TheJournal.ie · Primark profits fall" }
+            }
+          ],
+          en: {
+            kisa: "Primark",
+            tarih: "3 Nov",
+            tur: "Company results",
+            baslik: "Primark's profit falls as European like-for-like sales decline",
+            ozet: "According to the annual results published by Associated British Foods (ABF), Primark's sales rose to £9.8 billion in the 52 weeks to 12 September 2026; new stores contributed about 5 points to growth. Like-for-like sales, however, fell 2.6%: up 0.5% in the UK and down 4.7% in continental Europe. Adjusted operating profit fell about 11%, from £1.126 billion to £1.005 billion; the operating margin fell from 11.9% to 10.2%.",
+            ek: "The company attributed the fall in profit to weaker like-for-like sales, higher markdowns and investment in prices, product, marketing and digital; Primark had cut prices on hundreds of lines in July. It opened 33 new stores during the year, 14 of them in the US; US sales rose 13%. The company expects an operating margin of about 10% for the new financial year. ABF said its plan to separate Primark from its food businesses is on track.",
+            onemi: "One of Europe's largest low-price fashion retailers chose to invest in price in a weak consumer environment; the cost showed up in its operating margin. In Primark's case, it is notable that growth came mainly from new stores while like-for-like sales in existing stores fell. A major player trying to protect volumes through price cuts at a time of weak demand is an example worth watching for the direction of price competition through the season.",
+            not: "Like-for-like (LFL) sales: a comparison of sales at stores open for at least a year with the previous year; excludes the effect of new stores. Adjusted operating profit: operating profit calculated excluding one-off items."
+          }
+        },
+        {
+          id: "h2",
+          kisa: "M&S",
+          kategori: "moda",
+          tarih: "4 Kasım",
+          tur: "Şirket sonuçları",
+          baslik: "M&S: Giyim pazarı zayıf, satışlar online'a kayıyor",
+          ozet: "Marks & Spencer, 2026/27 mali yılının ilk yarısında grup satışlarının %16,2 artışla 9,3 milyar sterline, düzeltilmiş vergi öncesi kârın ise 184,1 milyon sterlinden 403,2 milyon sterline yükseldiğini açıkladı. Moda, Ev ve Güzellik bölümünün satışları %17,5 artışla 1,995 milyar sterlin oldu; bölümün faaliyet kâr marjı %7,5 olarak gerçekleşti.",
+          ek: "Şirketin iki yıl önceyle yaptığı karşılaştırmaya göre bölümün online satışları (mobilya hariç) %11,2 artarken mağaza satışları %5,2 azaldı; CEO Stuart Machin'e göre online artık bölüm satışlarının %35'ini oluşturuyor. Şirket bülteninde giyim pazarını zayıf olarak tanımladı; CFO Alison Brittain, dönem boyunca mevsim normallerinin üzerinde seyreden sıcak havanın yoğun promosyonlu bir pazara yol açtığını söyledi. Machin ise ilk yarıda potansiyelin altında kaldıklarını belirtti. Şirket, bölümün ikinci yarıda ilk yarıya göre iyileşmesini bekliyor.",
+          onemi: "İngiltere'nin en büyük giyim perakendecilerinden birinin pazarı zayıf olarak tanımlaması ve hava koşullarının promosyonları artırdığını söylemesi, Primark'taki fiyat indirimleriyle aynı tabloya işaret ediyor. M&S örneğinde satışlar online kanala kayarken mağaza satışları iki yıl öncesinin altında kaldı.",
+          not: "Düzeltilmiş vergi öncesi kâr: Tek seferlik kalemler hariç tutularak hesaplanan vergi öncesi kâr.",
+          kaynaklar: [
+            {
+              ad: "M&S · İlk yarı sonuç bülteni",
+              url: "https://corporate.marksandspencer.com/sites/marksandspencer/files/2026-11/m-s-fy27-h1-rns-final.pdf",
+              tip: "resmi",
+              en: { ad: "M&S · Half-year results release" }
+            },
+            {
+              ad: "Investing.com · M&S ilk yarı sonuçları",
+              url: "https://www.investing.com/news/company-news/marks--spencer-h1-2026-slides-profit-doubles-on-food-strength-93CH-4998226",
+              tip: "ikinci",
+              en: { ad: "Investing.com · M&S half-year results" }
+            },
+            {
+              ad: "Investing.com · M&S analist toplantısı metni",
+              url: "https://www.investing.com/news/transcripts/earnings-call-transcript-marks--spencer-h1-2026-profit-more-than-doubles-93CH-4997604",
+              tip: "ikinci",
+              en: { ad: "Investing.com · M&S earnings call transcript" }
+            }
+          ],
+          en: {
+            kisa: "M&S",
+            tarih: "4 Nov",
+            tur: "Company results",
+            baslik: "M&S: clothing market weak, sales shifting online",
+            ozet: "Marks & Spencer reported that group sales rose 16.2% to £9.3 billion in the first half of its 2026/27 financial year, while adjusted profit before tax rose from £184.1 million to £403.2 million. Sales in the Fashion, Home & Beauty division rose 17.5% to £1.995 billion; the division's operating margin was 7.5%.",
+            ek: "Compared with two years earlier, the division's online sales (excluding furniture) rose 11.2% while store sales fell 5.2%; according to CEO Stuart Machin, online now accounts for 35% of the division's sales. In its release, the company described the clothing market as weak; CFO Alison Brittain said unseasonably hot weather throughout the half drove a heavily promotional market. Machin said they fell short of their full potential in the first half. The company expects the division to improve in the second half compared with the first.",
+            onemi: "One of the UK's largest clothing retailers describing the market as weak and saying the weather drove promotions points to the same picture as Primark's price cuts. In M&S's case, sales shifted to online while store sales remained below their level of two years ago.",
+            not: "Adjusted profit before tax: profit before tax calculated excluding one-off items."
+          }
+        },
+        {
+          id: "h3",
+          kisa: "Next",
+          kategori: "moda",
+          tarih: "5 Kasım",
+          tur: "Şirket açıklaması",
+          baslik: "Next: Büyüme yurt dışından, AB vergileri maliyet ekledi",
+          ozet: "Next, 31 Ekim'de biten 13 haftalık üçüncü çeyrekte tam fiyatlı satışlarının %8,1 arttığını açıkladı. İngiltere'deki tam fiyatlı satışlar %2 artarken, İngiltere'de online satışlar %4,4 arttı, mağaza satışları ise %1,7 azaldı. Yurt dışı online satışlar %32,2 yükseldi. Şirket, 1,26 milyar sterlinlik yıllık vergi öncesi kâr beklentisini korudu.",
+          ek: "Şirketin açıklamasına göre Eylül'deki sıcak hava satışları olumsuz etkiledi, Ekim'de seyir normale döndü. Next, AB dışındaki stoktan AB adreslerine yapılan sınır ötesi online siparişlere 1 Temmuz ve 1 Kasım 2026'da başlayan AB vergilerinin bu yıl net yaklaşık 5 milyon sterlinlik maliyet getireceğini belirtti; bu nedenle tedarik zincirinde yeniden düzenleme ve bazı bölgelerde sınırlı fiyat ayarlamaları planlıyor.",
+          onemi: "AB'nin AB dışından gelen online siparişlere yönelik yeni vergi ve ücretleri, Next örneğinde Çinli platformların yanı sıra AB dışındaki stoktan Avrupa'ya online satış yapan moda perakendecilerine de maliyet getirdi. Next'te büyümenin neredeyse tamamı yurt dışından ve online kanaldan gelirken İngiltere'de mağaza satışları geriledi.",
+          not: "Tam fiyatlı satış: İndirimli ürünler hariç, etiket fiyatından yapılan satışlar. Sınır ötesi online satış: Tüketiciye başka bir ülkedeki depodan doğrudan gönderilen siparişler.",
+          kaynaklar: [
+            {
+              ad: "FashionUnited · Next'in üçüncü çeyreği",
+              url: "https://fashionunited.uk/news/business/next-maintains-full-year-profit-guidance-as-international-sales-drive-third-quarter-growth/2026110591198",
+              tip: "ikinci",
+              en: { ad: "FashionUnited · Next's third quarter" }
+            }
+          ],
+          en: {
+            kisa: "Next",
+            tarih: "5 Nov",
+            tur: "Company statement",
+            baslik: "Next: growth from abroad, EU duties add costs",
+            ozet: "Next reported that full-price sales rose 8.1% in the 13-week third quarter to 31 October. UK full-price sales rose 2%, with UK online sales up 4.4% and store sales down 1.7%. International online sales rose 32.2%. The company maintained its full-year profit before tax guidance of £1.26 billion.",
+            ek: "According to the company, warm weather weighed on sales in September, and trading returned to normal in October. Next said EU duties on cross-border online orders shipped to EU addresses from stock outside the EU, which started on 1 July and 1 November 2026, will bring a net cost of about £5 million this year; it is therefore planning a supply-chain realignment and modest regional price adjustments.",
+            onemi: "In Next's case, the EU's new duties and fees on online orders from outside the EU added costs not only for Chinese platforms but also for fashion retailers selling online into Europe from stock held outside the EU. At Next, almost all growth came from overseas and from the online channel, while UK store sales declined.",
+            not: "Full-price sales: sales at the ticket price, excluding discounted items. Cross-border online sales: orders shipped directly to the consumer from a warehouse in another country."
+          }
+        },
+        {
+          id: "h4",
+          kisa: "Zalando",
+          kategori: "eticaret",
+          tarih: "3 Kasım",
+          tur: "Şirket sonuçları",
+          baslik: "Zalando'da büyüme yavaşladı, çeyrek zararla kapandı",
+          ozet: "Avrupa'nın en büyük online moda platformlarından Zalando, Temmuz–Eylül döneminde gelirinin %5,1 artışla 3,17 milyar euroya, brüt ürün hacminin (GMV) ise %7,5 artışla 4,54 milyar euronun hemen altına çıktığını açıkladı. Düzeltilmiş faaliyet kârı %10,6 artışla 106,5 milyon euro oldu; şirket çeyreği 18 milyon euro net zararla kapattı (geçen yılın aynı çeyreğinde 12,5 milyon euro kâr).",
+          onemi: "Avrupa'nın büyük online moda platformlarından birinde dokuz aylık gelir artışı %16 iken üçüncü çeyrekte artış %5,1'e indi. Şirket düzeltilmiş kârdaki artışı lojistik maliyetlerinin düşmesine, About You sinerjilerine ve kurumsal (B2B) işine bağladı; 2026 büyüme beklentisini (%12–17 aralığının alt yarısı) korudu.",
+          not: "Brüt ürün hacmi (GMV): Platform üzerinden satılan tüm ürünlerin toplam değeri; iadeler düşüldükten sonra hesaplanır. B2B (kurumsal iş): Zalando'nun lojistik ve yazılım altyapısını başka markalara ve perakendecilere hizmet olarak sunması.",
+          kaynaklar: [
+            {
+              ad: "FashionUnited · Zalando üçüncü çeyrek sonuçları",
+              url: "https://fashionunited.com/news/business/zalando-increases-quarterly-revenue-by-5-percent/2026110375524",
+              tip: "ikinci",
+              en: { ad: "FashionUnited · Zalando third-quarter results" }
+            }
+          ],
+          en: {
+            kisa: "Zalando",
+            tarih: "3 Nov",
+            tur: "Company results",
+            baslik: "Zalando's growth slows as quarter ends in loss",
+            ozet: "Zalando, one of Europe's largest online fashion platforms, reported that revenue rose 5.1% to €3.17 billion in July–September, while gross merchandise volume (GMV) rose 7.5% to just under €4.54 billion. Adjusted EBIT rose 10.6% to €106.5 million; the company ended the quarter with a net loss of €18 million (a profit of €12.5 million in the same quarter last year).",
+            onemi: "At one of Europe's large online fashion platforms, nine-month revenue growth was 16%, while third-quarter growth slowed to 5.1%. The company attributed the rise in adjusted profit to lower fulfilment costs, About You synergies and its B2B business; it maintained its 2026 growth outlook (lower half of the 12–17% range).",
+            not: "Gross merchandise volume (GMV): the total value of all products sold through the platform, net of returns. B2B: Zalando offering its logistics and software infrastructure as a service to other brands and retailers."
+          }
+        }
+      ],
+      takipte: [
+        {
+          baslik: "Asgari ücret: Komisyon Aralık'ta toplanacak",
+          kategori: "isgucu",
+          tarih: "3 Kasım",
+          onceki: { no: 1, id: "h1" },
+          simdi: "Bakan Vedat Işıkhan, 3 Kasım'da TBMM Plan ve Bütçe Komisyonu'nda Asgari Ücret Tespit Komisyonu'nun Aralık'ta toplanacağını söyledi; ilk toplantının günü henüz açıklanmadı.",
+          kaynaklar: [
+            {
+              ad: "Karar · Bakan Işıkhan'ın açıklaması",
+              url: "https://www.karar.com/ekonomi-haberleri/bakan-isikhan-acikladi-asgari-ucret-ve-memur-zamminda-takvim-2082111",
+              tip: "ikinci",
+              en: { ad: "Karar · Minister Işıkhan's statement" }
+            },
+            {
+              ad: "Milli Gazete · Asgari ücret takvimi",
+              url: "https://www.milligazete.com.tr/bakan-isikhandan-asgari-ucret-ve-emekli-maasi-aciklamasi-2027-zam-takvimi-belli-oldu",
+              tip: "ikinci",
+              en: { ad: "Milli Gazete · Minimum wage timetable" }
+            }
+          ],
+          en: {
+            baslik: "Minimum wage: commission to meet in December",
+            tarih: "3 Nov",
+            simdi: "Minister Vedat Işıkhan told the parliamentary Planning and Budget Committee on 3 November that the Minimum Wage Determination Commission will meet in December; the date of the first meeting has not yet been announced."
+          }
+        }
+      ],
+      sinyal: {
+        baslik: "Satış fiyatı ile maliyet arasındaki makas",
+        metin: "Bu haftanın sonuçlarında ortak nokta marj baskısı. Primark fiyat indirimlerini ve daha yüksek indirimleri kârdaki düşüşün nedenleri arasında saydı, Koton brüt marj beklentisini aşağı çekti, M&S de giyim pazarını zayıf olarak tanımladı. Türkiye'de giyimde yıllık fiyat artışı genel enflasyonun belirgin biçimde altında kalırken kira gibi maliyet kalemlerindeki artış sınırı genel enflasyona yakın. Satış fiyatı ile maliyet artışı arasındaki bu makas, sezonun belirleyici başlıklarından biri.",
+        dayanak: ["ana", "h1", "h2", "veri"],
+        en: {
+          baslik: "The gap between selling prices and costs",
+          metin: "The common thread in this week's results is margin pressure. Primark cited price cuts and higher markdowns among the reasons for its lower profit, Koton lowered its gross margin expectation, and M&S described the clothing market as weak. In Türkiye, the annual price increase in clothing remained well below headline inflation, while the cap on increases in cost items such as rent is close to headline inflation. This gap between selling prices and cost increases is one of the defining issues of the season."
+        }
+      },
+      veri: {
+        id: "veri",
+        kisa: "Ekim enflasyonu",
+        kategori: "tr",
+        tarih: "3 Kasım",
+        tur: "Resmî veri",
+        deger: "%13,38",
+        baslik: "Giyimde yıllık fiyat artışı %13,38 ile en düşük",
+        metin: "TÜİK verilerine göre tüketici fiyatları Ekim'de aylık %2,58, yıllık %29,77 arttı. Giyim ve ayakkabı grubunda fiyatlar Ekim'de bir önceki aya göre %12,58 ile en yüksek artışı gösterdi; buna karşın grubun yıllık artışı %13,38 ile 13 ana harcama grubu arasında en düşük oldu.",
+        karsilastirma: [
+          { etiket: "Eğitim", deger: 48.86, en: { etiket: "Education" } },
+          { etiket: "Sağlık", deger: 43.29, en: { etiket: "Health" } },
+          { etiket: "Konut", deger: 40.24, en: { etiket: "Housing" } },
+          { etiket: "Genel TÜFE", deger: 29.77, en: { etiket: "Headline CPI" } },
+          { etiket: "Gıda ve alkolsüz içecekler", deger: 27.73, en: { etiket: "Food and non-alcoholic beverages" } },
+          { etiket: "Giyim ve ayakkabı", deger: 13.38, vurgu: true, en: { etiket: "Clothing and footwear" } }
+        ],
+        olcek: 50,
+        orneklem: "Yıllık değişim (%), Ekim 2026 · TÜİK, 3 Kasım 2026'da açıklandı",
+        ozet: "TÜİK'in Ekim 2026 fiyat verilerinden öne çıkanlar:",
+        maddeler: [
+          "Tüketici fiyatları (TÜFE): aylık %2,58, yıllık %29,77 (Eylül'de yıllık %29,73).",
+          "Giyim ve ayakkabı: aylık %12,58 (ana gruplar arasında en yüksek), yıllık %13,38 (en düşük).",
+          "Çekirdek enflasyon (C endeksi): yıllık %28,28.",
+          "Yurt içi üretici fiyatları (Yİ-ÜFE): aylık %1,65, yıllık %27,41.",
+          "TÜFE'nin 12 aylık ortalamalara göre değişimi %31,23; bu oran Kasım'da ev ve iş yeri kira artışlarında üst sınır olarak uygulanıyor."
+        ],
+        onemi: "Giyimde aylık artış yüksek olsa da yıllık artışın genel enflasyonun yarısının altında kalması dikkat çekici. Kira gibi temel maliyet kalemleri genel enflasyona yakın ya da üzerinde artarken satış fiyatlarının daha yavaş artması, marj üzerindeki baskının nereden geldiğine dair bir gösterge. Kasım verisi, indirim döneminin fiyatlara yansımasını gösterecek.",
+        not: "Çekirdek enflasyon (C endeksi): Enerji, gıda ve alkolsüz içecekler, alkollü içecekler, tütün ve altın hariç tutularak hesaplanan enflasyon. Yİ-ÜFE: Üreticilerin yurt içinde sattığı ürünlerin fiyatlarındaki değişim. 12 aylık ortalama değişim: Son 12 ayın endeks ortalamasının, bir önceki 12 ayın ortalamasına göre değişimi.",
+        kaynaklar: [
+          {
+            ad: "Strateji ve Bütçe Başkanlığı · Ekim 2026 fiyat gelişmeleri",
+            url: "https://www.sbb.gov.tr/2026-yili-ekim-ayi-tuketici-ve-uretici-fiyat-gelismeleri/",
+            tip: "resmi",
+            en: { ad: "Presidency of Strategy and Budget · October 2026 price developments" }
+          },
+          {
+            ad: "Anadolu Ajansı · Ekim enflasyon rakamları",
+            url: "https://www.aa.com.tr/tr/ekonomi/enflasyon-rakamlari-aciklandi/4109355",
+            tip: "ikinci",
+            en: { ad: "Anadolu Agency · October inflation figures" }
+          },
+          {
+            ad: "Euronews Türkçe · Ekim enflasyonu ve kira artış oranı",
+            url: "https://tr.euronews.com/2026/11/03/ekimde-yillik-enflasyon-tuik-yuzde-2977-enag-yuzde-4512-acikladi",
+            tip: "ikinci",
+            en: { ad: "Euronews Turkish · October inflation and rent cap" }
+          }
+        ],
+        en: {
+          kisa: "October inflation",
+          tarih: "3 Nov",
+          tur: "Official data",
+          deger: "13.38%",
+          baslik: "Clothing has the lowest annual price rise at 13.38%",
+          metin: "According to TurkStat, consumer prices rose 2.58% month on month and 29.77% year on year in October. Clothing and footwear prices posted the highest month-on-month increase in October at 12.58%; however, the group's annual increase, at 13.38%, was the lowest among the 13 main expenditure groups.",
+          orneklem: "Annual change (%), October 2026 · TurkStat, published 3 November 2026",
+          ozet: "Highlights from TurkStat's October 2026 price data:",
+          maddeler: [
+            "Consumer prices (CPI): 2.58% month on month, 29.77% year on year (annual 29.73% in September).",
+            "Clothing and footwear: 12.58% month on month (highest among the main groups), 13.38% year on year (lowest).",
+            "Core inflation (C index): 28.28% year on year.",
+            "Domestic producer prices (D-PPI): 1.65% month on month, 27.41% year on year.",
+            "The change in CPI based on 12-month averages was 31.23%; this rate applies as the cap on residential and commercial rent increases in November."
+          ],
+          onemi: "Although the monthly increase in clothing was high, it is notable that the annual increase stayed below half of headline inflation. With key cost items such as rent rising close to or above headline inflation while selling prices rise more slowly, this is an indicator of where the pressure on margins comes from. November data will show how the sales period is reflected in prices.",
+          not: "Core inflation (C index): inflation excluding energy, food and non-alcoholic beverages, alcoholic beverages, tobacco and gold. D-PPI: the change in prices of products sold domestically by producers. 12-month average change: the change in the average index of the last 12 months compared with the average of the previous 12 months."
+        }
+      },
+      etkinlikler: [
+        {
+          ad: "Eylül ayı ticaret ve perakende satışları",
+          tur: "Veri günü",
+          baslangic: "2026-11-11",
+          bitis: "2026-11-11",
+          yer: "TÜİK",
+          aciklama: "TÜİK Eylül ayı ticaret satış hacim endekslerini açıklayacak; perakendede tekstil, giyim ve ayakkabı satış hacmindeki seyir görülecek.",
+          url: "https://www.foreks.com/haber/detay/69566f3367ad3132ebdf7774/PICNEWS/tr/tuik-2026-yili-veri-yayin-takvimini-acikladi-01-01-26/",
+          en: {
+            ad: "September trade and retail sales",
+            tur: "Data release",
+            yer: "TurkStat",
+            aciklama: "TurkStat will publish its September trade sales volume indices, showing the trend in textiles, clothing and footwear sales volume in retail."
+          }
+        },
+        {
+          ad: "Merkez Bankası Enflasyon Raporu",
+          tur: "Rapor",
+          baslangic: "2026-11-12",
+          bitis: "2026-11-12",
+          yer: "TCMB",
+          aciklama: "Yılın son Enflasyon Raporu'nda Merkez Bankası'nın yıl sonu ve 2027 enflasyon tahminleri güncellenecek.",
+          url: "https://www.cnbce.com/faiz/turkiye-cumhuriyet-merkez-bankasi-2026-yili-para-politikasi-kurulu-ppk-toplantilari-ve-rapor-takvimini-acikladi-h22037",
+          en: {
+            ad: "Central Bank Inflation Report",
+            tur: "Report",
+            yer: "CBRT",
+            aciklama: "In the last Inflation Report of the year, the Central Bank will update its year-end and 2027 inflation forecasts."
+          }
+        },
+        {
+          ad: "Kasım ayı tüketici güveni",
+          tur: "Veri günü",
+          baslangic: "2026-11-20",
+          bitis: "2026-11-20",
+          yer: "TÜİK",
+          aciklama: "Ekim'de %7,7 düşüşle 84,8'e inen tüketici güven endeksinin Kasım değeri açıklanacak.",
+          url: "https://www.foreks.com/haber/detay/69566f3367ad3132ebdf7774/PICNEWS/tr/tuik-2026-yili-veri-yayin-takvimini-acikladi-01-01-26/",
+          en: {
+            ad: "November consumer confidence",
+            tur: "Data release",
+            yer: "TurkStat",
+            aciklama: "The November reading of the consumer confidence index, which fell 7.7% to 84.8 in October, will be published."
+          }
+        },
+        {
+          ad: "Black Friday",
+          tur: "İndirim dönemi",
+          baslangic: "2026-11-27",
+          bitis: "2026-11-27",
+          yer: "Küresel",
+          aciklama: "ABD'de Şükran Günü'nün ertesi günü olan küresel indirim günü; Türkiye'de Kasım indirimleri döneminin içinde.",
+          url: "https://ticaret.gov.tr/haberler/kasim-ayi-indirim-kampanyalari-ticaret-bakanliginin-yakin-takibinde",
+          en: {
+            ad: "Black Friday",
+            tur: "Sales period",
+            yer: "Global",
+            aciklama: "The global sales day after Thanksgiving in the US; in Türkiye it falls within the November sales period."
+          }
+        },
+        {
+          ad: "Asgari Ücret Tespit Komisyonu",
+          tur: "Beklenen toplantı",
+          baslangic: "2026-12-01",
+          bitis: "2026-12-31",
+          yer: "Türkiye",
+          aciklama: "Bakan Işıkhan'a göre komisyon Aralık'ta toplanacak; ilk toplantının tarihi henüz açıklanmadı.",
+          url: "https://www.karar.com/ekonomi-haberleri/bakan-isikhan-acikladi-asgari-ucret-ve-memur-zamminda-takvim-2082111",
+          en: {
+            ad: "Minimum Wage Determination Commission",
+            tur: "Expected meeting",
+            yer: "Türkiye",
+            aciklama: "According to Minister Işıkhan, the commission will meet in December; the date of the first meeting has not yet been announced.",
+            tahminiMetin: "December (estimated)"
+          },
+          tahmini: true,
+          tahminiMetin: "Aralık (tahmini)"
+        },
+        {
+          ad: "Inditex 9 aylık sonuçları",
+          tur: "Şirket sonuçları",
+          baslangic: "2026-12-02",
+          bitis: "2026-12-02",
+          yer: "Arteixo",
+          aciklama: "Zara'nın sahibi Inditex, Şubat–Ekim dönemi sonuçlarını açıklayacak. Tarih piyasa takviminden; şirket henüz teyit etmedi.",
+          url: "https://www.marketscreener.com/quote/stock/INDITEX-46535998/calendar/",
+          en: {
+            ad: "Inditex nine-month results",
+            tur: "Company results",
+            yer: "Arteixo",
+            aciklama: "Zara owner Inditex will publish its February–October results. Date from a market calendar; not yet confirmed by the company.",
+            tahminiMetin: "2 December (estimated)"
+          },
+          tahmini: true,
+          tahminiMetin: "2 Aralık (tahmini)"
+        },
+        {
+          ad: "Kasım ayı enflasyonu",
+          tur: "Veri günü",
+          baslangic: "2026-12-03",
+          bitis: "2026-12-03",
+          yer: "TÜİK",
+          aciklama: "TÜİK Kasım ayı tüketici fiyatlarını açıklayacak; indirim döneminin giyim fiyatlarına yansıması görülecek.",
+          url: "https://www.foreks.com/haber/detay/69566f3367ad3132ebdf7774/PICNEWS/tr/tuik-2026-yili-veri-yayin-takvimini-acikladi-01-01-26/",
+          en: {
+            ad: "November inflation",
+            tur: "Data release",
+            yer: "TurkStat",
+            aciklama: "TurkStat will publish November consumer prices, showing how the sales period is reflected in clothing prices."
+          }
+        },
+        {
+          ad: "Merkez Bankası faiz kararı",
+          tur: "Karar günü",
+          baslangic: "2026-12-10",
+          bitis: "2026-12-10",
+          yer: "TCMB",
+          aciklama: "Para Politikası Kurulu'nun yılın son toplantısı. Ekim'deki toplantıda politika faizi %37'den %36'ya indirilmişti.",
+          url: "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2026/DUY2026-45",
+          en: {
+            ad: "Central Bank rate decision",
+            tur: "Decision day",
+            yer: "CBRT",
+            aciklama: "The Monetary Policy Committee's last meeting of the year. At the October meeting the policy rate was cut from 37% to 36%."
+          }
+        }
+      ],
+      en: {
+        donem: "2–8 November 2026",
+        yayin: "8 November 2026",
+        sonraki: "Sunday, 15 November",
+        gundemNotu: "4 global; main story and data from Türkiye"
+      }
+    },
     {
       no: 3,
       donem: "26 Ekim – 1 Kasım 2026",
