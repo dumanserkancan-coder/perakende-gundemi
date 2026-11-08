@@ -82,7 +82,7 @@ window.BULTEN = {
       yayin: "8 Kasım 2026",
       sonraki: "15 Kasım Pazar",
       okuma: 7,
-      gundemNotu: "4 dünya; ana gelişme ve veri Türkiye'den",
+      gundemNotu: "1 Türkiye, 3 dünya",
       birDakika: [
         {
           baslik: "Koton, 2026 satış beklentisini \"düşük tek haneli daralma\"ya çekti; şirketin üçüncü çeyrek satışları yıllık %9,1 geriledi.",
@@ -105,7 +105,7 @@ window.BULTEN = {
         {
           baslik: "Primark'ın yıllık düzeltilmiş faaliyet kârı yaklaşık %11 düştü; Avrupa kıtasında benzer mağaza satışları %4,7 geriledi.",
           anlam: "Şirket, zayıf tüketici ortamında Temmuz'da yüzlerce üründe fiyat indirdi; yeni mali yıl için faaliyet kâr marjı beklentisi yaklaşık %10.",
-          ref: "h1",
+          ref: "h2",
           en: {
             baslik: "Primark's annual adjusted operating profit fell about 11%; like-for-like sales in continental Europe fell 4.7%.",
             anlam: "In a weak consumer environment, the company cut prices on hundreds of lines in July; it expects an operating margin of about 10% for the new financial year."
@@ -215,6 +215,48 @@ window.BULTEN = {
       haberler: [
         {
           id: "h1",
+          kisa: "Hazır giyim ihracatı",
+          kategori: "tr",
+          tarih: "3 Kasım",
+          tur: "Resmî veri",
+          baslik: "Hazır giyim ihracatı Ekim'de yıllık %14,1 düştü",
+          ozet: "Ticaret Bakanlığı ve Türkiye İhracatçılar Meclisi'nin (TİM) 3 Kasım'da açıkladığı verilere göre Türkiye'nin toplam ihracatı Ekim'de yıllık %8,1 artışla 25,9 milyar dolar olurken hazır giyim ihracatı bir önceki yılın aynı ayına göre %14,1 geriledi. İstanbul Hazır Giyim ve Konfeksiyon İhracatçıları Birliği'nin (İHKİB) raporuna göre hazır giyim ve konfeksiyon ihracatı Ocak–Ekim döneminde %3,8 azalarak 13,66 milyar dolara indi.",
+          ek: "Açıklanan verilere göre toplam ihracat miktar bazında Ekim'de %1,7, on aylık dönemde %2,1 azaldı. TİM Başkanı Mustafa Gültepe, Ekim'de parite nedeniyle toplam ihracatta 463 milyon dolarlık kayıp yaşandığını söyledi. İHKİB verilerine göre ilk on ayda hazır giyimde en büyük pazar Almanya'ya ihracat %12,9, Hollanda'ya %7,0, İngiltere'ye %7,2 azalırken İspanya'ya %1,0, ABD'ye %3,8 arttı.",
+          onemi: "Toplam ihracat artarken hazır giyimin Ekim'de en sert düşen sektörler arasında yer alması dikkat çekici. Düşüşün Almanya, Hollanda ve İngiltere gibi büyük Avrupa pazarlarında yoğunlaşması, bu hafta Primark'ın Avrupa'daki zayıf satışlarına ve M&S'in İngiltere'de küçülen giyim pazarına dair açıklamalarıyla aynı döneme denk geliyor. Türkiye'deki üretim ve tedarik tabanının bu daralmadan nasıl etkileneceği, yerli tedarikle çalışan moda perakendecileri için izlenecek bir soru.",
+          not: "Parite etkisi: İhracatın bir kısmı euro gibi farklı para birimleriyle yapıldığı için bu para birimlerinin dolar karşısındaki değişiminin, dolar cinsinden hesaplanan ihracat rakamına etkisi. Miktar bazında ihracat: Fiyat değişimlerinden arındırılmış, satılan ürün miktarındaki değişim.",
+          kaynaklar: [
+            {
+              ad: "İHKİB · Hazır giyim ve konfeksiyon sektörü Ocak–Ekim 2026 raporu",
+              url: "https://www.ihkib.org.tr/content/files/uploads/4170/hazir-giyim-ve-konfeksiyon-sektoru-2026-ekim-ihracat-bilgi-notu.pdf",
+              tip: "resmi",
+              en: { ad: "İHKİB · Apparel and clothing sector January–October 2026 report" }
+            },
+            {
+              ad: "Ticaret Gazetesi · Ekim ayı ihracatı",
+              url: "https://ticaretgazetesi.com.tr/2026/11/03/turkiyenin-ekim-ayi-ihracati-259-milyar-dolar-oldu/",
+              tip: "ikinci",
+              en: { ad: "Ticaret Gazetesi · October exports" }
+            },
+            {
+              ad: "Ekonomist (Anadolu Ajansı) · TİM Başkanı Gültepe'nin değerlendirmesi",
+              url: "https://www.ekonomist.com.tr/ekonomi-haberleri/tim-baskani-mustafa-gultepe-ekim-ayi-dis-ticaret-verilerini-degerlendirdi-80506",
+              tip: "ikinci",
+              en: { ad: "Ekonomist (Anadolu Agency) · TİM Chairman Gültepe's assessment" }
+            }
+          ],
+          en: {
+            kisa: "Apparel exports",
+            tarih: "3 Nov",
+            tur: "Official data",
+            baslik: "Apparel exports fell 14.1% year on year in October",
+            ozet: "According to data announced on 3 November by the Ministry of Trade and the Turkish Exporters Assembly (TİM), Türkiye's total exports rose 8.1% year on year to $25.9 billion in October, while apparel exports fell 14.1% compared with the same month last year. According to the report of the Istanbul Apparel Exporters' Association (İHKİB), apparel and clothing exports fell 3.8% to $13.66 billion in January–October.",
+            ek: "According to the data, total exports fell 1.7% in volume terms in October and 2.1% over the ten-month period. TİM Chairman Mustafa Gültepe said the parity effect caused a $463 million loss in total exports in October. According to İHKİB data, in the first ten months apparel exports to Germany, the largest market, fell 12.9%, to the Netherlands 7.0% and to the UK 7.2%, while exports to Spain rose 1.0% and to the US 3.8%.",
+            onemi: "It is notable that apparel was among the sectors with the sharpest declines in October while total exports rose. The concentration of the decline in large European markets such as Germany, the Netherlands and the UK coincides with this week's statements by Primark on weak sales in Europe and by M&S on a shrinking clothing market. How Türkiye's manufacturing and supply base will be affected by this contraction is a question to watch for fashion retailers sourcing locally.",
+            not: "Parity effect: because part of exports is invoiced in other currencies such as the euro, the effect of changes in those currencies against the dollar on export figures calculated in dollars. Exports in volume terms: the change in the quantity of products sold, excluding price changes."
+          }
+        },
+        {
+          id: "h2",
           kisa: "Primark",
           kategori: "moda",
           tarih: "3 Kasım",
@@ -250,15 +292,15 @@ window.BULTEN = {
           }
         },
         {
-          id: "h2",
+          id: "h3",
           kisa: "M&S",
           kategori: "moda",
           tarih: "4 Kasım",
           tur: "Şirket sonuçları",
           baslik: "M&S: Giyim pazarı zayıf, satışlar online'a kayıyor",
-          ozet: "Marks & Spencer, 2026/27 mali yılının ilk yarısında grup satışlarının %16,2 artışla 9,3 milyar sterline, düzeltilmiş vergi öncesi kârın ise 184,1 milyon sterlinden 403,2 milyon sterline yükseldiğini açıkladı. Moda, Ev ve Güzellik bölümünün satışları %17,5 artışla 1,995 milyar sterlin oldu; bölümün faaliyet kâr marjı %7,5 olarak gerçekleşti.",
-          ek: "Şirketin iki yıl önceyle yaptığı karşılaştırmaya göre bölümün online satışları (mobilya hariç) %11,2 artarken mağaza satışları %5,2 azaldı; CEO Stuart Machin'e göre online artık bölüm satışlarının %35'ini oluşturuyor. Şirket bülteninde giyim pazarını zayıf olarak tanımladı; CFO Alison Brittain, dönem boyunca mevsim normallerinin üzerinde seyreden sıcak havanın yoğun promosyonlu bir pazara yol açtığını söyledi. Machin ise ilk yarıda potansiyelin altında kaldıklarını belirtti. Şirket, bölümün ikinci yarıda ilk yarıya göre iyileşmesini bekliyor.",
-          onemi: "İngiltere'nin en büyük giyim perakendecilerinden birinin pazarı zayıf olarak tanımlaması ve hava koşullarının promosyonları artırdığını söylemesi, Primark'taki fiyat indirimleriyle aynı tabloya işaret ediyor. M&S örneğinde satışlar online kanala kayarken mağaza satışları iki yıl öncesinin altında kaldı.",
+          ozet: "Marks & Spencer, 2026/27 mali yılının ilk yarısında grup satışlarının %16,2 artışla 9,3 milyar sterline, düzeltilmiş vergi öncesi kârın ise 184,1 milyon sterlinden 403,2 milyon sterline yükseldiğini açıkladı. Şirket artışı, geçen yıl yaşadığı siber saldırının yol açtığı aksaklıktan toparlanmaya bağladı. Moda, Ev ve Güzellik bölümünün satışları %17,5 artışla 1,995 milyar sterlin oldu; ancak bölümün satış ve kârı iki yıl önceki seviyenin altında kaldı (iki yıl önceki satış 2,031 milyar sterlin).",
+          ek: "Şirketin iki yıl önceyle yaptığı karşılaştırmaya göre bölümün online satışları (mobilya hariç) %11,2 artarken mağaza satışları %5,2 azaldı; CEO Stuart Machin'e göre online artık bölüm satışlarının %35'ini oluşturuyor. Şirket bülteninde, Worldpanel verilerine göre giyim pazarının 13 Eylül'de biten 12 haftada iki yıl öncesine göre %5,5 küçüldüğünü belirtti; CFO Alison Brittain, dönem boyunca mevsim normallerinin üzerinde seyreden sıcak havanın yoğun promosyonlu bir pazara yol açtığını söyledi. Machin ise ilk yarıda potansiyelin altında kaldıklarını belirtti. Şirket, bölümün ikinci yarıda ilk yarıya göre iyileşmesini bekliyor.",
+          onemi: "Yüksek büyüme oranlarının geçen yılki düşük bazdan kaynaklandığı göz önüne alındığında, asıl dikkat çeken M&S'in giyim pazarını küçülen ve yoğun promosyonlu bir pazar olarak tanımlaması; bu, Primark'taki fiyat indirimleriyle aynı tabloya işaret ediyor. M&S örneğinde satışlar online kanala kayarken mağaza satışları iki yıl öncesinin altında kaldı.",
           not: "Düzeltilmiş vergi öncesi kâr: Tek seferlik kalemler hariç tutularak hesaplanan vergi öncesi kâr.",
           kaynaklar: [
             {
@@ -285,14 +327,14 @@ window.BULTEN = {
             tarih: "4 Nov",
             tur: "Company results",
             baslik: "M&S: clothing market weak, sales shifting online",
-            ozet: "Marks & Spencer reported that group sales rose 16.2% to £9.3 billion in the first half of its 2026/27 financial year, while adjusted profit before tax rose from £184.1 million to £403.2 million. Sales in the Fashion, Home & Beauty division rose 17.5% to £1.995 billion; the division's operating margin was 7.5%.",
-            ek: "Compared with two years earlier, the division's online sales (excluding furniture) rose 11.2% while store sales fell 5.2%; according to CEO Stuart Machin, online now accounts for 35% of the division's sales. In its release, the company described the clothing market as weak; CFO Alison Brittain said unseasonably hot weather throughout the half drove a heavily promotional market. Machin said they fell short of their full potential in the first half. The company expects the division to improve in the second half compared with the first.",
-            onemi: "One of the UK's largest clothing retailers describing the market as weak and saying the weather drove promotions points to the same picture as Primark's price cuts. In M&S's case, sales shifted to online while store sales remained below their level of two years ago.",
+            ozet: "Marks & Spencer reported that group sales rose 16.2% to £9.3 billion in the first half of its 2026/27 financial year, while adjusted profit before tax rose from £184.1 million to £403.2 million. The company attributed the increase to recovery from the disruption caused by last year's cyber incident. Sales in the Fashion, Home & Beauty division rose 17.5% to £1.995 billion; however, the division's sales and profit remained below their level of two years ago (sales two years ago: £2.031 billion).",
+            ek: "Compared with two years earlier, the division's online sales (excluding furniture) rose 11.2% while store sales fell 5.2%; according to CEO Stuart Machin, online now accounts for 35% of the division's sales. In its release, the company said the clothing market declined by 5.5% versus two years ago in the 12 weeks to 13 September, according to Worldpanel data; CFO Alison Brittain said unseasonably hot weather throughout the half drove a heavily promotional market. Machin said they fell short of their full potential in the first half. The company expects the division to improve in the second half compared with the first.",
+            onemi: "Given that the high growth rates reflect last year's low base, what stands out is M&S describing the clothing market as shrinking and heavily promotional; this points to the same picture as Primark's price cuts. In M&S's case, sales shifted to online while store sales remained below their level of two years ago.",
             not: "Adjusted profit before tax: profit before tax calculated excluding one-off items."
           }
         },
         {
-          id: "h3",
+          id: "h4",
           kisa: "Next",
           kategori: "moda",
           tarih: "5 Kasım",
@@ -319,34 +361,6 @@ window.BULTEN = {
             ek: "According to the company, warm weather weighed on sales in September, and trading returned to normal in October. Next said EU duties on cross-border online orders shipped to EU addresses from stock outside the EU, which started on 1 July and 1 November 2026, will bring a net cost of about £5 million this year; it is therefore planning a supply-chain realignment and modest regional price adjustments.",
             onemi: "In Next's case, the EU's new duties and fees on online orders from outside the EU added costs not only for Chinese platforms but also for fashion retailers selling online into Europe from stock held outside the EU. At Next, almost all growth came from overseas and from the online channel, while UK store sales declined.",
             not: "Full-price sales: sales at the ticket price, excluding discounted items. Cross-border online sales: orders shipped directly to the consumer from a warehouse in another country."
-          }
-        },
-        {
-          id: "h4",
-          kisa: "Zalando",
-          kategori: "eticaret",
-          tarih: "3 Kasım",
-          tur: "Şirket sonuçları",
-          baslik: "Zalando'da büyüme yavaşladı, çeyrek zararla kapandı",
-          ozet: "Avrupa'nın en büyük online moda platformlarından Zalando, Temmuz–Eylül döneminde gelirinin %5,1 artışla 3,17 milyar euroya, brüt ürün hacminin (GMV) ise %7,5 artışla 4,54 milyar euronun hemen altına çıktığını açıkladı. Düzeltilmiş faaliyet kârı %10,6 artışla 106,5 milyon euro oldu; şirket çeyreği 18 milyon euro net zararla kapattı (geçen yılın aynı çeyreğinde 12,5 milyon euro kâr).",
-          onemi: "Avrupa'nın büyük online moda platformlarından birinde dokuz aylık gelir artışı %16 iken üçüncü çeyrekte artış %5,1'e indi. Şirket düzeltilmiş kârdaki artışı lojistik maliyetlerinin düşmesine, About You sinerjilerine ve kurumsal (B2B) işine bağladı; 2026 büyüme beklentisini (%12–17 aralığının alt yarısı) korudu.",
-          not: "Brüt ürün hacmi (GMV): Platform üzerinden satılan tüm ürünlerin toplam değeri; iadeler düşüldükten sonra hesaplanır. B2B (kurumsal iş): Zalando'nun lojistik ve yazılım altyapısını başka markalara ve perakendecilere hizmet olarak sunması.",
-          kaynaklar: [
-            {
-              ad: "FashionUnited · Zalando üçüncü çeyrek sonuçları",
-              url: "https://fashionunited.com/news/business/zalando-increases-quarterly-revenue-by-5-percent/2026110375524",
-              tip: "ikinci",
-              en: { ad: "FashionUnited · Zalando third-quarter results" }
-            }
-          ],
-          en: {
-            kisa: "Zalando",
-            tarih: "3 Nov",
-            tur: "Company results",
-            baslik: "Zalando's growth slows as quarter ends in loss",
-            ozet: "Zalando, one of Europe's largest online fashion platforms, reported that revenue rose 5.1% to €3.17 billion in July–September, while gross merchandise volume (GMV) rose 7.5% to just under €4.54 billion. Adjusted EBIT rose 10.6% to €106.5 million; the company ended the quarter with a net loss of €18 million (a profit of €12.5 million in the same quarter last year).",
-            onemi: "At one of Europe's large online fashion platforms, nine-month revenue growth was 16%, while third-quarter growth slowed to 5.1%. The company attributed the rise in adjusted profit to lower fulfilment costs, About You synergies and its B2B business; it maintained its 2026 growth outlook (lower half of the 12–17% range).",
-            not: "Gross merchandise volume (GMV): the total value of all products sold through the platform, net of returns. B2B: Zalando offering its logistics and software infrastructure as a service to other brands and retailers."
           }
         }
       ],
@@ -381,7 +395,7 @@ window.BULTEN = {
       sinyal: {
         baslik: "Satış fiyatı ile maliyet arasındaki makas",
         metin: "Bu haftanın sonuçlarında ortak nokta marj baskısı. Primark fiyat indirimlerini ve daha yüksek indirimleri kârdaki düşüşün nedenleri arasında saydı, Koton brüt marj beklentisini aşağı çekti, M&S de giyim pazarını zayıf olarak tanımladı. Türkiye'de giyimde yıllık fiyat artışı genel enflasyonun belirgin biçimde altında kalırken kira gibi maliyet kalemlerindeki artış sınırı genel enflasyona yakın. Satış fiyatı ile maliyet artışı arasındaki bu makas, sezonun belirleyici başlıklarından biri.",
-        dayanak: ["ana", "h1", "h2", "veri"],
+        dayanak: ["ana", "h2", "h3", "veri"],
         en: {
           baslik: "The gap between selling prices and costs",
           metin: "The common thread in this week's results is margin pressure. Primark cited price cuts and higher markdowns among the reasons for its lower profit, Koton lowered its gross margin expectation, and M&S described the clothing market as weak. In Türkiye, the annual price increase in clothing remained well below headline inflation, while the cap on increases in cost items such as rent is close to headline inflation. This gap between selling prices and cost increases is one of the defining issues of the season."
@@ -588,7 +602,7 @@ window.BULTEN = {
         donem: "2–8 November 2026",
         yayin: "8 November 2026",
         sonraki: "Sunday, 15 November",
-        gundemNotu: "4 global; main story and data from Türkiye"
+        gundemNotu: "1 Türkiye, 3 global"
       }
     },
     {
