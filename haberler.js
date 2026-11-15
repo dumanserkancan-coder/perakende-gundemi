@@ -104,11 +104,11 @@ window.BULTEN = {
         },
         {
           baslik: "Borsada işlem gören iç giyim perakendecisi Suwen, yılın ilk dokuz ayını 156,9 milyon TL net zararla kapattı.",
-          anlam: "Borsa İstanbul'da işlem gören iki geniş kitle moda perakendecisi, Koton ve Suwen, iki hafta üst üste dokuz aylık satışlarında düşüş açıkladı; Kasım indirimleri ve yılbaşı sezonu, yılın sonuçları açısından belirleyici dönem olacak.",
+          anlam: "Bir hafta önce, 5 Kasım'da, Koton da üçüncü çeyrek satışlarının yıllık %9,1 düştüğünü açıklamıştı (Sayı 4'ün ana gelişmesi). Kasım indirimleri ve yılbaşı sezonu, iki şirket için de yılın belirleyici dönemi olacak.",
           ref: "h1",
           en: {
             baslik: "Listed intimates retailer Suwen ended the first nine months of the year with a net loss of ₺156.9 million.",
-            anlam: "Two mass-market fashion retailers listed on Borsa Istanbul, Koton and Suwen, reported lower nine-month sales in consecutive weeks; the November sales and the year-end season will be the decisive period for the year's results."
+            anlam: "A week earlier, on 5 November, Koton had also reported that its third-quarter sales fell 9.1% year on year (the main story of Issue 4). The November sales and the year-end season will be the decisive period of the year for both companies."
           }
         }
       ],
@@ -240,7 +240,7 @@ window.BULTEN = {
           baslik: "Suwen dokuz ayı 156,9 milyon TL zararla kapattı",
           ozet: "Borsa İstanbul'da işlem gören iç giyim, ev giyimi ve plaj giyimi perakendecisi Suwen, 9 Kasım'da Kamuyu Aydınlatma Platformu'na (KAP) bildirdiği finansal tablolarda 2026'nın ilk dokuz ayında 5,37 milyar TL hasılat ve 156,9 milyon TL net dönem zararı açıkladı. Ticari Hayat'ın haberine göre hasılat bir önceki yılın aynı dönemine göre %5,06 geriledi.",
           ek: "Şirketin mağaza sayısı 30 Eylül itibarıyla 191'i yurt içinde, 19'u yurt dışında olmak üzere 210. Suwen, Eylül'de başlattığı 210 milyon TL'lik pay geri alım programı kapsamında 11 Kasım'a kadar yaklaşık 159,4 milyon TL harcayarak sermayesinin yaklaşık %4,25'ine karşılık gelen 23,8 milyon pay geri aldı.",
-          onemi: "Geçen hafta Koton'un ardından bu hafta da borsada işlem gören bir perakendecinin, bu kez iç giyim kategorisinden Suwen'in, dokuz ayı satış düşüşüyle kapatması, sektördeki talep görünümüne dair ikinci bir örnek. İç giyim, ev giyimi ve plaj giyiminde Kasım indirimleri ve yılbaşı sezonunun bu tabloyu nasıl etkileyeceği izlenecek bir soru.",
+          onemi: "Koton'un 5 Kasım'da üçüncü çeyrek satışlarında yıllık %9,1 düşüş açıklamasının ardından, bu hafta borsada işlem gören bir iç giyim perakendecisi de dokuz ayı satış düşüşüyle kapattı; bu, sektördeki talep görünümüne dair ikinci bir örnek. İç giyim, ev giyimi ve plaj giyiminde Kasım indirimleri ve yılbaşı sezonunun bu tabloyu nasıl etkileyeceği izlenecek bir soru.",
           not: "KAP (Kamuyu Aydınlatma Platformu): Borsada işlem gören şirketlerin finansal sonuçlarını ve önemli gelişmelerini duyurmak zorunda olduğu resmî platform. Pay geri alımı: Şirketin kendi hisselerini borsadan satın alması.",
           kaynaklar: [
             {
@@ -269,7 +269,7 @@ window.BULTEN = {
             baslik: "Suwen ends nine months with a ₺156.9 million loss",
             ozet: "Suwen, an intimates, homewear and beachwear retailer listed on Borsa Istanbul, reported revenue of ₺5.37 billion and a net loss of ₺156.9 million for the first nine months of 2026 in the financial statements it filed with the Public Disclosure Platform (KAP) on 9 November. According to Ticari Hayat, revenue fell 5.06% compared with the same period last year.",
             ek: "The company had 210 stores as of 30 September, 191 in Türkiye and 19 abroad. Under the ₺210 million share buyback programme it launched in September, Suwen had spent about ₺159.4 million by 11 November to buy back 23.8 million shares, corresponding to about 4.25% of its capital.",
-            onemi: "Following Koton last week, another listed retailer, this time operating in intimates, ending nine months with lower sales is a second example of the demand picture in the sector. How the November sales and the year-end season will affect this picture in intimates, homewear and beachwear is a question to watch.",
+            onemi: "After Koton reported a 9.1% year-on-year fall in third-quarter sales on 5 November, a listed intimates retailer also ended nine months with lower sales this week; this is a second example of the demand picture in the sector. How the November sales and the year-end season will affect this picture in intimates, homewear and beachwear is a question to watch.",
             not: "KAP (Public Disclosure Platform): the official platform where listed companies must announce their financial results and material developments. Share buyback: a company purchasing its own shares on the stock exchange."
           }
         },
