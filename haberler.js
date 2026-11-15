@@ -70,12 +70,537 @@ window.BULTEN = {
   },
   yeni: [],
   siradaki: {
-    no: 5,
-    donem: "9–15 Kasım 2026",
-    yayin: "15 Kasım Pazar",
-    en: { donem: "9–15 November 2026", yayin: "Sunday, 15 November" }
+    no: 6,
+    donem: "16–22 Kasım 2026",
+    yayin: "22 Kasım Pazar",
+    en: { donem: "16–22 November 2026", yayin: "Sunday, 22 November" }
   },
   sayilar: [
+    {
+      no: 5,
+      donem: "9–15 Kasım 2026",
+      yayin: "15 Kasım 2026",
+      sonraki: "22 Kasım Pazar",
+      okuma: 6,
+      gundemNotu: "1 Türkiye, 3 dünya",
+      birDakika: [
+        {
+          baslik: "Merkez Bankası 2026 yıl sonu enflasyon tahminini %28'den %29,5'e yükseltti; 2027 ara hedefi %15'ten %21'e çekildi.",
+          anlam: "Başkan Karahan güncellemede savaş kaynaklı gelişmelerin belirleyici olduğunu söyledi; ücret ve kira gibi enflasyonla birlikte hareket eden maliyetlerin 2027'de hangi varsayımla planlanacağı sorusu öne çıkıyor. Piyasa katılımcılarının yıl sonu beklentisi %30,04.",
+          ref: "ana",
+          en: {
+            baslik: "The Central Bank raised its 2026 year-end inflation forecast from 28% to 29.5%; the 2027 interim target was raised from 15% to 21%.",
+            anlam: "Governor Karahan said war-related developments were decisive in the update; this raises the question of which assumption will be used to plan costs that move with inflation, such as wages and rents, in 2027. Market participants' year-end expectation is 30.04%."
+          }
+        },
+        {
+          baslik: "Tekstil, giyim ve ayakkabıda perakende satış hacmi Eylül'de yıllık %7,8 arttı; Ağustos'ta artış %2,9'du.",
+          anlam: "Toplam perakende satış hacmindeki yıllık artış %7,7 ile yılın en düşük seviyesine inerken Ağustos'ta genel perakendenin belirgin biçimde gerisinde kalan giyim, Eylül'de genel perakendeyle aynı hıza ulaştı.",
+          ref: "veri",
+          en: {
+            baslik: "Retail sales volume in textiles, clothing and footwear rose 7.8% year on year in September; the increase in August was 2.9%.",
+            anlam: "As the annual increase in total retail sales volume slowed to 7.7%, its lowest level of the year, clothing, which had trailed overall retail clearly in August, caught up with it in September."
+          }
+        },
+        {
+          baslik: "Borsada işlem gören iç giyim perakendecisi Suwen, yılın ilk dokuz ayını 156,9 milyon TL net zararla kapattı.",
+          anlam: "Borsa İstanbul'da işlem gören iki geniş kitle moda perakendecisi, Koton ve Suwen, iki hafta üst üste dokuz aylık satışlarında düşüş açıkladı; Kasım indirimleri ve yılbaşı sezonu, yılın sonuçları açısından belirleyici dönem olacak.",
+          ref: "h1",
+          en: {
+            baslik: "Listed intimates retailer Suwen ended the first nine months of the year with a net loss of ₺156.9 million.",
+            anlam: "Two mass-market fashion retailers listed on Borsa Istanbul, Koton and Suwen, reported lower nine-month sales in consecutive weeks; the November sales and the year-end season will be the decisive period for the year's results."
+          }
+        }
+      ],
+      ana: {
+        id: "ana",
+        kisa: "Enflasyon Raporu",
+        kategori: "tr",
+        tarih: "12 Kasım",
+        tur: "Resmî açıklama",
+        okumaSuresi: 2,
+        baslik: "Merkez Bankası enflasyon tahminlerini ve ara hedefleri yükseltti",
+        ozet: "Türkiye Cumhuriyet Merkez Bankası (TCMB), 12 Kasım'da yılın son Enflasyon Raporu'nu yayımladı. Rapora göre enflasyonun 2026 yıl sonunda %29,5, 2027 yıl sonunda %21 olarak gerçekleşeceği tahmin ediliyor. Önceki raporda 2026 yıl sonu tahmini %28'di. 2026 için %24 olan ara hedef korunurken 2027 ara hedefi %15'ten %21'e, 2028 ara hedefi %9'dan %13,5'e çekildi.",
+        ek: "TCMB Başkanı Fatih Karahan, tahminlerdeki güncellemede \"savaş kaynaklı gelişmelerin\" belirleyici olduğunu söyledi; enerji fiyatlarının bir önceki rapora göre daha uzun süre yüksek kalacağı ve gıda fiyatlarına ilişkin varsayımın yukarı çekildiği belirtildi. Karahan, talep koşullarının dezenflasyonist düzeyde olduğunu ve sıkı para politikası duruşunun sürdürüleceğini ifade etti. 13 Kasım'da yayımlanan Piyasa Katılımcıları Anketi'nde ise 2026 yıl sonu enflasyon beklentisi %29,63'ten %30,04'e yükseldi.",
+        onemi: "Asgari Ücret Tespit Komisyonu'nun Aralık'ta toplanması beklenirken 2027 ara hedefinin %21'e çekilmesi, ücret ve kira gibi enflasyonla birlikte hareket eden maliyet kalemlerinin gelecek yıl hangi varsayımla planlanacağı sorusunu öne çıkarıyor. Öte yandan Karahan'ın talep koşullarını dezenflasyonist olarak tanımlaması ve altın hariç perakende satışların üçüncü çeyrekte yavaşladığını belirtmesi, maliyet artışlarının satış fiyatlarına ne ölçüde yansıtılabileceğine dair soruyu da gündemde tutuyor.",
+        bolumler: [
+          {
+            baslik: "Tahminler ve ara hedefler (TCMB, yıl sonu)",
+            maddeler: [
+              "2026 enflasyon tahmini: %28 → %29,5 (2026 ara hedefi %24 olarak korundu).",
+              "2027: %15 → %21 (ara hedef; tahmin de %21).",
+              "2028: %9 → %13,5 (ara hedef).",
+              "2029: %9; orta vadede hedef: %5."
+            ]
+          },
+          {
+            baslik: "Gerekçeler ve görünüm (Başkan Karahan'ın sunumu)",
+            maddeler: [
+              "Güncellemede savaş kaynaklı gelişmeler belirleyici oldu; enerji fiyatlarının daha uzun süre yüksek kalacağı varsayıldı, gıda varsayımı yukarı çekildi.",
+              "Basına yansıyan rapor varsayımlarına göre 2026 ortalama petrol fiyatı varsayımı varil başına 87,8 dolardan 97,2 dolara, 2026 gıda enflasyonu tahmini %28,5'ten %31,3'e yükseltildi.",
+              "Karahan'a göre aylık kira artışları son aylarda belirgin biçimde yavaşlayarak hizmet grubu genelinin altına indi.",
+              "Karahan, baz etkisi nedeniyle Kasım'da yıllık enflasyondaki gerilemenin duraksamasının mümkün olduğunu söyledi."
+            ]
+          },
+          {
+            baslik: "Piyasa beklentisi (Piyasa Katılımcıları Anketi, 13 Kasım)",
+            maddeler: [
+              "2026 yıl sonu enflasyon beklentisi: %29,63 → %30,04.",
+              "12 ay sonrası enflasyon beklentisi: %23,89 → %24,04.",
+              "2026 yıl sonu dolar/TL beklentisi: 51,61.",
+              "Aralık'taki Para Politikası Kurulu toplantısı için politika faizi beklentisi: %35."
+            ]
+          }
+        ],
+        not: "Ara hedef: Merkez Bankası'nın belirli bir yıl sonu için koyduğu ve orta vadeli %5 hedefine giden yoldaki enflasyon seviyesi. Tahmin ise Merkez Bankası'nın o yıl sonunda gerçekleşmesini beklediği değerdir; 2026 için ikisi farklıdır (%24 ve %29,5). Dezenflasyonist talep: Talebin fiyat artışlarını yavaşlatacak kadar zayıf olması. Baz etkisi: Geçen yılın aynı aylarındaki fiyat değişimlerinin bu yılın yıllık oranını etkilemesi.",
+        kapak: {
+          gorsel: "kapak-sayi5.jpg",
+          gorselAciklama: "Pembe bir fiyat etiketi; yanında kesikli yatay bir çizginin üzerine doğru yükselen lavanta ve nane yeşili sütunlar ve üzerlerinde yukarı doğru kıvrılan sarı bir ok; sağda bir günü sarıyla işaretlenmiş lavanta renkli bir takvim",
+          en: { gorselAciklama: "A pink price tag; beside it, lavender and mint-green columns rising above a dashed horizontal line with a yellow arrow curving upward over them; on the right, a lavender calendar with one day marked in yellow" }
+        },
+        kaynaklar: [
+          {
+            ad: "TCMB · Enflasyon Raporu 2026-IV",
+            url: "https://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/yayinlar/raporlar/enflasyon+raporu/2026/enflasyon+raporu+2026+-+iv",
+            tip: "resmi",
+            en: { ad: "CBRT · Inflation Report 2026-IV" }
+          },
+          {
+            ad: "TCMB · Başkan Karahan'ın sunum konuşması (12 Kasım 2026)",
+            url: "https://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/baskanin+konusmalari/2026/konusmab12_11_2026",
+            tip: "resmi",
+            en: { ad: "CBRT · Governor Karahan's presentation speech (12 November 2026)" }
+          },
+          {
+            ad: "TCMB · Piyasa Katılımcıları Anketi",
+            url: "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Istatistikler/Egilim+Anketleri/Piyasa+Katilimcilari+Anketi/",
+            tip: "resmi",
+            en: { ad: "CBRT · Survey of Market Participants" }
+          },
+          {
+            ad: "Euronews Türkçe · Yıl sonu enflasyon tahmini %29,5",
+            url: "https://tr.euronews.com/2026/11/12/tcmb-yil-sonu-enflasyon-tahminini-15-puan-artisla-yuzde-295e-yukseltti",
+            tip: "ikinci",
+            en: { ad: "Euronews Turkish · Year-end inflation forecast at 29.5%" }
+          },
+          {
+            ad: "Foreks · Piyasa Katılımcıları Anketi, Kasım 2026",
+            url: "https://www.foreks.com/haber/detay/6af6b6464b18523914461f8b/PICNEWS/tr/tcmb-piyasa-katilimcilari-anketinde-enflasyon-ve-dolar-beklentileri-yukseldi-13-11-26/",
+            tip: "ikinci",
+            en: { ad: "Foreks · Survey of Market Participants, November 2026" }
+          }
+        ],
+        en: {
+          kisa: "Inflation Report",
+          tarih: "12 Nov",
+          tur: "Official statement",
+          baslik: "Central Bank raises inflation forecasts and interim targets",
+          ozet: "The Central Bank of the Republic of Türkiye (CBRT) published the year's last Inflation Report on 12 November. According to the report, inflation is forecast at 29.5% at the end of 2026 and 21% at the end of 2027. In the previous report the 2026 year-end forecast was 28%. While the 2026 interim target of 24% was kept, the 2027 interim target was raised from 15% to 21% and the 2028 interim target from 9% to 13.5%.",
+          ek: "CBRT Governor Fatih Karahan said \"war-related developments\" were decisive in the forecast update; energy prices are now expected to stay high for longer than in the previous report, and the food price assumption was raised. Karahan said demand conditions are at a disinflationary level and the tight monetary policy stance will be maintained. In the Survey of Market Participants published on 13 November, the 2026 year-end inflation expectation rose from 29.63% to 30.04%.",
+          onemi: "With the Minimum Wage Determination Commission expected to meet in December, the increase of the 2027 interim target to 21% raises the question of which assumption will be used next year to plan cost items that move with inflation, such as wages and rents. At the same time, Karahan's description of demand conditions as disinflationary and his remark that retail sales excluding gold slowed in the third quarter keep the question of how far cost increases can be passed on to selling prices on the agenda.",
+          bolumler: [
+            {
+              baslik: "Forecasts and interim targets (CBRT, year-end)",
+              maddeler: [
+                "2026 inflation forecast: 28% → 29.5% (the 2026 interim target was kept at 24%).",
+                "2027: 15% → 21% (interim target; the forecast is also 21%).",
+                "2028: 9% → 13.5% (interim target).",
+                "2029: 9%; medium-term target: 5%."
+              ]
+            },
+            {
+              baslik: "Reasons and outlook (Governor Karahan's presentation)",
+              maddeler: [
+                "War-related developments were decisive in the update; energy prices are assumed to stay high for longer, and the food assumption was raised.",
+                "According to the report assumptions reported in the press, the 2026 average oil price assumption was raised from $87.8 to $97.2 per barrel, and the 2026 food inflation forecast from 28.5% to 31.3%.",
+                "According to Karahan, monthly rent increases have slowed markedly in recent months, falling below the services group as a whole.",
+                "Karahan said that, owing to base effects, the decline in annual inflation may pause in November."
+              ]
+            },
+            {
+              baslik: "Market expectations (Survey of Market Participants, 13 November)",
+              maddeler: [
+                "2026 year-end inflation expectation: 29.63% → 30.04%.",
+                "12-month-ahead inflation expectation: 23.89% → 24.04%.",
+                "2026 year-end USD/TRY expectation: 51.61.",
+                "Policy rate expectation for December's Monetary Policy Committee meeting: 35%."
+              ]
+            }
+          ],
+          not: "Interim target: the inflation level the Central Bank sets for a given year-end on the path to its medium-term 5% target. The forecast is the value the Central Bank expects to materialise at that year-end; for 2026 the two differ (24% and 29.5%). Disinflationary demand: demand weak enough to slow price increases. Base effect: the influence of price changes in the same months of last year on this year's annual rate."
+        }
+      },
+      haberler: [
+        {
+          id: "h1",
+          kisa: "Suwen",
+          kategori: "icgiyim",
+          tarih: "9 Kasım",
+          tur: "Şirket sonuçları",
+          baslik: "Suwen dokuz ayı 156,9 milyon TL zararla kapattı",
+          ozet: "Borsa İstanbul'da işlem gören iç giyim, ev giyimi ve plaj giyimi perakendecisi Suwen, 9 Kasım'da Kamuyu Aydınlatma Platformu'na (KAP) bildirdiği finansal tablolarda 2026'nın ilk dokuz ayında 5,37 milyar TL hasılat ve 156,9 milyon TL net dönem zararı açıkladı. Ticari Hayat'ın haberine göre hasılat bir önceki yılın aynı dönemine göre %5,06 geriledi.",
+          ek: "Şirketin mağaza sayısı 30 Eylül itibarıyla 191'i yurt içinde, 19'u yurt dışında olmak üzere 210. Suwen, Eylül'de başlattığı 210 milyon TL'lik pay geri alım programı kapsamında 11 Kasım'a kadar yaklaşık 159,4 milyon TL harcayarak sermayesinin yaklaşık %4,25'ine karşılık gelen 23,8 milyon pay geri aldı.",
+          onemi: "Geçen hafta Koton'un ardından bu hafta da borsada işlem gören bir perakendecinin, bu kez iç giyim kategorisinden Suwen'in, dokuz ayı satış düşüşüyle kapatması, sektördeki talep görünümüne dair ikinci bir örnek. İç giyim, ev giyimi ve plaj giyiminde Kasım indirimleri ve yılbaşı sezonunun bu tabloyu nasıl etkileyeceği izlenecek bir soru.",
+          not: "KAP (Kamuyu Aydınlatma Platformu): Borsada işlem gören şirketlerin finansal sonuçlarını ve önemli gelişmelerini duyurmak zorunda olduğu resmî platform. Pay geri alımı: Şirketin kendi hisselerini borsadan satın alması.",
+          kaynaklar: [
+            {
+              ad: "Borsatek · Suwen 2026 dokuz aylık sonuçları (KAP verisi)",
+              url: "https://www.borsatek.com/suwen-2026-9-ay-net-zarar-156-9-milyon/",
+              tip: "ikinci",
+              en: { ad: "Borsatek · Suwen 2026 nine-month results (KAP data)" }
+            },
+            {
+              ad: "Foreks · Suwen dokuz aylık net dönem zararı",
+              url: "https://www.foreks.com/haber/detay/6af1e34695131d72027d9da6/FRKS/tr/suwen-suwen-2026-yili-9-aylik-konsolide-net-donem-zarari-156937958-tl-onceki-140775832-tl-09-11-26/",
+              tip: "ikinci",
+              en: { ad: "Foreks · Suwen nine-month net loss" }
+            },
+            {
+              ad: "Ticari Hayat · Suwen'de geri alım ve dokuz aylık sonuçlar",
+              url: "https://www.ticarihayat.com/suwende-160-milyon-liralik-geri-alima-ragmen-hisse-5-tlnin-altina-geriledi",
+              tip: "ikinci",
+              en: { ad: "Ticari Hayat · Suwen buyback and nine-month results" }
+            }
+          ],
+          en: {
+            kisa: "Suwen",
+            tarih: "9 Nov",
+            tur: "Company results",
+            baslik: "Suwen ends nine months with a ₺156.9 million loss",
+            ozet: "Suwen, an intimates, homewear and beachwear retailer listed on Borsa Istanbul, reported revenue of ₺5.37 billion and a net loss of ₺156.9 million for the first nine months of 2026 in the financial statements it filed with the Public Disclosure Platform (KAP) on 9 November. According to Ticari Hayat, revenue fell 5.06% compared with the same period last year.",
+            ek: "The company had 210 stores as of 30 September, 191 in Türkiye and 19 abroad. Under the ₺210 million share buyback programme it launched in September, Suwen had spent about ₺159.4 million by 11 November to buy back 23.8 million shares, corresponding to about 4.25% of its capital.",
+            onemi: "Following Koton last week, another listed retailer, this time operating in intimates, ending nine months with lower sales is a second example of the demand picture in the sector. How the November sales and the year-end season will affect this picture in intimates, homewear and beachwear is a question to watch.",
+            not: "KAP (Public Disclosure Platform): the official platform where listed companies must announce their financial results and material developments. Share buyback: a company purchasing its own shares on the stock exchange."
+          }
+        },
+        {
+          id: "h2",
+          kisa: "PVH",
+          kategori: "isgucu",
+          tarih: "12 Kasım",
+          tur: "Şirket açıklaması",
+          baslik: "Calvin Klein'ın sahibi PVH, işgücünü yaklaşık %4 azaltıyor",
+          ozet: "Calvin Klein ve Tommy Hilfiger markalarının sahibi PVH, 12 Kasım'da ABD Menkul Kıymetler ve Borsa Komisyonu'na (SEC) yaptığı bildirimde küresel işgücünü yaklaşık %4 azaltmayı beklediğini açıkladı. Şirkete göre azaltım ağırlıkla müşteriyle doğrudan temas etmeyen pozisyonlarda olacak ve ofis çalışanlarının yaklaşık %12'sine karşılık geliyor.",
+          ek: "Bildirime göre uygulama hemen başladı, kalan adımların 2027'nin ilk çeyreğinde atılması, programın tamamının ise 2027 mali yılı sonunda bitmesi bekleniyor. Şirket, 2027 mali yılında stratejik yatırımlar düşüldükten sonra en az 100 milyon dolarlık, 2028 mali yılından itibaren ise yıllık en az 150 milyon dolarlık vergi öncesi maliyet tasarrufu hedefliyor. PVH, amacının organizasyon katmanlarını ve mükerrer işleri azaltarak çalışma biçimini sadeleştirmek, kaynakları ürün, tüketici içgörüsü, dijital ticaret, tedarik zinciri ve teknolojiye yönlendirmek olduğunu belirtti. Retail Dive'a göre şirketin ikinci çeyrek gelirleri %3, Calvin Klein'ın gelirleri %7 gerilemişti.",
+          onemi: "Calvin Klein ve Tommy Hilfiger gibi küresel markaların sahibi bir şirketin tasarrufu ağırlıkla müşteriyle doğrudan temas etmeyen ofis kadrolarında ve organizasyon katmanlarında araması dikkat çekici. PVH, tasarruf hedefini stratejik yatırımlar düşüldükten sonraki net tutar olarak veriyor ve kaynakları ürün, dijital ticaret ve tedarik zinciri gibi alanlara yönlendireceğini belirtiyor.",
+          not: "SEC (ABD Menkul Kıymetler ve Borsa Komisyonu): ABD'de borsada işlem gören şirketlerin önemli gelişmeleri bildirmek zorunda olduğu düzenleyici kurum; bu açıklama \"8-K\" adlı bildirimle yapıldı.",
+          kaynaklar: [
+            {
+              ad: "PVH · SEC bildirimi (Form 8-K, 12 Kasım 2026)",
+              url: "https://pvh.gcs-web.com/static-files/52405eda-d16b-4f18-a519-04b5ed70e7ea",
+              tip: "resmi",
+              en: { ad: "PVH · SEC filing (Form 8-K, 12 November 2026)" }
+            },
+            {
+              ad: "Retail Dive · PVH işgücünün %4'ünü azaltıyor",
+              url: "https://www.retaildive.com/news/calvin-klein-tommy-hilfiger-owner-to-cut-4-of-workforce/874492/",
+              tip: "ikinci",
+              en: { ad: "Retail Dive · PVH to cut 4% of workforce" }
+            },
+            {
+              ad: "Fashionista · PVH'deki işten çıkarmalar",
+              url: "https://fashionista.com/2026/11/pvh-corp-layoffs",
+              tip: "ikinci",
+              en: { ad: "Fashionista · Layoffs at PVH" }
+            }
+          ],
+          en: {
+            kisa: "PVH",
+            tarih: "12 Nov",
+            tur: "Company statement",
+            baslik: "Calvin Klein owner PVH to cut workforce by about 4%",
+            ozet: "PVH, owner of the Calvin Klein and Tommy Hilfiger brands, said in a filing with the US Securities and Exchange Commission (SEC) on 12 November that it expects to reduce its global workforce by about 4%. According to the company, the reduction will be mainly in positions that do not deal directly with customers and corresponds to about 12% of its office-based employees.",
+            ek: "According to the filing, the actions began immediately and the remaining steps are expected to take place in the first quarter of 2027, with the whole programme completed by the end of fiscal 2027. The company is targeting at least $100 million of pre-tax cost savings in fiscal 2027, net of strategic investments, and at least $150 million a year from fiscal 2028. PVH said the aim is to simplify the way it works by reducing organisational layers and duplicated work, and to direct resources to product, consumer insight, digital commerce, supply chain and technology. According to Retail Dive, the company's second-quarter revenue had fallen 3%, and Calvin Klein's revenue 7%.",
+            onemi: "It is notable that a company owning global brands such as Calvin Klein and Tommy Hilfiger is looking for savings mainly in office roles that do not deal directly with customers and in organisational layers. PVH states its savings target net of strategic investments and says it will direct resources to areas such as product, digital commerce and supply chain.",
+            not: "SEC (US Securities and Exchange Commission): the regulator to which companies listed in the US must report material developments; this announcement was made in a filing called an \"8-K\"."
+          }
+        },
+        {
+          id: "h3",
+          kisa: "Delta Galil",
+          kategori: "icgiyim",
+          tarih: "12 Kasım",
+          tur: "Şirket sonuçları",
+          baslik: "İç giyim üreticisi Delta Galil'de rekor üçüncü çeyrek",
+          ozet: "Calvin Klein, Tommy Hilfiger ve adidas gibi markaların lisansıyla da üretim yapan iç giyim ve giyim şirketi Delta Galil, üçüncü çeyrek satışlarının yıllık %11 artışla (sabit kurla %9) 599,6 milyon dolara yükseldiğini açıkladı. Brüt kâr marjı %43,3'ten %44,7'ye çıktı; ana faaliyet dışı (non-core) kalemler hariç faaliyet kârı %23 artışla 63,1 milyon dolar oldu.",
+          ek: "Şirkete göre marjdaki artış ağırlıkla doğrudan tüketiciye satışlardaki büyümeden ve kur etkisinden geldi; ürün karışımı ve müşterilere yönelik daha yüksek promosyonlar bu etkiyi kısmen dengeledi. CEO Isaac Dabah, doğrudan tüketiciye satışların üçüncü çeyrekte %16 arttığını söyledi. Şirketin dokuz aylık sonuçlarında iade edilen gümrük vergilerinden gelen 18,6 milyon dolarlık bir kazanç da yer alıyor; şirket yıl sonu beklentisini bu tutar hariç veriyor ve sonuçların beklenti aralığının orta ile üst ucunda gerçekleşmesini bekliyor.",
+          onemi: "Pek çok moda perakendecisi zayıf talepten söz ederken büyük bir iç giyim üreticisinde marj artışının ağırlıkla doğrudan tüketiciye satışlardan ve kur etkisinden gelmesi dikkat çekici. Delta Galil örneğinde artan promosyonlar marjı kısmen aşağı çekti; dokuz aylık sonuçlarda tek seferlik gümrük vergisi iadesinin de payı var.",
+          not: "Sabit kur: Kur değişimlerinin etkisi çıkarılarak hesaplanan büyüme. Doğrudan tüketiciye satış (DTC): Markanın kendi mağazaları ve internet sitesi üzerinden, aracı olmadan yaptığı satışlar. Lisans: Bir markanın ürünlerini, marka sahibinin izniyle başka bir şirketin üretip satması.",
+          kaynaklar: [
+            {
+              ad: "Delta Galil · 2026 üçüncü çeyrek sonuç duyurusu",
+              url: "https://deltagalil.com/investor-relations/press-releases/press-releases-details/2026/Delta-Galil-Reports-Record-Third-Quarter-2026-Results/default.aspx",
+              tip: "resmi",
+              en: { ad: "Delta Galil · Third quarter 2026 results release" }
+            },
+            {
+              ad: "Business Wire · Delta Galil üçüncü çeyrek sonuçları",
+              url: "https://www.businesswire.com/news/home/20261111953065/en/",
+              tip: "ikinci",
+              en: { ad: "Business Wire · Delta Galil third-quarter results" }
+            }
+          ],
+          en: {
+            kisa: "Delta Galil",
+            tarih: "12 Nov",
+            tur: "Company results",
+            baslik: "Record third quarter at intimates maker Delta Galil",
+            ozet: "Delta Galil, an intimates and apparel company that also manufactures under licence for brands such as Calvin Klein, Tommy Hilfiger and adidas, reported that third-quarter sales rose 11% year on year (9% in constant currency) to $599.6 million. Gross margin rose from 43.3% to 44.7%; operating profit excluding non-core items rose 23% to $63.1 million.",
+            ek: "According to the company, the margin increase came mainly from growth in direct-to-consumer sales and currency effects, partly offset by product mix and higher customer promotions. CEO Isaac Dabah said direct-to-consumer sales rose 16% in the third quarter. The company's nine-month results also include an $18.6 million gain from tariff refunds; the company gives its full-year guidance excluding this amount and expects results at the middle to high end of the guidance range.",
+            onemi: "While many fashion retailers talk of weak demand, it is notable that at a large intimates manufacturer the margin increase came mainly from direct-to-consumer sales and currency effects. In Delta Galil's case, higher promotions weighed partly on the margin; the one-off tariff refund also contributed to the nine-month results.",
+            not: "Constant currency: growth calculated excluding the effect of exchange-rate changes. Direct-to-consumer (DTC) sales: sales the brand makes without intermediaries through its own stores and website. Licence: another company manufacturing and selling a brand's products with the brand owner's permission."
+          }
+        },
+        {
+          id: "h4",
+          kisa: "M&S",
+          kategori: "moda",
+          tarih: "10 Kasım",
+          tur: "Şirket açıklaması",
+          baslik: "M&S moda, ev ve güzellikte online payı %50'ye yaklaştırıyor",
+          ozet: "Marks & Spencer, 10 Kasım'da düzenlediği Sermaye Piyasaları Günü'nde orta vadeli hedeflerini açıkladı. Şirket, Moda, Ev ve Güzellik bölümünde online satışların payını %50'ye doğru artırmayı, bunu 180 yüksek verimli mağazayla birlikte yürütmeyi ve hem online hem mağaza kanalında %10'un üzerinde faaliyet kâr marjı elde etmeyi hedefliyor.",
+          ek: "Şirket grup genelinde orta vadede orta-yüksek tek haneli satış büyümesi ve satıştan hızlı kâr artışı hedefliyor; 600 milyon sterlinlik yapısal maliyet azaltımı hedefinin 2028 mali yılına kadar gerçekleşme yolunda olduğunu belirtti. 4 Kasım'daki ilk yarı sonuçları toplantısında CEO Stuart Machin, online satışların bölüm satışlarındaki payının %35 olduğunu söylemişti.",
+          onemi: "Geçen hafta giyim pazarını küçülen ve yoğun promosyonlu olarak tanımlayan M&S, bu hafta moda, ev ve güzellik bölümünde online payını %50'ye yaklaştırmayı 180 yüksek verimli mağazayla birlikte hedeflediğini açıkladı. M&S örneğinde mağaza ağı ve online satış, birlikte planlanan iki kanal olarak ele alınıyor.",
+          not: "Sermaye Piyasaları Günü: Şirketlerin yatırımcılara orta vadeli strateji ve hedeflerini anlattığı toplantı. Online payı: Bölüm satışlarının ne kadarının internet üzerinden yapıldığı.",
+          kaynaklar: [
+            {
+              ad: "M&S · Sermaye Piyasaları Günü 2026 duyurusu",
+              url: "https://corporate.marksandspencer.com/newsroom/press-releases/capital-markets-day-2026",
+              tip: "resmi",
+              en: { ad: "M&S · Capital Markets Day 2026 announcement" }
+            },
+            {
+              ad: "Investing.com · M&S ilk yarı analist toplantısı metni",
+              url: "https://www.investing.com/news/transcripts/earnings-call-transcript-marks--spencer-h1-2026-profit-more-than-doubles-93CH-4997604",
+              tip: "ikinci",
+              en: { ad: "Investing.com · M&S half-year earnings call transcript" }
+            }
+          ],
+          en: {
+            kisa: "M&S",
+            tarih: "10 Nov",
+            tur: "Company statement",
+            baslik: "M&S targets online share near 50% in fashion, home and beauty",
+            ozet: "Marks & Spencer announced its medium-term targets at a Capital Markets Day on 10 November. In its Fashion, Home & Beauty division, the company aims to increase online participation towards 50%, alongside 180 highly productive stores, and to deliver operating margins of more than 10% in both the online and store channels.",
+            ek: "Across the group, the company is targeting mid-to-high single-digit sales growth over the medium term with profit growth ahead of sales; it said it is on track to achieve its £600 million structural cost reduction objective by fiscal 2028. At the half-year results call on 4 November, CEO Stuart Machin had said online accounted for 35% of the division's sales.",
+            onemi: "M&S, which last week described the clothing market as shrinking and heavily promotional, said this week that in its fashion, home and beauty division it aims to bring online participation towards 50% alongside 180 highly productive stores. In M&S's case, the store network and online sales are treated as two channels planned together.",
+            not: "Capital Markets Day: a meeting where companies present their medium-term strategy and targets to investors. Online participation: the share of a division's sales made online."
+          }
+        }
+      ],
+      sinyal: {
+        baslik: "Maliyet ve kanal tercihleri",
+        metin: "Bu haftaki üç yabancı şirket haberinde maliyet ve satış kanalı tercihleri öne çıkıyor. PVH tasarrufu ağırlıkla müşteriyle doğrudan temas etmeyen ofis kadrolarında ve organizasyon katmanlarında arıyor; M&S moda, ev ve güzellik bölümünde online payı yaklaşık yarıya çıkarmayı 180 yüksek verimli mağazayla birlikte planlıyor; Delta Galil'de marj artışını ağırlıkla doğrudan tüketiciye satışlar ve kur etkisi taşıdı. Türkiye'de ise giyimde satış hacmi Eylül'de toparlanırken borsadaki bir iç giyim perakendecisi dokuz ayı satış düşüşüyle kapattı. Talebin yönü netleşmezken şirketlerin hangi maliyet kalemini koruyup hangisini azalttığı, izlenecek bir konu.",
+        dayanak: ["h2", "h4", "h3", "veri", "h1"],
+        en: {
+          baslik: "Choices on costs and channels",
+          metin: "Choices on costs and sales channels stand out in this week's news from three foreign companies. PVH is looking for savings mainly in office roles that do not deal directly with customers and in organisational layers; M&S plans to bring the online share of its fashion, home and beauty division to about half alongside 180 highly productive stores; at Delta Galil, the margin increase was carried mainly by direct-to-consumer sales and currency effects. In Türkiye, clothing sales volume recovered in September, while a listed intimates retailer ended nine months with lower sales. With the direction of demand still unclear, which cost items companies protect and which they reduce is a subject to watch."
+        }
+      },
+      veri: {
+        id: "veri",
+        kisa: "Eylül perakende satışları",
+        kategori: "tr",
+        tarih: "11 Kasım",
+        tur: "Resmî veri",
+        deger: "%7,8",
+        baslik: "Giyim satış hacmi Eylül'de yıllık %7,8 arttı",
+        metin: "TÜİK'in 11 Kasım'da açıkladığı verilere göre perakende satış hacmi Eylül'de bir önceki yılın aynı ayına göre %7,7 arttı; bu, 2026'daki en düşük yıllık artış. Tekstil, giyim ve ayakkabı satış hacmi ise yıllık %7,8 artışla Ağustos'taki %2,9'un belirgin biçimde üzerine çıktı ve genel perakendeyle aynı hıza ulaştı.",
+        karsilastirma: [
+          { etiket: "Posta veya internet yoluyla", deger: 17.4, en: { etiket: "Mail order or internet" } },
+          { etiket: "Bilgisayar, kitap, iletişim", deger: 10.9, en: { etiket: "Computers, books, communication" } },
+          { etiket: "Gıda dışı (yakıt hariç)", deger: 8.6, en: { etiket: "Non-food (excl. fuel)" } },
+          { etiket: "Tekstil, giyim ve ayakkabı", deger: 7.8, vurgu: true, en: { etiket: "Textiles, clothing and footwear" } },
+          { etiket: "Toplam perakende", deger: 7.7, en: { etiket: "Total retail" } },
+          { etiket: "Gıda, içecek ve tütün", deger: 6.2, en: { etiket: "Food, beverages and tobacco" } }
+        ],
+        olcek: 20,
+        orneklem: "Satış hacmi, yıllık değişim (%), Eylül 2026 · TÜİK, 11 Kasım 2026'da açıklandı",
+        ozet: "TÜİK'in Eylül 2026 ticaret satış hacmi verilerinden öne çıkanlar:",
+        maddeler: [
+          "Perakende satış hacmi: yıllık %7,7 (Ağustos'ta %10,1); aylık %0,1.",
+          "Tekstil, giyim ve ayakkabı: yıllık %7,8 (Ağustos'ta %2,9).",
+          "Posta veya internet yoluyla satışlar: yıllık %17,4 (Ağustos'ta %17,9).",
+          "Toplam ticaret satış hacmi: yıllık %5,6 düşüş; toptan ticaret yıllık %10,9 geriledi.",
+          "Ekim verisi 11 Aralık'ta açıklanacak."
+        ],
+        onemi: "Ağustos'taki zayıf seyrin ardından giyimde satış hacminin Eylül'de genel perakendeyle aynı hıza gelmesi, sezon başı talebine dair olumlu bir işaret. Ancak bu tek aylık bir veri; toplam perakendedeki artışın yılın en düşük seviyesine inmesi ve Merkez Bankası'nın altın hariç perakende satışların üçüncü çeyrekte yavaşladığını belirtmesi, genel talep görünümünün zayıf kaldığını gösteriyor. Ekim ve Kasım verileri, giyimdeki toparlanmanın kalıcı olup olmadığını gösterecek.",
+        not: "Satış hacmi: Fiyat değişimlerinin etkisi çıkarılarak hesaplanan, satılan miktardaki değişim. Endeks24'e göre yıllık değişimler takvim etkisinden, aylık değişim ise takvim ve mevsim etkilerinden arındırılmış verilerle hesaplanıyor.",
+        kaynaklar: [
+          {
+            ad: "Forbes Türkiye · Eylül ayı ticaret satış hacmi verileri",
+            url: "https://www.forbes.com.tr/ekonomi/turkiye-nin-eylul-ayi-ticaret-satis-hacmi-verileri-belli-oldu",
+            tip: "ikinci",
+            en: { ad: "Forbes Türkiye · September trade sales volume data" }
+          },
+          {
+            ad: "Endeks24 · Perakende satış hacmi Eylül'de",
+            url: "https://www.endeks24.com/perakende-satis-hacmi-eylulde-yillik-yuzde-8-artti-9-ayin-en-dusugu",
+            tip: "ikinci",
+            en: { ad: "Endeks24 · Retail sales volume in September" }
+          },
+          {
+            ad: "CNBC-e · Perakende satış hacmi Eylül'de yavaşladı",
+            url: "https://www.cnbce.com/veriler/tuik-duyurdu-perakende-satis-hacmi-eylulde-yavasladi-h41530",
+            tip: "ikinci",
+            en: { ad: "CNBC-e · Retail sales volume slowed in September" }
+          }
+        ],
+        en: {
+          kisa: "September retail sales",
+          tarih: "11 Nov",
+          tur: "Official data",
+          deger: "7.8%",
+          baslik: "Clothing sales volume up 7.8% year on year in September",
+          metin: "According to data published by TurkStat on 11 November, retail sales volume rose 7.7% in September compared with the same month last year; this is the lowest annual increase of 2026. Sales volume in textiles, clothing and footwear rose 7.8% year on year, well above August's 2.9%, and caught up with overall retail.",
+          orneklem: "Sales volume, annual change (%), September 2026 · TurkStat, published 11 November 2026",
+          ozet: "Highlights from TurkStat's September 2026 trade sales volume data:",
+          maddeler: [
+            "Retail sales volume: 7.7% year on year (10.1% in August); 0.1% month on month.",
+            "Textiles, clothing and footwear: 7.8% year on year (2.9% in August).",
+            "Mail order or internet sales: 17.4% year on year (17.9% in August).",
+            "Total trade sales volume: down 5.6% year on year; wholesale trade fell 10.9% year on year.",
+            "October data will be published on 11 December."
+          ],
+          onemi: "After a weak August, clothing sales volume catching up with overall retail in September is a positive sign for start-of-season demand. However, this is a single month of data; the increase in total retail slowing to its lowest level of the year, and the Central Bank's remark that retail sales excluding gold slowed in the third quarter, show that the general demand outlook remains weak. October and November data will show whether the recovery in clothing is lasting.",
+          not: "Sales volume: the change in the quantity sold, calculated excluding the effect of price changes. According to Endeks24, annual changes are calculated from calendar-adjusted data and the monthly change from calendar and seasonally adjusted data."
+        }
+      },
+      etkinlikler: [
+        {
+          ad: "Kasım ayı tüketici güveni",
+          tur: "Veri günü",
+          baslangic: "2026-11-20",
+          bitis: "2026-11-20",
+          yer: "TÜİK",
+          aciklama: "Ekim'de %7,7 düşüşle 84,8'e inen tüketici güven endeksinin Kasım değeri açıklanacak.",
+          url: "https://www.foreks.com/haber/detay/69566f3367ad3132ebdf7774/PICNEWS/tr/tuik-2026-yili-veri-yayin-takvimini-acikladi-01-01-26/",
+          en: {
+            ad: "November consumer confidence",
+            tur: "Data release",
+            yer: "TurkStat",
+            aciklama: "The November reading of the consumer confidence index, which fell 7.7% to 84.8 in October, will be published."
+          }
+        },
+        {
+          ad: "Black Friday",
+          tur: "İndirim dönemi",
+          baslangic: "2026-11-27",
+          bitis: "2026-11-27",
+          yer: "Küresel",
+          aciklama: "ABD'de Şükran Günü'nün (26 Kasım) ertesi günü olan küresel indirim günü; Türkiye'de Ticaret Bakanlığı'nın yakın takibe aldığı Kasım indirimleri döneminin içinde.",
+          url: "https://ticaret.gov.tr/haberler/kasim-ayi-indirim-kampanyalari-ticaret-bakanliginin-yakin-takibinde",
+          en: {
+            ad: "Black Friday",
+            tur: "Sales period",
+            yer: "Global",
+            aciklama: "The global sales day after Thanksgiving in the US (26 November); in Türkiye it falls within the November sales period, which the Ministry of Trade is monitoring closely."
+          }
+        },
+        {
+          ad: "Asgari Ücret Tespit Komisyonu",
+          tur: "Beklenen toplantı",
+          baslangic: "2026-12-01",
+          bitis: "2026-12-31",
+          yer: "Türkiye",
+          aciklama: "Bakan Işıkhan'a göre komisyon Aralık'ta toplanacak; ilk toplantının tarihi henüz açıklanmadı.",
+          url: "https://www.karar.com/ekonomi-haberleri/bakan-isikhan-acikladi-asgari-ucret-ve-memur-zamminda-takvim-2082111",
+          en: {
+            ad: "Minimum Wage Determination Commission",
+            tur: "Expected meeting",
+            yer: "Türkiye",
+            aciklama: "According to Minister Işıkhan, the commission will meet in December; the date of the first meeting has not yet been announced.",
+            tahminiMetin: "December (estimated)"
+          },
+          tahmini: true,
+          tahminiMetin: "Aralık (tahmini)"
+        },
+        {
+          ad: "Inditex 9 aylık sonuçları",
+          tur: "Şirket sonuçları",
+          baslangic: "2026-12-02",
+          bitis: "2026-12-02",
+          yer: "Arteixo",
+          aciklama: "Zara'nın sahibi Inditex, Şubat–Ekim dönemi sonuçlarını açıklayacak. Tarih piyasa takviminden; şirket henüz teyit etmedi.",
+          url: "https://www.marketscreener.com/quote/stock/INDITEX-46535998/calendar/",
+          en: {
+            ad: "Inditex nine-month results",
+            tur: "Company results",
+            yer: "Arteixo",
+            aciklama: "Zara owner Inditex will publish its February–October results. Date from a market calendar; not yet confirmed by the company.",
+            tahminiMetin: "2 December (estimated)"
+          },
+          tahmini: true,
+          tahminiMetin: "2 Aralık (tahmini)"
+        },
+        {
+          ad: "Kasım ayı enflasyonu",
+          tur: "Veri günü",
+          baslangic: "2026-12-03",
+          bitis: "2026-12-03",
+          yer: "TÜİK",
+          aciklama: "TÜİK Kasım ayı tüketici fiyatlarını açıklayacak; indirim döneminin giyim fiyatlarına yansıması görülecek.",
+          url: "https://www.foreks.com/haber/detay/69566f3367ad3132ebdf7774/PICNEWS/tr/tuik-2026-yili-veri-yayin-takvimini-acikladi-01-01-26/",
+          en: {
+            ad: "November inflation",
+            tur: "Data release",
+            yer: "TurkStat",
+            aciklama: "TurkStat will publish November consumer prices, showing how the sales period is reflected in clothing prices."
+          }
+        },
+        {
+          ad: "Victoria's Secret üçüncü çeyrek sonuçları",
+          tur: "Şirket sonuçları",
+          baslangic: "2026-12-03",
+          bitis: "2026-12-03",
+          yer: "ABD",
+          aciklama: "Victoria's Secret & Co., Ağustos–Ekim dönemi sonuçlarını açıklayacak; analist toplantısı ABD saatiyle 08.30'da.",
+          url: "https://www.globenewswire.com/news-release/2026/11/12/3401582/0/en/victoria-s-secret-co-invites-you-to-listen-to-the-third-quarter-2026-earnings-call.html",
+          en: {
+            ad: "Victoria's Secret third-quarter results",
+            tur: "Company results",
+            yer: "US",
+            aciklama: "Victoria's Secret & Co. will publish its August–October results; the earnings call is at 8:30 a.m. US Eastern Time."
+          }
+        },
+        {
+          ad: "Merkez Bankası faiz kararı",
+          tur: "Karar günü",
+          baslangic: "2026-12-10",
+          bitis: "2026-12-10",
+          yer: "TCMB",
+          aciklama: "Para Politikası Kurulu'nun yılın son toplantısı. Ekim'deki toplantıda politika faizi %37'den %36'ya indirilmişti.",
+          url: "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Takvim",
+          en: {
+            ad: "Central Bank rate decision",
+            tur: "Decision day",
+            yer: "CBRT",
+            aciklama: "The Monetary Policy Committee's last meeting of the year. At the October meeting the policy rate was cut from 37% to 36%."
+          }
+        },
+        {
+          ad: "Ekim ayı perakende satışları",
+          tur: "Veri günü",
+          baslangic: "2026-12-11",
+          bitis: "2026-12-11",
+          yer: "TÜİK",
+          aciklama: "TÜİK Ekim ayı ticaret satış hacmi verilerini açıklayacak; Eylül'de yıllık %7,8 artan giyim satış hacmindeki toparlanmanın sürüp sürmediği görülecek.",
+          url: "https://www.foreks.com/haber/detay/69566f3367ad3132ebdf7774/PICNEWS/tr/tuik-2026-yili-veri-yayin-takvimini-acikladi-01-01-26/",
+          en: {
+            ad: "October retail sales",
+            tur: "Data release",
+            yer: "TurkStat",
+            aciklama: "TurkStat will publish October trade sales volume data, showing whether the recovery in clothing sales volume, which rose 7.8% year on year in September, has continued."
+          }
+        }
+      ],
+      en: {
+        donem: "9–15 November 2026",
+        yayin: "15 November 2026",
+        sonraki: "Sunday, 22 November",
+        gundemNotu: "1 Türkiye, 3 global"
+      }
+    },
     {
       no: 4,
       donem: "2–8 Kasım 2026",
