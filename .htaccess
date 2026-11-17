@@ -1,0 +1,52 @@
+# Haftalık Perakende Gündemi — sunucu güvenlik ayarları (Hostinger)
+# Bu dosya sitenin ana klasöründe (public_html) durur. Ziyaretçiye görünmez.
+
+# Klasör içeriğinin liste halinde gösterilmesini kapat
+Options -Indexes
+
+RewriteEngine On
+
+# 1) Gizli dosya ve klasörleri (.git, .htaccess vb.) dışarıya kapat
+RewriteRule (^|/)\.(?!well-known/) - [F,L]
+
+# 2) www'lu adresi www'suz adrese yönlendir (tek, sabit adres)
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+
+# 3) http ile gelen herkesi https'e yönlendir
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+<IfModule mod_headers.c>
+  # Tarayıcı bu siteye 1 yıl boyunca yalnızca https ile bağlansın (HSTS)
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+  # Sayfa başka bir sitenin içine gömülemesin (tıklama tuzağına karşı)
+  Header always set X-Frame-Options "DENY"
+
+  # Tarayıcı dosya türünü tahmin etmeye çalışmasın
+  Header always set X-Content-Type-Options "nosniff"
+
+  # Dış sitelere tıklanınca yalnızca alan adı bilgisi gitsin
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # Kamera, mikrofon, konum, ödeme ve USB erişimi tamamen kapalı
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+
+  # Sayfa yalnızca kendi dosyalarını ve Google Fonts yazı tipini yükleyebilsin
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests"
+
+  # Başka sekmelerle pencere paylaşımını kapat
+  Header always set Cross-Origin-Opener-Policy "same-origin"
+
+  # Sunucu teknolojisi bilgisini gizle
+  Header always unset X-Powered-By
+
+  # Yeni sayı yayınlandığında okuyucu eski sürümü görmesin
+  <FilesMatch "\.(html|js)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+  <FilesMatch "\.(jpg|jpeg|png|webp|svg)$">
+    Header set Cache-Control "public, max-age=86400"
+  </FilesMatch>
+</IfModule>
