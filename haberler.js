@@ -70,12 +70,502 @@ window.BULTEN = {
   },
   yeni: [],
   siradaki: {
-    no: 6,
-    donem: "16–22 Kasım 2026",
-    yayin: "22 Kasım Pazar",
-    en: { donem: "16–22 November 2026", yayin: "Sunday, 22 November" }
+    no: 7,
+    donem: "23–29 Kasım 2026",
+    yayin: "29 Kasım Pazar",
+    en: { donem: "23–29 November 2026", yayin: "Sunday, 29 November" }
   },
   sayilar: [
+    {
+      no: 6,
+      donem: "16–22 Kasım 2026",
+      yayin: "22 Kasım 2026",
+      sonraki: "29 Kasım Pazar",
+      okuma: 6,
+      gundemNotu: "2 Türkiye, 2 dünya",
+      birDakika: [
+        {
+          baslik: "Tüketici güveni Kasım'da %2,4 artarak 86,8'e çıktı; endeks Ekim'de %7,7 düşerek 84,8'e inmişti.",
+          anlam: "Artış, Ekim'deki 7,1 puanlık kaybın 2 puanını geri getirdi ve endeks 100'ün altında, yani kötümser bölgede kaldı. Farklı bir yöntemle hazırlanan ve ayın ilk yarısını kapsayan Bloomberg HT ön endeksi ise düşüş gösterdi.",
+          ref: "ana",
+          en: {
+            baslik: "Consumer confidence rose 2.4% to 86.8 in November; the index had fallen 7.7% to 84.8 in October.",
+            anlam: "The rise recovered 2 points of October's 7.1-point loss, and the index stayed below 100, in pessimistic territory. Bloomberg HT's flash index, which uses a different method and covers the first half of the month, showed a decline."
+          }
+        },
+        {
+          baslik: "Gap, talebin Ekim ve Kasım başında daha sıcak geçen havayla birlikte yavaşladığını belirterek yıllık satış beklentisini \"yaklaşık yatay\"a çekti.",
+          anlam: "TJX de ABD ve Kanada'da mevsim normallerinin üzerindeki sıcakların bazı kategorilerde talebi frenlediğini söyledi, ancak yıllık beklentisini %4'e yükseltti. Gap örneğinde hava, kış ürünlerinin satış zamanlamasını etkileyen bir etken olarak öne çıktı.",
+          ref: "h1",
+          en: {
+            baslik: "Gap said demand softened in October and early November amid warmer weather and cut its annual sales outlook to \"roughly flat\".",
+            anlam: "TJX also said unseasonably warm weather in the US and Canada held back demand in some categories, but raised its annual outlook to 4%. In Gap's case, weather stood out as a factor affecting the timing of sales of winter products."
+          }
+        },
+        {
+          baslik: "İşsizlik oranı üçüncü çeyrekte %8,1'e, atıl işgücü oranı %30,9'a yükseldi; istihdam 62 bin kişi azaldı.",
+          anlam: "İstihdam sanayide 133 bin kişi azalırken hizmet sektöründe 120 bin kişi arttı. Genç kadınlarda işsizlik oranı %21,3.",
+          ref: "veri",
+          en: {
+            baslik: "The unemployment rate rose to 8.1% and the composite underutilisation rate to 30.9% in the third quarter; employment fell by 62 thousand.",
+            anlam: "Employment fell by 133 thousand in industry while rising by 120 thousand in services. The unemployment rate among young women is 21.3%."
+          }
+        }
+      ],
+      ana: {
+        id: "ana",
+        kisa: "Tüketici güveni",
+        kategori: "tr",
+        tarih: "20 Kasım",
+        tur: "Resmî veri",
+        okumaSuresi: 2,
+        baslik: "Tüketici güveni Kasım'da %2,4 artarak 86,8'e çıktı",
+        ozet: "TÜİK'in 20 Kasım'da açıkladığı verilere göre tüketici güven endeksi Kasım'da bir önceki aya göre %2,4 artarak 84,8'den 86,8'e yükseldi. Endeks Eylül'de 91,9 iken Ekim'de %7,7 düşerek 84,8'e inmişti; Kasım'daki artışla bu kaybın bir kısmı geri alındı ancak endeks 100'ün altında kaldı.",
+        ek: "Alt endekslerden gelecek 12 ayda hanenin maddi durum beklentisi 86,4'ten 89,4'e, genel ekonomik durum beklentisi 81,7'den 84,1'e, gelecek 12 ayda dayanıklı tüketim mallarına harcama yapma düşüncesi 102,7'den 105,3'e yükseldi. Mevcut dönemde hanenin maddi durumu endeksi ise 68,3'ten 68,4'e çıkarak neredeyse değişmedi. Öte yandan Bloomberg HT'nin 16 Kasım'da yayımladığı ve ayın ilk yarısını kapsayan Tüketici Güven Ön Endeksi, bir önceki ayın kesin endeksine göre %7,92 düşerek 64,79'a indi; Bloomberg HT'ye göre bu, 2024'ten bu yana en düşük seviye. İki endeks farklı anket ve yöntemlerle hazırlanıyor.",
+        onemi: "Kasım'daki artış, endeksin Ekim'de kaybettiği 7,1 puanın 2 puanını geri getirdi; tüketiciler Kasım indirim dönemine hâlâ kötümser bölgede giriyor. Hanelerin gelecek beklentisi artarken mevcut maddi durum değerlendirmesinin yerinde sayması, beklentideki iyileşmenin bugünkü bütçeye henüz yansımadığına işaret ediyor; endekste giyime özgü bir alt kalem bulunmuyor. Ayın ilk yarısında ters yönde sinyal veren Bloomberg HT ön endeksiyle birlikte okunduğunda, Kasım'ın satış verilerinin talebin yönünü daha net göstereceği söylenebilir.",
+        bolumler: [
+          {
+            baslik: "TÜİK tüketici güven endeksi (Ekim → Kasım)",
+            maddeler: [
+              "Genel endeks: 84,8 → 86,8 (aylık %2,4 artış).",
+              "Gelecek 12 ayda hanenin maddi durum beklentisi: 86,4 → 89,4 (%3,4 artış).",
+              "Gelecek 12 ayda genel ekonomik durum beklentisi: 81,7 → 84,1 (%2,9 artış).",
+              "Gelecek 12 ayda dayanıklı tüketim mallarına harcama yapma düşüncesi: 102,7 → 105,3 (%2,5 artış).",
+              "Mevcut dönemde hanenin maddi durumu: 68,3 → 68,4 (neredeyse değişmedi)."
+            ]
+          },
+          {
+            baslik: "Önceki ay (TÜİK, 22 Ekim)",
+            maddeler: [
+              "Endeks Eylül'de 91,9 iken Ekim'de %7,7 düşüşle 84,8'e inmişti.",
+              "Kasım'daki 2 puanlık artış, Ekim'deki 7,1 puanlık düşüşün yaklaşık %28'ine karşılık geliyor."
+            ]
+          },
+          {
+            baslik: "Bloomberg HT Tüketici Güven Ön Endeksi (16 Kasım, ayın ilk yarısı)",
+            maddeler: [
+              "Ön endeks: 64,79; bir önceki ayın kesin endeksine göre %7,92 düşüş (Bloomberg HT'ye göre 2024'ten bu yana en düşük seviye).",
+              "Beklenti ön endeksi: 68,95 (%0,51 düşüş).",
+              "Tüketim eğilimi ön endeksi: 61,30 (%19,07 düşüş); Bloomberg HT, düşüşte en belirleyici kalemin tüketim eğilimi olduğunu belirtti."
+            ]
+          }
+        ],
+        not: "Tüketici güven endeksi: TÜİK'in hanelerle yaptığı ankete dayanan, 0–200 arasında değer alan endeks; 100'ün üzeri iyimser, altı kötümser görünümü gösterir. Ön endeks: Bloomberg HT'nin ayın ilk yarısında topladığı yanıtlarla hesapladığı ilk tahmin; TÜİK endeksinden ayrı bir çalışmadır ve rakamları birebir karşılaştırılamaz. Dayanıklı tüketim malı: Otomobil, beyaz eşya, mobilya gibi uzun süre kullanılan ürünler.",
+        kapak: {
+          gorsel: "kapak-sayi6.jpg",
+          gorselAciklama: "Pembe bir alışveriş çantası; ortada pembe, lavanta ve nane yeşili dilimlerden oluşan, ibresi ortanın biraz soluna yükselmiş bir gösterge ve üzerinde sağa kıvrılan sarı bir ok; sağda yarı saydam bir kartın içinde önce düşüp sonra yükselen beyaz bir çizgi grafik",
+          en: { gorselAciklama: "A pink shopping bag; in the centre, a gauge made of pink, lavender and mint-green segments with its needle raised to just left of the middle and a yellow arrow curving to the right above it; on the right, inside a translucent card, a white line chart that first falls and then rises" }
+        },
+        kaynaklar: [
+          {
+            ad: "Takvim · TÜİK Kasım tüketici güven endeksi",
+            url: "https://www.takvim.com.tr/ekonomi/2026/11/20/tuketici-guveninde-kasim-yukselisi-tuik-acikladi",
+            tip: "ikinci",
+            en: { ad: "Takvim · TurkStat November consumer confidence index" }
+          },
+          {
+            ad: "Para Ajansı · 16–20 Kasım haftasında ekonominin gündemi",
+            url: "https://paraajansi.com.tr/ekonomi/16-20-kasim-haftasinda-ekonominin-gundemi-neler-oldu-22231921h",
+            tip: "ikinci",
+            en: { ad: "Para Ajansı · The economic agenda in the week of 16–20 November" }
+          },
+          {
+            ad: "Alomaliye · Tüketici Güven Endeksi, Ekim 2026 (TÜİK)",
+            url: "https://www.alomaliye.com/2026/10/22/tuketici-guven-endeksi-84-8-oldu/",
+            tip: "ikinci",
+            en: { ad: "Alomaliye · Consumer Confidence Index, October 2026 (TurkStat)" }
+          },
+          {
+            ad: "Bloomberg HT · Tüketici Güven Ön Endeksi, Kasım 2026",
+            url: "https://www.bloomberght.com/bloomberg-ht-tuketici-guven-on-endeksi-2024-ten-beri-en-dusuk-seviyede-3794709",
+            tip: "ikinci",
+            en: { ad: "Bloomberg HT · Consumer Confidence Flash Index, November 2026" }
+          }
+        ],
+        en: {
+          kisa: "Consumer confidence",
+          tarih: "20 Nov",
+          tur: "Official data",
+          baslik: "Consumer confidence rose 2.4% to 86.8 in November",
+          ozet: "According to data published by TurkStat on 20 November, the consumer confidence index rose 2.4% month on month in November, from 84.8 to 86.8. The index had stood at 91.9 in September and fell 7.7% to 84.8 in October; November's rise recovered part of that loss, but the index remained below 100.",
+          ek: "Among the sub-indices, the household financial situation expectation for the next 12 months rose from 86.4 to 89.4, the general economic situation expectation from 81.7 to 84.1, and the intention to spend on durable goods over the next 12 months from 102.7 to 105.3. The index for the household's current financial situation rose from 68.3 to 68.4, barely changing. Meanwhile, Bloomberg HT's Consumer Confidence Flash Index, published on 16 November and covering the first half of the month, fell 7.92% from the previous month's final index to 64.79; according to Bloomberg HT, this is the lowest level since 2024. The two indices are based on different surveys and methods.",
+          onemi: "November's rise recovered 2 points of the 7.1 points the index lost in October; consumers are still entering the November sales period in pessimistic territory. While households' expectations rose, their assessment of their current financial situation stood still, suggesting that the improvement in expectations has not yet reached today's budgets; the index has no sub-item specific to clothing. Read together with Bloomberg HT's flash index, which pointed the other way in the first half of the month, November's sales data may show the direction of demand more clearly.",
+          bolumler: [
+            {
+              baslik: "TurkStat consumer confidence index (October → November)",
+              maddeler: [
+                "Overall index: 84.8 → 86.8 (up 2.4% month on month).",
+                "Household financial situation expectation over the next 12 months: 86.4 → 89.4 (up 3.4%).",
+                "General economic situation expectation over the next 12 months: 81.7 → 84.1 (up 2.9%).",
+                "Intention to spend on durable goods over the next 12 months: 102.7 → 105.3 (up 2.5%).",
+                "Household's current financial situation: 68.3 → 68.4 (barely changed)."
+              ]
+            },
+            {
+              baslik: "Previous month (TurkStat, 22 October)",
+              maddeler: [
+                "The index stood at 91.9 in September and fell 7.7% to 84.8 in October.",
+                "November's 2-point rise corresponds to about 28% of October's 7.1-point fall."
+              ]
+            },
+            {
+              baslik: "Bloomberg HT Consumer Confidence Flash Index (16 November, first half of the month)",
+              maddeler: [
+                "Flash index: 64.79; down 7.92% from the previous month's final index (according to Bloomberg HT, the lowest level since 2024).",
+                "Expectations flash index: 68.95 (down 0.51%).",
+                "Consumption propensity flash index: 61.30 (down 19.07%); Bloomberg HT said consumption propensity was the main driver of the decline."
+              ]
+            }
+          ],
+          not: "Consumer confidence index: an index based on TurkStat's household survey, ranging from 0 to 200; values above 100 indicate an optimistic outlook and values below 100 a pessimistic one. Flash index: Bloomberg HT's first estimate based on responses collected in the first half of the month; it is a separate study from the TurkStat index and the figures cannot be compared one to one. Durable goods: products used over a long period, such as cars, household appliances and furniture."
+        }
+      },
+      haberler: [
+        {
+          id: "h1",
+          kisa: "ABD'de giyim",
+          kategori: "moda",
+          tarih: "18–19 Kasım",
+          tur: "Şirket sonuçları",
+          baslik: "Gap yıllık beklentisini düşürdü, sıcak havaya dikkat çekti",
+          ozet: "Gap, 19 Kasım'da açıkladığı üçüncü çeyrek (Ağustos–Ekim) sonuçlarında net satışlarının %2 artışla 4,0 milyar dolar olduğunu, karşılaştırılabilir satışlarının ise yatay kaldığını bildirdi. CEO Richard Dickson'a göre talep, Ekim ve Kasım başında daha sıcak geçen havayla birlikte yavaşladı. Şirket yıllık net satış beklentisini \"%1–1,5 artış\"tan \"yaklaşık yatay\"a, düzeltilmiş hisse başına kâr beklentisini 2,35–2,45 dolardan 2,29–2,34 dolara indirdi.",
+          ek: "Gap, dördüncü çeyreğin beklenenden yavaş başladığını, hava normale döndükçe son dönemde iyileşme görüldüğünü belirtti; Banana Republic'te soğuk hava ürünlerine talebin gecikmesinin performansı aşağı çektiğini açıkladı. TJX, 18 Kasım'da üçüncü çeyrek net satışlarının %6 artışla 16,0 milyar dolara, karşılaştırılabilir satışlarının %4 arttığını açıkladı; CEO Ernie Herrman, ABD ve Kanada'da mevsim normallerinin üzerindeki sıcakların bazı kategorilerde talebi frenlediğini söyledi. TJX yıllık karşılaştırılabilir satış artışı beklentisini %4'e yükseltti; FashionUnited'a göre önceki beklenti %3–4'tü. Aynı gün sonuçlarını açıklayan Target'ta karşılaştırılabilir satışlar %5,6 artarken şirketin kategori tablosuna göre giyim ve aksesuar net satışları 3,84 milyar dolardan 3,69 milyar dolara geriledi.",
+          onemi: "Gap örneğinde Ekim'deki yavaşlama yıllık beklentinin düşürülmesine kadar yansıdı; TJX ise sıcak havadan söz etmesine rağmen beklentisini yükseltti. Target örneğinde toplam satışlar artarken giyim geriledi. Kış ürünlerinin sezon başı satışlarının hava koşullarına ne kadar bağlı olduğu ve bu gecikmenin indirim döneminde ne ölçüde telafi edilebileceği açık bir soru.",
+          not: "Karşılaştırılabilir satışlar: En az bir yıldır açık olan mağazalar ve online kanal gibi, geçen yılla kıyaslanabilir birimlerin satış değişimi. Düzeltilmiş hisse başına kâr: Tek seferlik kalemler (Gap örneğinde ağırlıkla ABD'de geri alınan gümrük vergileri) çıkarılarak hesaplanan kâr.",
+          kaynaklar: [
+            {
+              ad: "Gap Inc. · 2026 mali yılı üçüncü çeyrek sonuçları",
+              url: "https://www.gapinc.com/en-us/articles/2026/11/gap-inc-reports-third-quarter-fiscal-2026-results",
+              tip: "resmi",
+              en: { ad: "Gap Inc. · Third quarter fiscal 2026 results" }
+            },
+            {
+              ad: "Gap Inc. · SEC bildirimi, üçüncü çeyrek sonuçları ve yıllık beklenti",
+              url: "https://www.sec.gov/Archives/edgar/data/0000039911/000162828026075088/q32026eprexhibit991.htm",
+              tip: "resmi",
+              en: { ad: "Gap Inc. · SEC filing, third-quarter results and annual outlook" }
+            },
+            {
+              ad: "Gap Inc. · SEC bildirimi, ikinci çeyrek sonuçları (önceki yıllık beklenti)",
+              url: "https://www.sec.gov/Archives/edgar/data/0000039911/000162828026059262/q22026eprexhibit991.htm",
+              tip: "resmi",
+              en: { ad: "Gap Inc. · SEC filing, second-quarter results (previous annual outlook)" }
+            },
+            {
+              ad: "TJX · SEC bildirimi, 2027 mali yılı üçüncü çeyrek sonuçları",
+              url: "https://www.sec.gov/Archives/edgar/data/0000109198/000010919826000058/tjxq3fy27earningspressrele.htm",
+              tip: "resmi",
+              en: { ad: "TJX · SEC filing, third quarter fiscal 2027 results" }
+            },
+            {
+              ad: "Target · 2026 üçüncü çeyrek sonuçları",
+              url: "https://corporate.target.com/press/release/2026/11/target-corporation-reports-third-quarter-earnings",
+              tip: "resmi",
+              en: { ad: "Target · Third quarter 2026 results" }
+            },
+            {
+              ad: "FashionUnited · TJX üçüncü çeyrekte beklentileri aştı",
+              url: "https://fashionunited.com/news/business/tjx-beats-expectations-in-third-quarter/2026111875834",
+              tip: "ikinci",
+              en: { ad: "FashionUnited · TJX beats expectations in third quarter" }
+            }
+          ],
+          en: {
+            kisa: "US apparel",
+            tarih: "18–19 Nov",
+            tur: "Company results",
+            baslik: "Gap cuts annual outlook, points to warm weather",
+            ozet: "Gap reported in its third-quarter (August–October) results on 19 November that net sales rose 2% to $4.0 billion, while comparable sales were flat. According to CEO Richard Dickson, demand softened in October and early November amid warmer weather. The company cut its annual net sales outlook from \"up 1% to 1.5%\" to \"roughly flat\", and its adjusted earnings per share outlook from $2.35–2.45 to $2.29–2.34.",
+            ek: "Gap said the fourth quarter had started more slowly than expected, with recent improvement as the weather normalised; it said delayed demand for cold-weather categories weighed on performance at Banana Republic. TJX reported on 18 November that third-quarter net sales rose 6% to $16.0 billion and comparable sales rose 4%; CEO Ernie Herrman said unseasonably warm weather in the US and Canada held back consumer demand in some categories. TJX raised its annual comparable sales growth outlook to 4%; according to FashionUnited, the previous outlook was 3–4%. At Target, which reported results on the same day, comparable sales rose 5.6%, while according to the company's category table, apparel and accessories net sales fell from $3.84 billion to $3.69 billion.",
+            onemi: "In Gap's case, the slowdown in October fed through to a cut in the annual outlook; TJX raised its outlook despite mentioning warm weather. In Target's case, apparel declined while total sales rose. How far start-of-season sales of winter products depend on the weather, and how much of this delay can be made up during the sales period, is an open question.",
+            not: "Comparable sales: the change in sales of units comparable with last year, such as stores open for at least a year and the online channel. Adjusted earnings per share: profit calculated excluding one-off items (in Gap's case mainly tariffs recovered in the US)."
+          }
+        },
+        {
+          id: "h2",
+          kisa: "JD Sports",
+          kategori: "moda",
+          tarih: "19 Kasım",
+          tur: "Şirket açıklaması",
+          baslik: "JD Sports'ta satış düşüşü yavaşladı, kâr beklentisi daraltıldı",
+          ozet: "İngiltere merkezli spor giyim ve ayakkabı perakendecisi JD Sports, 19 Kasım'da açıkladığı üçüncü çeyrek (31 Ekim'de biten 13 hafta) işlem güncellemesinde grup gelirinin 2,91 milyar sterlin olduğunu, benzer mağaza satışlarının sabit kurla %2,6 düştüğünü bildirdi. İkinci çeyrekte düşüş %3,1'di.",
+          ek: "FashionUnited'ın aktardığına göre benzer mağaza satışları Kuzey Amerika'da %2,2, Avrupa'da %2,7, İngiltere'de %2,6, Asya-Pasifik'te %5,3 geriledi; spor malzemeleri ve outdoor bölümünde ise %5,1 artış görüldü. Şirket, 2027 mali yılı için vergi ve düzeltme öncesi kâr beklentisini 700–750 milyon sterline daralttı; önceki üst sınır 800 milyon sterlindi. CEO Régis Schultz, grup düzeyinde işlerin beklentilerle uyumlu seyrettiğini söyledi.",
+          onemi: "JD Sports'ta düşüş ikinci çeyreğe göre yavaşlasa da Kuzey Amerika, Avrupa ve İngiltere'de benzer büyüklükte sürüyor. Aynı dönemde şirketin spor malzemeleri ve outdoor bölümünün büyümesi, şirket içinde talebin ürün grupları arasında kaydığını gösteriyor.",
+          not: "Benzer mağaza satışları (LFL): Geçen yıl da açık olan mağazalar ve online kanalın satış değişimi; yeni açılışların etkisi çıkarılır. Sabit kur: Kur değişimlerinin etkisi çıkarılarak hesaplanan değişim. İşlem güncellemesi (trading statement): Şirketin tam finansal tablo yayımlamadan satış gidişatını paylaştığı ara açıklama.",
+          kaynaklar: [
+            {
+              ad: "FashionUnited · JD Sports kâr beklentisini daralttı",
+              url: "https://fashionunited.com/news/business/jd-sports-narrows-fy27-profit-outlook-as-third-quarter-footwear-demand-remains-soft/2026111975844",
+              tip: "ikinci",
+              en: { ad: "FashionUnited · JD Sports narrows profit outlook" }
+            }
+          ],
+          en: {
+            kisa: "JD Sports",
+            tarih: "19 Nov",
+            tur: "Company statement",
+            baslik: "JD Sports' sales decline eases, profit outlook narrowed",
+            ozet: "UK-based sports fashion and footwear retailer JD Sports reported in its third-quarter trading statement (13 weeks to 31 October) on 19 November that group revenue was £2.91 billion and like-for-like sales fell 2.6% at constant currency. In the second quarter the decline was 3.1%.",
+            ek: "According to FashionUnited, like-for-like sales fell 2.2% in North America, 2.7% in Europe, 2.6% in the UK and 5.3% in Asia Pacific, while the sporting goods and outdoor segment grew 5.1%. The company narrowed its fiscal 2027 profit before tax and adjusting items guidance to £700–750 million; the previous upper limit was £800 million. CEO Régis Schultz said trading at group level was in line with expectations.",
+            onemi: "Although JD Sports' decline slowed compared with the second quarter, it continues at a similar size in North America, Europe and the UK. Growth in the company's sporting goods and outdoor segment over the same period shows demand shifting between product groups within the company.",
+            not: "Like-for-like sales (LFL): the change in sales of stores that were also open last year and of the online channel; the effect of new openings is excluded. Constant currency: change calculated excluding the effect of exchange-rate movements. Trading statement: an interim announcement in which a company shares its sales trend without publishing full financial statements."
+          }
+        },
+        {
+          id: "h3",
+          kisa: "Bolero",
+          kategori: "icgiyim",
+          tarih: "20 Kasım",
+          tur: "Şirket açıklaması",
+          baslik: "Çorap üreticisi Bolero yurt dışında marka satın almayı planlıyor",
+          ozet: "Patron Rehberi'nin 20 Kasım'da aktardığına göre çorap ve iç giyim üreticisi Bolero'nun Yönetim Kurulu Başkanı Mustafa Nazif Çelebi, şirketin 2026'da yurt dışında marka satın alımı için yaklaşık 2 milyon euro, Türkiye'de üretim ve mağaza yatırımı için yaklaşık 50 milyon TL ayırdığını söyledi. Şirketin 2027 gündeminde yaklaşık 1,5 milyon euroluk yeni bir yurt dışı marka satın alımı bulunuyor. Satın alınacak markanın adı açıklanmadı.",
+          ek: "Şirketin açıklamasına göre Bolero 2025'i yaklaşık 1,5 milyar TL ciroyla kapattı, 2026'yı yaklaşık 2 milyar TL ile kapatmayı öngörüyor. İhracat cironun %70–75'ini oluşturuyor; 2026'da yurt içi cironun 400 milyon TL'den 600 milyon TL'ye çıkması bekleniyor.",
+          onemi: "Bolero örneğinde ihracat ağırlıklı bir çorap üreticisi büyümeyi yurt dışında marka edinerek arıyor; açıklanan tutarlar küçük ölçekli bir satın almaya işaret ediyor. TL bazındaki ciro hedefleri nominal; Merkez Bankası'nın 2026 yıl sonu enflasyon tahmini %29,5.",
+          kaynaklar: [
+            {
+              ad: "Patron Rehberi · Bolero'dan yurt dışında yeni marka hamlesi",
+              url: "https://www.patronrehberi.com/ekonomi/60629/bolerodan-yurt-disinda-yeni-marka-hamlesi/",
+              tip: "ikinci",
+              en: { ad: "Patron Rehberi · Bolero's new brand move abroad" }
+            }
+          ],
+          en: {
+            kisa: "Bolero",
+            tarih: "20 Nov",
+            tur: "Company statement",
+            baslik: "Sock maker Bolero plans to buy a brand abroad",
+            ozet: "According to Patron Rehberi on 20 November, Mustafa Nazif Çelebi, chairman of sock and underwear manufacturer Bolero, said the company has set aside about €2 million for a brand acquisition abroad and about ₺50 million for production and store investment in Türkiye in 2026. A new brand acquisition abroad worth about €1.5 million is on the company's agenda for 2027. The name of the brand to be acquired was not disclosed.",
+            ek: "According to the company, Bolero ended 2025 with turnover of about ₺1.5 billion and expects to end 2026 at about ₺2 billion. Exports account for 70–75% of turnover; domestic turnover is expected to rise from ₺400 million to ₺600 million in 2026.",
+            onemi: "In Bolero's case, an export-oriented sock manufacturer is seeking growth by acquiring a brand abroad; the amounts disclosed point to a small-scale acquisition. The lira turnover targets are nominal; the Central Bank's 2026 year-end inflation forecast is 29.5%."
+          }
+        },
+        {
+          id: "h4",
+          kisa: "Kasım anketi",
+          kategori: "eticaret",
+          tarih: "16 Kasım",
+          tur: "Anket",
+          baslik: "Platform anketi: Kasım alışverişinde taksit tercihi öne çıkıyor",
+          ozet: "Finansal ürün karşılaştırma platformu TeklifimGelsin'in 1.164 kullanıcısıyla yaptığı \"Kasım 2026 Kullanıcı Nabız Anketi\"ne göre katılımcıların %55,6'sı Kasım alışverişlerinde kredi kartıyla taksitli ödemeyi tercih ediyor. Kategori sorusunu yanıtlayan 994 katılımcı arasında moda ve giyim %63 ile ilk sırada; teknoloji %40,9, ev ve yaşam %37,7 ile izliyor.",
+          ek: "Fintech Time'ın 16 Kasım'da aktardığı ankete göre alışveriş zamanı olarak katılımcıların %33,9'u 11.11'i, %33,9'u Kasım'ın tamamını, %24,2'si Efsane Cuma haftasını işaret ediyor. Kategori oranlarının toplamı 100'ü aştığından bu soruda birden fazla seçenek işaretlenebildiği anlaşılıyor.",
+          onemi: "Anket kredi ve kart ürünleri karşılaştıran bir platformun kullanıcılarıyla yapıldığı için tüm tüketicileri temsil etmiyor ve taksit tercihini olduğundan yüksek gösteriyor olabilir. Yine de kart harcama verileri açıklanana kadar, Kasım alışverişinde ödeme koşullarının rolüne dair bir ipucu sunuyor.",
+          kaynaklar: [
+            {
+              ad: "Fintech Time · Kasım indirimlerinde taksitli kredi kartı öne çıktı",
+              url: "https://fintechtime.com/2026/11/kasim-indirimlerinde-taksitli-kredi-karti-one-cikti/",
+              tip: "ikinci",
+              en: { ad: "Fintech Time · Credit card instalments stand out in November sales" }
+            }
+          ],
+          en: {
+            kisa: "November survey",
+            tarih: "16 Nov",
+            tur: "Survey",
+            baslik: "Platform survey: instalments stand out in November shopping",
+            ozet: "According to the \"November 2026 User Pulse Survey\" conducted by financial product comparison platform TeklifimGelsin with 1,164 of its users, 55.6% of participants prefer to pay in credit card instalments for their November purchases. Among the 994 participants who answered the category question, fashion and clothing ranks first with 63%, followed by technology with 40.9% and home and living with 37.7%.",
+            ek: "According to the survey reported by Fintech Time on 16 November, on timing 33.9% of participants point to 11.11, 33.9% to the whole of November and 24.2% to Black Friday week. As the category percentages add up to more than 100, it appears that more than one option could be selected in that question.",
+            onemi: "As the survey was conducted among users of a platform that compares credit and card products, it does not represent all consumers and may overstate the preference for instalments. Still, until card spending data are published, it offers a clue to the role of payment terms in November shopping."
+          }
+        }
+      ],
+      sinyal: {
+        baslik: "Satışın zamanlaması da belirleyici",
+        metin: "Bu haftanın haberlerinde talebin düzeyi kadar zamanlaması da öne çıkıyor. Gap, Ekim'deki yavaşlamayı daha sıcak geçen havayla birlikte anlatıyor ve hava normale dönünce son dönemde iyileşme gördüğünü söylüyor. Türkiye'de tüketicilerin gelecek beklentisi iyileşirken bugünkü bütçe değerlendirmeleri yerinde sayıyor; bir platform anketinde katılımcılar alışverişlerini büyük ölçüde belirli indirim günlerine göre planladıklarını söylüyor. Kasım sonu ve Aralık verileri, ertelenen talebin ne kadarının sezon içinde geri geldiğini gösterecek.",
+        dayanak: ["h1", "ana", "h4"],
+        en: {
+          baslik: "The timing of sales also matters",
+          metin: "In this week's news, the timing of demand stands out as much as its level. Gap describes October's slowdown alongside warmer weather and says it has seen improvement recently as the weather normalised. In Türkiye, consumers' expectations are improving while their assessment of today's budgets stands still; in one platform's survey, participants say they are largely planning their purchases around specific sales days. Late-November and December data will show how much of the delayed demand returns within the season."
+        }
+      },
+      veri: {
+        id: "veri",
+        kisa: "Üçüncü çeyrek işgücü",
+        kategori: "isgucu",
+        tarih: "18 Kasım",
+        tur: "Resmî veri",
+        deger: "%30,9",
+        baslik: "Atıl işgücü oranı üçüncü çeyrekte %30,9'a yükseldi",
+        metin: "TÜİK'in 18 Kasım'da açıkladığı Temmuz–Eylül 2026 verilerine göre mevsim etkisinden arındırılmış işsizlik oranı bir önceki çeyreğe göre 0,1 puan artarak %8,1'e, atıl işgücü oranı 1 puan artarak %30,9'a yükseldi. İstihdam 62 bin kişi azalarak 32 milyon 434 bine indi; işsiz sayısı 46 bin artışla 2 milyon 870 bin oldu.",
+        karsilastirma: [
+          { etiket: "Atıl işgücü oranı", deger: 30.9, vurgu: true, en: { etiket: "Composite underutilisation rate" } },
+          { etiket: "Genç kadınlarda işsizlik (15–24)", deger: 21.3, en: { etiket: "Unemployment, young women (15–24)" } },
+          { etiket: "Gençlerde işsizlik (15–24)", deger: 14.1, en: { etiket: "Youth unemployment (15–24)" } },
+          { etiket: "Kadınlarda işsizlik", deger: 10.7, en: { etiket: "Unemployment, women" } },
+          { etiket: "Genel işsizlik", deger: 8.1, en: { etiket: "Overall unemployment" } },
+          { etiket: "Erkeklerde işsizlik", deger: 6.8, en: { etiket: "Unemployment, men" } }
+        ],
+        olcek: 35,
+        orneklem: "Oran (%), III. çeyrek (Temmuz–Eylül) 2026, mevsim etkisinden arındırılmış · TÜİK, 18 Kasım 2026'da açıklandı",
+        ozet: "TÜİK'in üçüncü çeyrek işgücü verilerinden öne çıkanlar (bir önceki çeyreğe göre):",
+        maddeler: [
+          "İstihdam sanayide 133 bin, tarımda 58 bin kişi azaldı; hizmet sektöründe 120 bin, inşaatta 9 bin kişi arttı.",
+          "Hizmet sektörünün toplam istihdamdaki payı %60,3.",
+          "İstihdam oranı 0,3 puan düşüşle %48,3; işgücüne katılma oranı 0,2 puan düşüşle %52,6.",
+          "15–24 yaş grubunda işsizlik oranı 0,1 puan artışla %14,1 (genç erkeklerde %10,4, genç kadınlarda %21,3).",
+          "TÜİK'in aylık serisinde Eylül işsizlik oranı %8,4 olarak açıklanmıştı (Sayı 3); çeyreklik ve aylık seriler birebir karşılaştırılamaz."
+        ],
+        onemi: "İstihdamın sanayide azalıp perakendeyi de kapsayan hizmet sektöründe artması, işgücü piyasasında sektörler arası bir ayrışmaya işaret ediyor. Gençlerde, özellikle genç kadınlarda işsizliğin genel orandan belirgin biçimde yüksek olması dikkat çekiyor. Ücret tarafında ise Aralık'ta toplanması beklenen Asgari Ücret Tespit Komisyonu'nun kararı gündemde.",
+        not: "Atıl işgücü oranı: İşsizlere ek olarak daha fazla çalışmak isteyen eksik zamanlı çalışanları ve iş aramayan ama çalışmaya hazır olanları da kapsayan geniş işsizlik ölçüsü. Mevsim etkisinden arındırılmış: Her yıl aynı dönemde tekrarlayan dalgalanmaların çıkarıldığı veri.",
+        kaynaklar: [
+          {
+            ad: "Foreks · İşsizlik üçüncü çeyrekte yükseldi, atıl işgücü %30,9",
+            url: "https://www.foreks.com/haber/detay/6afd4eb095131d72027df696/PICNEWS/tr/turkiye-de-issizlik-orani-ucuncu-ceyrekte-yukseldi-atil-isgucu-orani-30-9-oldu-18-11-26/",
+            tip: "ikinci",
+            en: { ad: "Foreks · Unemployment rose in the third quarter, underutilisation at 30.9%" }
+          },
+          {
+            ad: "Alomaliye · İşsizlik arttı, istihdam azaldı (Temmuz–Eylül 2026)",
+            url: "https://www.alomaliye.com/2026/11/18/issizlik-artti-istihdam-azaldi-temmuz-eylul-2026/",
+            tip: "ikinci",
+            en: { ad: "Alomaliye · Unemployment up, employment down (July–September 2026)" }
+          },
+          {
+            ad: "Para Ajansı · 16–20 Kasım haftasında ekonominin gündemi",
+            url: "https://paraajansi.com.tr/ekonomi/16-20-kasim-haftasinda-ekonominin-gundemi-neler-oldu-22231921h",
+            tip: "ikinci",
+            en: { ad: "Para Ajansı · The economic agenda in the week of 16–20 November" }
+          }
+        ],
+        en: {
+          kisa: "Third-quarter labour",
+          tarih: "18 Nov",
+          tur: "Official data",
+          deger: "30.9%",
+          baslik: "Composite underutilisation rate rose to 30.9% in the third quarter",
+          metin: "According to TurkStat's July–September 2026 data published on 18 November, the seasonally adjusted unemployment rate rose 0.1 points from the previous quarter to 8.1%, and the composite underutilisation rate rose 1 point to 30.9%. Employment fell by 62 thousand to 32 million 434 thousand; the number of unemployed rose by 46 thousand to 2 million 870 thousand.",
+          orneklem: "Rate (%), Q3 (July–September) 2026, seasonally adjusted · TurkStat, published 18 November 2026",
+          ozet: "Highlights from TurkStat's third-quarter labour data (compared with the previous quarter):",
+          maddeler: [
+            "Employment fell by 133 thousand in industry and 58 thousand in agriculture; it rose by 120 thousand in services and 9 thousand in construction.",
+            "Services account for 60.3% of total employment.",
+            "The employment rate fell 0.3 points to 48.3%; the labour force participation rate fell 0.2 points to 52.6%.",
+            "Unemployment in the 15–24 age group rose 0.1 points to 14.1% (10.4% among young men, 21.3% among young women).",
+            "In TurkStat's monthly series, the September unemployment rate was published as 8.4% (Issue 3); the quarterly and monthly series cannot be compared one to one."
+          ],
+          onemi: "Employment falling in industry and rising in services, which include retail, points to a divergence between sectors in the labour market. Unemployment among young people, and young women in particular, being clearly higher than the overall rate stands out. On the wage side, the decision of the Minimum Wage Determination Commission, expected to meet in December, is on the agenda.",
+          not: "Composite underutilisation rate: a broad measure of unemployment that includes, in addition to the unemployed, part-time workers who want to work more and people who are not looking for work but are available to work. Seasonally adjusted: data from which fluctuations that recur in the same period every year have been removed."
+        }
+      },
+      etkinlikler: [
+        {
+          ad: "Black Friday",
+          tur: "İndirim dönemi",
+          baslangic: "2026-11-27",
+          bitis: "2026-11-27",
+          yer: "Küresel",
+          aciklama: "ABD'de Şükran Günü'nün (26 Kasım) ertesi günü olan küresel indirim günü; Türkiye'de Ticaret Bakanlığı'nın yakın takibe aldığı Kasım indirimleri döneminin içinde.",
+          url: "https://ticaret.gov.tr/haberler/kasim-ayi-indirim-kampanyalari-ticaret-bakanliginin-yakin-takibinde",
+          en: {
+            ad: "Black Friday",
+            tur: "Sales period",
+            yer: "Global",
+            aciklama: "The global sales day after Thanksgiving in the US (26 November); in Türkiye it falls within the November sales period, which the Ministry of Trade is monitoring closely."
+          }
+        },
+        {
+          ad: "Asgari Ücret Tespit Komisyonu",
+          tur: "Beklenen toplantı",
+          baslangic: "2026-12-01",
+          bitis: "2026-12-31",
+          yer: "Türkiye",
+          aciklama: "Bakan Işıkhan'a göre komisyon Aralık'ta toplanacak; ilk toplantının tarihi henüz açıklanmadı.",
+          url: "https://www.karar.com/ekonomi-haberleri/bakan-isikhan-acikladi-asgari-ucret-ve-memur-zamminda-takvim-2082111",
+          en: {
+            ad: "Minimum Wage Determination Commission",
+            tur: "Expected meeting",
+            yer: "Türkiye",
+            aciklama: "According to Minister Işıkhan, the commission will meet in December; the date of the first meeting has not yet been announced.",
+            tahminiMetin: "December (estimated)"
+          },
+          tahmini: true,
+          tahminiMetin: "Aralık (tahmini)"
+        },
+        {
+          ad: "Inditex 9 aylık sonuçları",
+          tur: "Şirket sonuçları",
+          baslangic: "2026-12-02",
+          bitis: "2026-12-02",
+          yer: "Arteixo",
+          aciklama: "Zara'nın sahibi Inditex, Şubat–Ekim dönemi sonuçlarını açıklayacak. Tarih piyasa takviminden; şirket henüz teyit etmedi.",
+          url: "https://www.marketscreener.com/quote/stock/INDITEX-46535998/calendar/",
+          en: {
+            ad: "Inditex nine-month results",
+            tur: "Company results",
+            yer: "Arteixo",
+            aciklama: "Zara owner Inditex will publish its February–October results. Date from a market calendar; not yet confirmed by the company.",
+            tahminiMetin: "2 December (estimated)"
+          },
+          tahmini: true,
+          tahminiMetin: "2 Aralık (tahmini)"
+        },
+        {
+          ad: "Kasım ayı enflasyonu",
+          tur: "Veri günü",
+          baslangic: "2026-12-03",
+          bitis: "2026-12-03",
+          yer: "TÜİK",
+          aciklama: "TÜİK Kasım ayı tüketici fiyatlarını açıklayacak; indirim döneminin giyim fiyatlarına yansıması görülecek.",
+          url: "https://www.foreks.com/haber/detay/69566f3367ad3132ebdf7774/PICNEWS/tr/tuik-2026-yili-veri-yayin-takvimini-acikladi-01-01-26/",
+          en: {
+            ad: "November inflation",
+            tur: "Data release",
+            yer: "TurkStat",
+            aciklama: "TurkStat will publish November consumer prices, showing how the sales period is reflected in clothing prices."
+          }
+        },
+        {
+          ad: "Victoria's Secret üçüncü çeyrek sonuçları",
+          tur: "Şirket sonuçları",
+          baslangic: "2026-12-03",
+          bitis: "2026-12-03",
+          yer: "ABD",
+          aciklama: "Victoria's Secret & Co., Ağustos–Ekim dönemi sonuçlarını açıklayacak; analist toplantısı ABD Doğu saatiyle 08.30'da.",
+          url: "https://www.globenewswire.com/news-release/2026/11/12/3401582/0/en/victoria-s-secret-co-invites-you-to-listen-to-the-third-quarter-2026-earnings-call.html",
+          en: {
+            ad: "Victoria's Secret third-quarter results",
+            tur: "Company results",
+            yer: "US",
+            aciklama: "Victoria's Secret & Co. will publish its August–October results; the earnings call is at 8:30 a.m. US Eastern Time."
+          }
+        },
+        {
+          ad: "Merkez Bankası faiz kararı",
+          tur: "Karar günü",
+          baslangic: "2026-12-10",
+          bitis: "2026-12-10",
+          yer: "TCMB",
+          aciklama: "Para Politikası Kurulu'nun yılın son toplantısı. Ekim'deki toplantıda politika faizi %37'den %36'ya indirilmişti.",
+          url: "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Takvim",
+          en: {
+            ad: "Central Bank rate decision",
+            tur: "Decision day",
+            yer: "CBRT",
+            aciklama: "The Monetary Policy Committee's last meeting of the year. At the October meeting the policy rate was cut from 37% to 36%."
+          }
+        },
+        {
+          ad: "Ekim ayı perakende satışları",
+          tur: "Veri günü",
+          baslangic: "2026-12-11",
+          bitis: "2026-12-11",
+          yer: "TÜİK",
+          aciklama: "TÜİK Ekim ayı ticaret satış hacmi verilerini açıklayacak; Eylül'de yıllık %7,8 artan giyim satış hacmindeki toparlanmanın sürüp sürmediği görülecek.",
+          url: "https://www.foreks.com/haber/detay/69566f3367ad3132ebdf7774/PICNEWS/tr/tuik-2026-yili-veri-yayin-takvimini-acikladi-01-01-26/",
+          en: {
+            ad: "October retail sales",
+            tur: "Data release",
+            yer: "TurkStat",
+            aciklama: "TurkStat will publish October trade sales volume data, showing whether the recovery in clothing sales volume, which rose 7.8% year on year in September, has continued."
+          }
+        }
+      ],
+      en: {
+        donem: "16–22 November 2026",
+        yayin: "22 November 2026",
+        sonraki: "Sunday, 29 November",
+        gundemNotu: "2 Türkiye, 2 global"
+      }
+    },
     {
       no: 5,
       donem: "9–15 Kasım 2026",
